@@ -25,6 +25,7 @@
   * [deepseek](tracker/models/text/deepseek.md)
   * [web_search](tracker/models/text/web-search.md)
   * [vision](tracker/models/text/vision.md)
+  * [Создание документов](tracker/models/text/document-creation.md)
 * [Голос](tracker/models/voice/README.md)
   * [yandex_speech_large](tracker/models/voice/yandex-speech-large.md)
   * [yandex_speech](tracker/models/voice/yandex-speech.md)
