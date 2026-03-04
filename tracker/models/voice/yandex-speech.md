@@ -12,15 +12,9 @@
 
 ```json
 {
-  "prompt": "Добро пожаловать в сервис PuzzleAI",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "yandex_speech",
-  "user": "user_123",
-  "voice": "alena",
-  "emotion": "good",
-  "speed": 1.0,
-  "format": "mp3",
-  "lang": "ru-RU",
-  "pitch": 0
+  "user": "user_123"
 }
 ```
 
@@ -35,15 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` (string, required) — текст для озвучивания.
-- `bot` (string, required) — идентификатор модели (`yandex_speech`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `voice` (string, optional) — голос.
-- `emotion` (string, optional) — стиль/эмоция (нормализуется под профиль голоса).
-- `speed` (number, optional) — скорость речи.
-- `format` (string, optional) — `mp3`, `ogg`, `wav` (`ogg_opus` и `opus` нормализуются в `ogg`).
-- `lang` (string, optional) — язык (обычно `ru-RU`).
-- `pitch` (number, optional) — высота голоса.
 
 ## Полезная информация
 

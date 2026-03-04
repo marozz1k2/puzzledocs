@@ -12,14 +12,9 @@
 
 ```json
 {
-  "prompt": "Составь краткий план запуска продукта на 30 дней",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "gpt_free",
-  "user": "user_123",
-  "params": {
-    "temperature": 0.7
-  },
-  "send_answer": true,
-  "error_command": "gpt_error"
+  "user": "user_123"
 }
 ```
 
@@ -34,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
-- `bot` (string, required) — идентификатор модели (`gpt_free`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `params` (object, optional) — дополнительные настройки модели.
-- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
-- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

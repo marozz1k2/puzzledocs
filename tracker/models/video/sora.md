@@ -12,16 +12,9 @@
 
 ```json
 {
-  "prompt": "Дрон пролетает над ночным мегаполисом",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "sora",
-  "user": "user_123",
-  "images": [
-    "https://example.com/city.jpg"
-  ],
-  "params": {
-    "duration": 10,
-    "aspect_ratio": "16:9"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -36,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание видео.
-- `bot` (string, required) — идентификатор модели (`sora`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — до 1 изображения.
-- `params.duration` (number, optional) — по умолчанию `10`.
-- `params.aspect_ratio` (string, optional) — только `16:9` или `9:16`.
 
 ## Полезная информация
 

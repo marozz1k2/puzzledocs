@@ -12,13 +12,9 @@
 
 ```json
 {
-  "query": "Сделай краткий бриф по требованиям",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "gpt_5_mini",
-  "user": "user_123",
-  "params": {
-    "temperature": 0.5
-  },
-  "send_answer": true
+  "user": "user_123"
 }
 ```
 
@@ -33,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
-- `bot` (string, required) — идентификатор модели (`gpt_5_mini`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `params` (object, optional) — дополнительные настройки модели.
-- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
-- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

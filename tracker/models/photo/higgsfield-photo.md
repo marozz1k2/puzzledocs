@@ -12,15 +12,9 @@
 
 ```json
 {
-  "prompt": "Портрет в студийном освещении",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "higgsfield_photo",
-  "user": "user_123",
-  "params": {
-    "resolution": "2k"
-  },
-  "images": [
-    "https://example.com/model.jpg"
-  ]
+  "user": "user_123"
 }
 ```
 
@@ -35,11 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание изображения.
-- `bot` (string, required) — идентификатор модели (`higgsfield_photo`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — входные изображения/референсы.
-- `params.resolution` (string, optional) — по умолчанию `2k`.
 
 ## Полезная информация
 

@@ -12,13 +12,9 @@
 
 ```json
 {
-  "prompt": "Сгенерируй FAQ по сервису",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "gemini_2_5_flash",
-  "user": "user_123",
-  "params": {
-    "temperature": 0.7
-  },
-  "send_answer": true
+  "user": "user_123"
 }
 ```
 
@@ -33,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
-- `bot` (string, required) — идентификатор модели (`gemini_2_5_flash`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `params` (object, optional) — дополнительные настройки модели.
-- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
-- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

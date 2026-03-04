@@ -12,14 +12,9 @@
 
 ```json
 {
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "upscale",
-  "user": "user_123",
-  "images": [
-    "https://example.com/image.png"
-  ],
-  "params": {
-    "scale_factor": "2x"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -34,11 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` (string, optional) — описание желаемой обработки.
-- `bot` (string, required) — идентификатор модели (`upscale`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, required) — входное изображение для апскейла.
-- `params` (object, optional) — параметры обработки в зависимости от сценария.
 
 ## Полезная информация
 

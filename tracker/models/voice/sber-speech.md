@@ -12,16 +12,9 @@
 
 ```json
 {
-  "prompt": "Проверка качества синтеза речи",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "sber_speech",
-  "user": "user_123",
-  "voice": "may_24000",
-  "emotion": "neutral",
-  "speed": 1.0,
-  "format": "wav",
-  "lang": "ru-RU",
-  "pitch": 0,
-  "stt_model": "general"
+  "user": "user_123"
 }
 ```
 
@@ -36,16 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` (string, optional) — текст для озвучивания в TTS.
-- `bot` (string, required) — идентификатор модели (`sber_speech`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `voice` (string, optional) — голос.
-- `emotion` (string, optional) — стиль/эмоция.
-- `speed` (number, optional) — скорость речи.
-- `format` (string, optional) — `mp3`, `ogg`, `wav`.
-- `lang` (string, optional) — язык.
-- `pitch` (number, optional) — фиксируется в `0`.
-- `stt_model` / `sttModel` (string, optional) — модель распознавания, по умолчанию `general`.
 
 ## Полезная информация
 

@@ -12,15 +12,9 @@
 
 ```json
 {
-  "prompt": "Иллюстрация в стиле акварели",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "midjourney",
-  "user": "user_123",
-  "images": [
-    "https://example.com/style.jpg"
-  ],
-  "params": {
-    "stylize": 250
-  }
+  "user": "user_123"
 }
 ```
 
@@ -35,11 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание изображения.
-- `bot` (string, required) — идентификатор модели (`midjourney`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — входные изображения/референсы.
-- `params` (object, optional) — дополнительные параметры рендера.
 
 ## Полезная информация
 

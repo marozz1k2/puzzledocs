@@ -12,16 +12,9 @@
 
 ```json
 {
-  "prompt": "Медленный пролёт камеры по интерьеру",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "higgsfield_video",
-  "user": "user_123",
-  "images": [
-    "https://example.com/interior.jpg"
-  ],
-  "params": {
-    "duration": 5,
-    "sound": false
-  }
+  "user": "user_123"
 }
 ```
 
@@ -36,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание видео.
-- `bot` (string, required) — идентификатор модели (`higgsfield_video`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — до 2 изображений.
-- `params.duration` (number, optional) — по умолчанию `5`.
-- `params.sound` (boolean, optional) — по умолчанию `false`.
 
 ## Полезная информация
 

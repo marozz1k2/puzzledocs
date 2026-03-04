@@ -12,13 +12,9 @@
 
 ```json
 {
-  "text": "Составь 10 вопросов для интервью",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "claude_3_5_haiku",
-  "user": "user_123",
-  "params": {
-    "temperature": 0.5
-  },
-  "send_answer": true
+  "user": "user_123"
 }
 ```
 
@@ -33,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
-- `bot` (string, required) — идентификатор модели (`claude_3_5_haiku`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `params` (object, optional) — дополнительные настройки модели.
-- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
-- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

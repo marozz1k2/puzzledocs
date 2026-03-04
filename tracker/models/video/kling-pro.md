@@ -12,20 +12,9 @@
 
 ```json
 {
-  "prompt": "Сюжетная сцена в неоновом городе",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "kling_pro",
-  "user": "user_123",
-  "images": [
-    "https://example.com/neon.jpg"
-  ],
-  "params": {
-    "duration": 10,
-    "mode": "pro",
-    "aspect_ratio": "16:9",
-    "sound": true,
-    "multi_shot": true,
-    "resolution": "1080p"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -40,16 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание видео.
-- `bot` (string, required) — идентификатор модели (`kling_pro`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — входные изображения/референсы.
-- `params.duration` (number, optional) — длительность.
-- `params.mode` (string, optional) — `std` или `pro` (нормализуется).
-- `params.aspect_ratio` (string, optional) — соотношение сторон.
-- `params.sound` (boolean, optional) — включение звука.
-- `params.multi_shot` (boolean, optional) — доступно в multi-shot сценарии.
-- `params.resolution` (string, optional) — если `1080p`, то `mode=pro`; если `720p`, то `mode=std`.
 
 ## Полезная информация
 

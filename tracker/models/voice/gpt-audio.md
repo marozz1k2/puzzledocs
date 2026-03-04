@@ -12,13 +12,9 @@
 
 ```json
 {
-  "prompt": "Сформируй ответ голосом ассистента",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "gpt_audio",
-  "user": "user_123",
-  "params": {
-    "voice": "alloy",
-    "format": "mp3"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -33,10 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
-- `bot` (string, required) — идентификатор модели (`gpt_audio`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `params` (object, optional) — дополнительные настройки аудио-режима.
 
 ## Полезная информация
 

@@ -12,13 +12,9 @@
 
 ```json
 {
-  "prompt": "Концепт футуристического электромобиля",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "flux_2_pro",
-  "user": "user_123",
-  "params": {
-    "resolution": "2k",
-    "aspect_ratio": "16:9"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -33,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание изображения.
-- `bot` (string, required) — идентификатор модели (`flux_2_pro`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — входные изображения/референсы.
-- `params.resolution` (string, optional) — по умолчанию `2k` (в `freeAiChat` принудительно `1k`).
-- `params.aspect_ratio` (string, optional) — по умолчанию `auto`.
 
 ## Полезная информация
 

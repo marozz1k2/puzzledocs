@@ -12,16 +12,9 @@
 
 ```json
 {
-  "prompt": "Фотореалистичный интерьер кофейни в сканди-стиле",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "gpt_image",
-  "user": "user_123",
-  "images": [
-    "https://example.com/reference.jpg"
-  ],
-  "params": {
-    "quality": "high",
-    "aspect_ratio": "16:9"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -36,13 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание изображения.
-- `bot` (string, required) — идентификатор модели (`gpt_image`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — входные изображения/референсы.
-- `params.quality` (string, optional) — по умолчанию `high`.
-- `params.aspect_ratio` (string, optional) — по умолчанию `auto`, может извлекаться из `prompt` (например, `--ar 16:9`).
-- `params.resolution` — удаляется при нормализации и не используется моделью.
 
 ## Полезная информация
 

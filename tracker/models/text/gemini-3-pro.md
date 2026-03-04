@@ -12,13 +12,9 @@
 
 ```json
 {
-  "prompt": "Подготовь архитектурное решение для API",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "gemini_3_pro",
-  "user": "user_123",
-  "params": {
-    "temperature": 0.2
-  },
-  "send_answer": true
+  "user": "user_123"
 }
 ```
 
@@ -33,12 +29,9 @@
 
 ## Параметры
 
-- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
-- `bot` (string, required) — идентификатор модели (`gemini_3_pro`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `params` (object, optional) — дополнительные настройки модели.
-- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
-- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

@@ -12,16 +12,9 @@
 
 ```json
 {
-  "prompt": "Презентационный ролик о новом приложении",
+  "prompt": "Кратко выполни задачу по инструкции",
   "bot": "veo",
-  "user": "user_123",
-  "images": [
-    "https://example.com/screen1.jpg",
-    "https://example.com/screen2.jpg"
-  ],
-  "params": {
-    "resolution": "1080p"
-  }
+  "user": "user_123"
 }
 ```
 
@@ -36,11 +29,9 @@
 
 ## Параметры
 
-- `prompt` (string, required) — описание видео.
-- `bot` (string, required) — идентификатор модели (`veo`).
+- `prompt` (string, required) — задача или инструкция для модели.
+- `bot` (string, required) — идентификатор модели.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — до 2 изображений.
-- `params.resolution` (string, optional) — по умолчанию `1080p`.
 
 ## Полезная информация
 
