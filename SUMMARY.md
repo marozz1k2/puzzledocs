@@ -5,7 +5,6 @@
 * [Главная](README.md)
 * [SKILL: Документирование PuzzleAI](SKILL.md)
 * [Changelog](CHANGELOG.md)
-* [Единая документация tracker payload](tracker/TRACKER_PAYLOAD.md)
 
 ## Трекер запросы
 
