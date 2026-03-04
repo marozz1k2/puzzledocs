@@ -29,9 +29,15 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` (string, required) — текст для озвучивания.
+- `bot` (string, required) — идентификатор модели (`yandex_speech_large`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `voice` (string, optional) — голос.
+- `emotion` (string, optional) — стиль/эмоция (нормализуется под профиль голоса).
+- `speed` (number, optional) — скорость речи.
+- `format` (string, optional) — `mp3`, `ogg`, `wav` (`ogg_opus` и `opus` нормализуются в `ogg`).
+- `lang` (string, optional) — язык (обычно `ru-RU`).
+- `pitch` (number, optional) — высота голоса.
 
 ## Полезная информация
 

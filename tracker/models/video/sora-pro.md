@@ -29,9 +29,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание видео.
+- `bot` (string, required) — идентификатор модели (`sora_pro`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — до 1 изображения.
+- `params.duration` (number, optional) — по умолчанию `25`.
+- `params.aspect_ratio` (string, optional) — только `16:9` или `9:16`.
 
 ## Полезная информация
 

@@ -29,9 +29,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание изображения.
+- `bot` (string, required) — идентификатор модели (`nano_banana`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — входные изображения/референсы.
+- `params.resolution` (string, optional) — по умолчанию `2k`.
+- `params.aspect_ratio` (string, optional) — сохраняется только для валидных значений (`1:1`, `16:9`, `9:16`, `4:5`, `5:4`, `3:2`, `2:3`, `4:3`, `21:9` и др. из общего списка); `auto` и невалидные значения удаляются.
 
 ## Полезная информация
 

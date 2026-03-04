@@ -29,9 +29,11 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание видео.
+- `bot` (string, required) — идентификатор модели (`veo_fast`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — до 2 изображений.
+- `params.resolution` (string, optional) — по умолчанию `1080p`.
 
 ## Полезная информация
 
