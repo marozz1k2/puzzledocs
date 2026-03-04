@@ -21,4 +21,5 @@
 ## Полезные ссылки
 
 - [Навигация документации](SUMMARY.md)
+- [Единая документация tracker payload](tracker/TRACKER_PAYLOAD.md)
 - [Список изменений](CHANGELOG.md)
