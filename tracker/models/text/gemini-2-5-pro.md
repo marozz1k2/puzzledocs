@@ -12,9 +12,13 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "data": "Подготовь план миграции базы данных",
   "bot": "gemini_2_5_pro",
-  "user": "user_123"
+  "user": "user_123",
+  "params": {
+    "temperature": 0.3
+  },
+  "send_answer": true
 }
 ```
 
@@ -29,9 +33,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
+- `bot` (string, required) — идентификатор модели (`gemini_2_5_pro`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `params` (object, optional) — дополнительные настройки модели.
+- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
+- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

@@ -12,9 +12,16 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "prompt": "Кинематографичная сцена шторма на море",
   "bot": "sora_pro",
-  "user": "user_123"
+  "user": "user_123",
+  "images": [
+    "https://example.com/sea.jpg"
+  ],
+  "params": {
+    "duration": 25,
+    "aspect_ratio": "9:16"
+  }
 }
 ```
 
@@ -29,9 +36,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание видео.
+- `bot` (string, required) — идентификатор модели (`sora_pro`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — до 1 изображения.
+- `params.duration` (number, optional) — по умолчанию `25`.
+- `params.aspect_ratio` (string, optional) — только `16:9` или `9:16`.
 
 ## Полезная информация
 

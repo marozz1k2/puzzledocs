@@ -12,9 +12,17 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "prompt": "Кинематографичный портрет в контровом свете",
   "bot": "kling_image",
-  "user": "user_123"
+  "user": "user_123",
+  "params": {
+    "resolution": "2k",
+    "aspect_ratio": "auto",
+    "seed": 7
+  },
+  "images": [
+    "https://example.com/person.jpg"
+  ]
 }
 ```
 
@@ -29,9 +37,13 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание изображения.
+- `bot` (string, required) — идентификатор модели (`kling_image`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — входные изображения/референсы.
+- `params.resolution` (string, optional) — `1k` или `2k`, по умолчанию `1k`.
+- `params.aspect_ratio` (string, optional) — по умолчанию `auto` (для `kling-o1-image` без `auto`, дефолт `16:9`).
+- `params.seed` (integer, optional) — только целое число `>= 0`.
 
 ## Полезная информация
 

@@ -12,9 +12,13 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "prompt": "Энергичный поп-трек о запуске продукта",
   "bot": "suno",
-  "user": "user_123"
+  "user": "user_123",
+  "params": {
+    "genre": "pop",
+    "duration": 30
+  }
 }
 ```
 
@@ -29,9 +33,10 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` (string, required) — описание музыки или текста трека.
+- `bot` (string, required) — идентификатор модели (`suno`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `params` (object, optional) — дополнительные параметры генерации музыки.
 
 ## Полезная информация
 

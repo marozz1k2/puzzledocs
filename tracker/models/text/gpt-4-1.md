@@ -12,9 +12,13 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "text": "Подготовь 5 вариантов названия сервиса",
   "bot": "gpt_4_1",
-  "user": "user_123"
+  "user": "user_123",
+  "params": {
+    "temperature": 0.8
+  },
+  "send_answer": true
 }
 ```
 
@@ -29,9 +33,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
+- `bot` (string, required) — идентификатор модели (`gpt_4_1`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `params` (object, optional) — дополнительные настройки модели.
+- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
+- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 

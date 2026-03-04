@@ -25,6 +25,7 @@
 - [deepseek](deepseek.md)
 - [web_search](web-search.md)
 - [vision](vision.md)
+- [Создание документов](document-creation.md)
 
 ## Полезная информация
 

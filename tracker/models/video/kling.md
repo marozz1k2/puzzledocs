@@ -12,9 +12,20 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "prompt": "Рекламный ролик кроссовок на беговой дорожке",
   "bot": "kling",
-  "user": "user_123"
+  "user": "user_123",
+  "images": [
+    "https://example.com/shoes.jpg"
+  ],
+  "params": {
+    "duration": 8,
+    "mode": "pro",
+    "aspect_ratio": "16:9",
+    "sound": true,
+    "multi_shot": false,
+    "resolution": "1080p"
+  }
 }
 ```
 
@@ -29,9 +40,16 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание видео.
+- `bot` (string, required) — идентификатор модели (`kling`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — входные изображения/референсы.
+- `params.duration` (number, optional) — длительность.
+- `params.mode` (string, optional) — `std` или `pro` (нормализуется).
+- `params.aspect_ratio` (string, optional) — соотношение сторон.
+- `params.sound` (boolean, optional) — включение звука.
+- `params.multi_shot` (boolean, optional) — доступно в multi-shot сценарии.
+- `params.resolution` (string, optional) — если `1080p`, то `mode=pro`; если `720p`, то `mode=std`.
 
 ## Полезная информация
 

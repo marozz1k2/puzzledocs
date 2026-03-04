@@ -12,9 +12,15 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "prompt": "Спортивный автомобиль на горном серпантине",
   "bot": "grok_video",
-  "user": "user_123"
+  "user": "user_123",
+  "images": [
+    "https://example.com/car.jpg"
+  ],
+  "params": {
+    "duration": 6
+  }
 }
 ```
 
@@ -29,9 +35,11 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание видео.
+- `bot` (string, required) — идентификатор модели (`grok_video`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — до 1 изображения.
+- `params.duration` (number, optional) — по умолчанию `6`.
 
 ## Полезная информация
 

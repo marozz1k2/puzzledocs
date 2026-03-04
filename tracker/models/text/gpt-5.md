@@ -12,9 +12,14 @@
 
 ```json
 {
-  "prompt": "Кратко выполни задачу по инструкции",
+  "prompt": "Сформируй детальный план запуска проекта и риски",
   "bot": "gpt_5",
-  "user": "user_123"
+  "user": "user_123",
+  "params": {
+    "temperature": 0.4
+  },
+  "send_answer": true,
+  "errorCommand": "gpt_error"
 }
 ```
 
@@ -29,9 +34,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
+- `bot` (string, required) — идентификатор модели (`gpt_5`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `params` (object, optional) — дополнительные настройки модели.
+- `send_answer` (boolean, optional) — отправлять ответ в чат (`true` по умолчанию).
+- `error_command` / `errorCommand` (string, optional) — команда для отправки ошибки.
 
 ## Полезная информация
 
