@@ -1,0 +1,119 @@
+# Allowlist для документации моделей PuzzleAI
+
+## Разрешённые типы моделей
+
+- gpt
+- photo
+- video
+- sound
+- other
+
+## Обязательные правила публикации
+
+- Для каждой модели из этого allowlist создаётся отдельная статья в секции её `model_type`.
+- Во всех статьях использовать только термин `no-code API`.
+- Не публиковать служебную/системную информацию (например: `system_role`, внутренние команды, skills, внутренние поля маршрутизации).
+- Статья должна быть ориентирована на пользователя: открыл модель, посмотрел параметры, запустил.
+- Если у модели есть `instructions`/`submodels`, в статье оставлять только пользовательское описание и рабочие параметры запуска.
+
+## Модели по типам
+
+### gpt
+
+- gemini_3_pro
+- gemini_3_flash
+- grok_4
+- web_search
+- gpt_5_mini
+- gpt_5
+- gpt_4_1
+- gemini_2_5_flash
+- gemini_2_5_pro
+- claude_3_5_haiku
+- gpt_free
+- claude_4_5_haiku
+- gpt_4_mini
+- deepseek
+- vision
+
+### photo
+
+- nano_banana
+- midjourney
+- gpt_image
+- flux_2_flex
+- flux_2_max
+- flux_2_pro
+- higgsfield_photo
+- image_upscale
+- seedream
+- kling_image
+
+### video
+
+- veo
+- sora_pro
+- sora
+- veo_fast
+- grok_video
+- higgsfield_video
+- kling
+- kling_pro
+
+### sound
+
+- yandex_speech_large
+- suno
+- yandex_speech
+- gpt_audio
+- sber_speech_large
+- sber_speech
+
+### other
+
+- upscale
+
+## Матрица статей (1 модель = 1 статья)
+
+| model_key | model_type | Секция документации |
+| --- | --- | --- |
+| gemini_3_pro | gpt | tracker/models/text/ |
+| gemini_3_flash | gpt | tracker/models/text/ |
+| grok_4 | gpt | tracker/models/text/ |
+| web_search | gpt | tracker/models/text/ |
+| gpt_5_mini | gpt | tracker/models/text/ |
+| gpt_5 | gpt | tracker/models/text/ |
+| gpt_4_1 | gpt | tracker/models/text/ |
+| gemini_2_5_flash | gpt | tracker/models/text/ |
+| gemini_2_5_pro | gpt | tracker/models/text/ |
+| claude_3_5_haiku | gpt | tracker/models/text/ |
+| gpt_free | gpt | tracker/models/text/ |
+| claude_4_5_haiku | gpt | tracker/models/text/ |
+| gpt_4_mini | gpt | tracker/models/text/ |
+| deepseek | gpt | tracker/models/text/ |
+| vision | gpt | tracker/models/text/ |
+| nano_banana | photo | tracker/models/photo/ |
+| midjourney | photo | tracker/models/photo/ |
+| gpt_image | photo | tracker/models/photo/ |
+| flux_2_flex | photo | tracker/models/photo/ |
+| flux_2_max | photo | tracker/models/photo/ |
+| flux_2_pro | photo | tracker/models/photo/ |
+| higgsfield_photo | photo | tracker/models/photo/ |
+| image_upscale | photo | tracker/models/photo/ |
+| seedream | photo | tracker/models/photo/ |
+| kling_image | photo | tracker/models/photo/ |
+| veo | video | tracker/models/video/ |
+| sora_pro | video | tracker/models/video/ |
+| sora | video | tracker/models/video/ |
+| veo_fast | video | tracker/models/video/ |
+| grok_video | video | tracker/models/video/ |
+| higgsfield_video | video | tracker/models/video/ |
+| kling | video | tracker/models/video/ |
+| kling_pro | video | tracker/models/video/ |
+| yandex_speech_large | sound | tracker/models/voice/ |
+| suno | sound | tracker/models/voice/ |
+| yandex_speech | sound | tracker/models/voice/ |
+| gpt_audio | sound | tracker/models/voice/ |
+| sber_speech_large | sound | tracker/models/voice/ |
+| sber_speech | sound | tracker/models/voice/ |
+| upscale | other | tracker/models/other/ |
