@@ -29,9 +29,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание видео.
+- `bot` (string, required) — идентификатор модели (`higgsfield_video`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — до 2 изображений.
+- `params.duration` (number, optional) — по умолчанию `5`.
+- `params.sound` (boolean, optional) — по умолчанию `false`.
 
 ## Tracker payload
 

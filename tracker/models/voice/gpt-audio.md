@@ -29,9 +29,10 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` / `query` / `data` (string, required) — текст запроса.
+- `bot` (string, required) — идентификатор модели (`gpt_audio`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `params` (object, optional) — дополнительные настройки аудио-режима.
 
 ## Tracker payload
 

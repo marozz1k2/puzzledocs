@@ -29,9 +29,12 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание изображения.
+- `bot` (string, required) — идентификатор модели (`flux_2_max`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — входные изображения/референсы.
+- `params.resolution` (string, optional) — по умолчанию `2k`.
+- `params.aspect_ratio` (string, optional) — по умолчанию `auto`.
 
 ## Tracker payload
 

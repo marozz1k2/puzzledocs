@@ -29,9 +29,11 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` (string, required) — описание изображения.
+- `bot` (string, required) — идентификатор модели (`midjourney`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `images` (array, optional) — входные изображения/референсы.
+- `params` (object, optional) — дополнительные параметры рендера.
 
 ## Tracker payload
 

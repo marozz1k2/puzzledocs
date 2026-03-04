@@ -29,9 +29,16 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` (string, optional) — текст для озвучивания в TTS.
+- `bot` (string, required) — идентификатор модели (`sber_speech_large`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `voice` (string, optional) — голос.
+- `emotion` (string, optional) — стиль/эмоция.
+- `speed` (number, optional) — скорость речи.
+- `format` (string, optional) — `mp3`, `ogg`, `wav`.
+- `lang` (string, optional) — язык.
+- `pitch` (number, optional) — фиксируется в `0`.
+- `stt_model` / `sttModel` (string, optional) — модель распознавания, по умолчанию `general`.
 
 ## Tracker payload
 

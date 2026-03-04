@@ -29,9 +29,10 @@
 
 ## Параметры
 
-- `prompt` (string, required) — задача или инструкция для модели.
-- `bot` (string, required) — идентификатор модели.
+- `prompt` / `text` (string, required) — описание музыки или текста трека.
+- `bot` (string, required) — идентификатор модели (`suno`).
 - `user` (string, required) — ID пользователя/сессии для трекинга.
+- `params` (object, optional) — дополнительные параметры генерации музыки.
 
 ## Tracker payload
 
