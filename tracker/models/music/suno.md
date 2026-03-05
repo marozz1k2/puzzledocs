@@ -1,6 +1,6 @@
-# gpt_image
+# suno
 
-Генерация и редактирование изображений по текстовому запросу.
+Музыкальная модель для генерации треков по описанию.
 
 ## Спецификация
 
@@ -15,13 +15,12 @@
   "bot": "{{BOT_USERNAME_TEXT}}",
   "token": "[Ваш API-токен]",
   "user": "{{USER_ID_TEXT}}",
-  "model": "gpt_image",
+  "model": "suno",
   "prompt": "{{prompt}}",
   "role": "[текст роли]",
-  "images": "https://example.com/reference.jpg,https://example.com/reference-2.jpg",
   "params": {
-    "quality": "high",
-    "aspect_ratio": "16:9"
+    "style": "pop",
+    "duration": 30
   }
 }
 ```
@@ -30,19 +29,16 @@
 
 ```json
 {
-  "answer": "Ссылка на готовое изображение."
+  "answer": "Ссылка на готовый аудиофайл."
 }
 ```
 
 ## Параметры
 
-- `prompt` (string, required) — описание изображения.
+- `prompt` / `text` (string, required) — описание музыки или текста трека.
 - `bot` (string, required) — username бота, всегда передавайте `{{BOT_USERNAME_TEXT}}`.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (string, optional) — входные изображения/референсы.
-- `params.quality` (string, optional) — по умолчанию `high`.
-- `params.aspect_ratio` (string, optional) — по умолчанию `auto`, может извлекаться из `prompt` (например, `--ar 16:9`).
-- `params.resolution` — удаляется при нормализации и не используется моделью.
+- `params` (object, optional) — дополнительные параметры генерации музыки.
 
 ## Параметры запроса
 

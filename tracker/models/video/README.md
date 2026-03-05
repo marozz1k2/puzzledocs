@@ -18,9 +18,3 @@
 - [higgsfield_video](higgsfield-video.md)
 - [kling](kling.md)
 - [kling_pro](kling-pro.md)
-
-## Полезная информация
-
-- Используйте в запросе параметры `bot`, `token`, `user`, `model`, `prompt` и при необходимости `params`/`images`/`video_url`.
-- Если нужен результат быстрее — используйте короткий `prompt` и уточняйте цель одной фразой.
-- Для повторяемого результата фиксируйте одинаковые значения `bot` и `user`.

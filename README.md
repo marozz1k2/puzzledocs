@@ -18,7 +18,6 @@
 - [Музыкальные модели](tracker/models/music/README.md)
 - [Другие модели](tracker/models/other/README.md)
 
-
 ## Puzzle AI Tracker
 
 Представляем вам «Puzzle AI Tracker»!
@@ -34,10 +33,3 @@ Puzzle AI Tracker позволяет владельцам Puzzle AI плагин
 - Ссылка: `https://api.pxsto.re/main/puzzlebot-tracker`
 - Тип запроса: `POST`
 - Вид запроса: `Сформированный`
-
-Добавьте в запрос следующие параметры через кнопку «Добавить параметр»: `bot`, `token`, `user`, `model`, `prompt`, `role`, `business_operator`, `business_connection`, а также модельные поля в `params`.
-
-## Полезные ссылки
-
-- [Навигация документации](SUMMARY.md)
-- [Список изменений](CHANGELOG.md)

@@ -12,17 +12,13 @@
 
 ```json
 {
-  "bot": "sora_pro",
+  "bot": "{{BOT_USERNAME_TEXT}}",
   "token": "[Ваш API-токен]",
   "user": "{{USER_ID_TEXT}}",
   "model": "sora_pro",
   "prompt": "{{prompt}}",
   "role": "[текст роли]",
-  "business_operator": "{{BUSINESS_OPERATOR_USER_ID_TEXT}}",
-  "business_connection": "{{BUSINESS_CONNECTION_ID}}",
-  "images": [
-    "https://example.com/reference.jpg"
-  ],
+  "images": "https://example.com/reference.jpg,https://example.com/reference-2.jpg",
   "params": {
     "duration": 25,
     "aspect_ratio": "16:9"
@@ -41,29 +37,23 @@
 ## Параметры
 
 - `prompt` (string, required) — описание видео.
-- `bot` (string, required) — идентификатор модели (`sora_pro`).
+- `bot` (string, required) — username бота, всегда передавайте `{{BOT_USERNAME_TEXT}}`.
 - `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (array, optional) — до 1 изображения.
+- `images` (string, optional) — до 1 изображения.
 - `params.duration` (number, optional) — по умолчанию `25`.
 - `params.aspect_ratio` (string, optional) — только `16:9` или `9:16`.
 
 ## Параметры запроса
 
-- `bot` — имя бота/модели в Puzzle AI (например, `gpt_5`, `sora`, `gpt_image`).
-- `token` — API-токен вашего бота для входящих запросов.
-- `user` — ID пользователя, который написал сообщение.
-- `model` — ключ нейросети, которую нужно вызвать.
-- `prompt` — текст задачи для нейросети.
-- `role` — дополнительная инструкция по стилю ответа (необязательно).
-- `business_operator` — ID оператора бизнес-аккаунта (для бизнес-ответов).
-- `business_connection` — ID соединения бизнес-аккаунта.
-- `params` — объект дополнительных настроек конкретной модели (если поддерживается).
-- `images` / `video_url` — входные медиа для image/video-сценариев.
-- `send_answer` — отправлять результат в чат (`true` по умолчанию).
-- `error_command` — команда, которая вызывается при ошибке.
-
-## Полезная информация
-
-- Начинайте с короткого `prompt` и добавляйте уточнения по шагам.
-- Для стабильных результатов используйте одинаковый `user` в рамках одного сценария.
-- Если ответ слишком общий, добавьте формат результата прямо в `prompt`.
+| Ключ | Значение | Описание |
+| --- | --- | --- |
+| `bot` | `{{BOT_USERNAME_TEXT}}` | Username бота в PuzzleBot (всегда используйте переменную). |
+| `token` | `[Ваш API-токен]` | API-токен бота для авторизации запроса. |
+| `user` | `{{USER_ID_TEXT}}` | Идентификатор пользователя/сессии. |
+| `model` | ключ модели (например, `gpt_5`) | Технический идентификатор модели, которую нужно вызвать. |
+| `prompt` | `{{prompt}}` | Текст задачи для модели. |
+| `role` | `[текст роли]` | Дополнительная инструкция по стилю ответа (необязательно). |
+| `params` | JSON-объект | Дополнительные параметры конкретной модели (если поддерживаются). |
+| `images` | `url1,url2` | Ссылки на входные изображения через запятую, без массива `[]`. |
+| `video_url` | `https://...` | Ссылка на входное видео для video-сценариев (при необходимости). |
+| `send_answer` | `true` | Отправлять ли результат в чат (`true` по умолчанию). |
