@@ -75,8 +75,6 @@
 ### video
 
 - veo
-- sora_pro
-- sora
 - veo_fast
 - grok_video
 - higgsfield_video
@@ -129,8 +127,6 @@
 | seedream | photo | tracker/models/photo/ |
 | kling_image | photo | tracker/models/photo/ |
 | veo | video | tracker/models/video/ |
-| sora_pro | video | tracker/models/video/ |
-| sora | video | tracker/models/video/ |
 | veo_fast | video | tracker/models/video/ |
 | grok_video | video | tracker/models/video/ |
 | higgsfield_video | video | tracker/models/video/ |

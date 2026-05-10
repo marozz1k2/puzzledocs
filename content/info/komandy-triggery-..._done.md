@@ -68,8 +68,6 @@
 | `veo_fast_done`    | **Veo fast**         |
 | `higgsfield_video` | **Higgsfield video** |
 | `grok_video`       | **Grok video**       |
-| `sora`             | **Sora**             |
-| `sora_pro`         | **Sora pro**         |
 
 #### Музыкальные модели
 

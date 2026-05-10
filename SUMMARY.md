@@ -45,8 +45,6 @@
 * [Видео](tracker/models/video/README.md)
   * [veo](tracker/models/video/veo.md)
   * [veo_fast](tracker/models/video/veo-fast.md)
-  * [sora](tracker/models/video/sora.md)
-  * [sora_pro](tracker/models/video/sora-pro.md)
   * [grok_video](tracker/models/video/grok-video.md)
   * [higgsfield_video](tracker/models/video/higgsfield-video.md)
   * [kling](tracker/models/video/kling.md)

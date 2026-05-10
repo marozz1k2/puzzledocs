@@ -98,8 +98,6 @@
 | `veo_fast_mute`         | **Veo fast**         |
 | `higgsfield_video_mute` | **Higgsfield video** |
 | `grok_video_mute`       | **Grok video**       |
-| `sora_mute`             | **Sora**             |
-| `sora_pro_mute`         | **Sora pro**         |
 
 #### Музыкальные модели
 

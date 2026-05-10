@@ -36,7 +36,6 @@
   * [Мониторинг остатка AI-запросов](upravlenie-botom-dostup-logika-i-monetizaciya/poleznye-funkcii/monitoring-ostatka-ai-zaprosov.md)
 * [PxAI Tracker](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/README.md)
   * [Nano Banana](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/nano-banana.md)
-  * [Sora 2](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/sora-2.md)
   * [GPT Image](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/gpt-image.md)
   * [Google Veo](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/google-veo.md)
   * [Document Tracker](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/document-tracker.md)
