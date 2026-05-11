@@ -2,39 +2,61 @@
 
 Увеличение разрешения и улучшение детализации изображения.
 
-## Спецификация
+## Как отправлять запрос
 
-- Endpoint: `https://api.pxsto.re/main/puzzlebot-tracker`
+- Ссылка: `https://api.pxsto.re/main/puzzlebot-tracker`
 - Метод: `POST`
-- Формат: `application/json`
+- Вид запроса в PuzzleBot: `Сформированный`
+- Формат тела: `application/json` или те же ключи в no-code параметрах.
 
-### Набор параметров (no-code)
+Обязательная база для любого запроса: `bot`, `token`, `user`, `model`. Дальше добавьте содержимое задачи: `prompt`, `images`, `video_url` или параметры документа — в зависимости от модели. Если поле помечено как необязательное, его можно не добавлять.
 
-```json
+## Пример запроса с комментариями
+
+```jsonc
 {
-  "bot": "{{BOT_USERNAME_TEXT}}",
-  "token": "[Ваш API-токен]",
-  "user": "{{USER_ID_TEXT}}",
-  "model": "image_upscale",
-  "prompt": "{{prompt}}",
-  "role": "[текст роли]",
-  "images": "https://example.com/source.jpg,https://example.com/reference-2.jpg",
-  "params": {
-    "scale_factor": "4x",
-    "upscale_preset": "high-fidelity",
-    "denoise": 0.2,
-    "sharpen": 0.3,
-    "seed": 42,
-    "face_enhancement": {
-      "enabled": true,
-      "creativity": 0.3,
-      "strength": 0.8
+  "bot": "{{BOT_USERNAME_TEXT}}", // обязательно: username бота в PuzzleBot.
+  "token": "[Ваш API-токен]", // обязательно: API-токен бота для доступа к трекеру.
+  "user": "{{USER_ID_TEXT}}", // обязательно: ID пользователя или сессии, к которой относится запрос.
+  "model": "image_upscale", // обязательно: точный ключ модели.
+  "prompt": "{{prompt}}", // необязательно: текстовое уточнение к обработке.
+  "role": "[текст роли]", // необязательно: роль, стиль или ограничения для модели.
+  "images": "https://example.com/source.jpg,https://example.com/reference-2.jpg", // обязательно: ссылки, file_id или переменные с изображениями через запятую, без массива `[]`.
+  "params": { // необязательно: вложенные настройки конкретной модели.
+    "scale_factor": "4x", // необязательно: масштаб увеличения.
+    "upscale_preset": "high-fidelity", // необязательно: пресет обработки.
+    "denoise": 0.2, // необязательно: сила шумоподавления от `0` до `1`.
+    "sharpen": 0.3, // необязательно: сила резкости от `0` до `1`.
+    "seed": 42, // необязательно: целое число для повторяемости результата.
+    "face_enhancement": { // необязательно: настройки улучшения лиц.
+      "enabled": true, // необязательно: включает вложенную функцию.
+      "creativity": 0.3, // необязательно: креативность обработки от `0` до `1`.
+      "strength": 0.8 // необязательно: сила обработки от `0` до `1`.
     }
   }
 }
 ```
 
-### Пример ответа
+## Параметры
+
+| Параметр | Тип | Обязательный | Описание |
+| --- | --- | --- | --- |
+| `bot` | string | Да | Username бота. В PuzzleBot обычно используется `{{BOT_USERNAME_TEXT}}`. |
+| `token` | string | Да | API-токен бота для авторизации запроса. |
+| `user` | string | Да | ID пользователя или сессии. В PuzzleBot обычно используется `{{USER_ID_TEXT}}`. |
+| `model` | string | Да | Точный ключ вызываемой модели: `image_upscale`. |
+| `prompt` | string | Нет | описание желаемого улучшения. |
+| `images` | string | Да | минимум одно входное изображение. |
+| `params.scale_factor` | string | Нет | `1x`, `2x`, `4x`, `8x`; по умолчанию `1x`. |
+| `params.upscale_preset` | string | Нет | `standard`, `high-fidelity`, `text-refine`, `art-cg`, `low-res`; по умолчанию `standard`. |
+| `params.denoise` | number | Нет | диапазон `[0..1]`, по умолчанию `0.2`. |
+| `params.sharpen` | number | Нет | диапазон `[0..1]`, по умолчанию `0.3`. |
+| `params.seed` | integer | Нет | только целое число `>= 0`. |
+| `params.face_enhancement` | object | Нет | `enabled` (boolean), `creativity` `[0..1]` (дефолт `0.3`), `strength` `[0..1]` (дефолт `0.8`). |
+| `role` | string | Нет | Дополнительная инструкция для модели: роль, стиль ответа, ограничения. |
+| `send_answer` | boolean | Нет | `true` отправляет результат пользователю. `false` не отправляет сообщение и сохраняет результат в `{{tracker_answer}}`. По умолчанию `true`. |
+
+## Ответ
 
 ```json
 {
@@ -42,30 +64,4 @@
 }
 ```
 
-## Параметры
-
-- `prompt` (string, optional) — описание желаемого улучшения.
-- `bot` (string, required) — username бота, всегда передавайте `{{BOT_USERNAME_TEXT}}`.
-- `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (string, required) — минимум одно входное изображение.
-- `params.scale_factor` (string, optional) — `1x`, `2x`, `4x`, `8x`; по умолчанию `1x`.
-- `params.upscale_preset` (string, optional) — `standard`, `high-fidelity`, `text-refine`, `art-cg`, `low-res`; по умолчанию `standard`.
-- `params.denoise` (number, optional) — диапазон `[0..1]`, по умолчанию `0.2`.
-- `params.sharpen` (number, optional) — диапазон `[0..1]`, по умолчанию `0.3`.
-- `params.seed` (integer, optional) — только целое число `>= 0`.
-- `params.face_enhancement` (object, optional): `enabled` (boolean), `creativity` `[0..1]` (дефолт `0.3`), `strength` `[0..1]` (дефолт `0.8`).
-
-## Параметры запроса
-
-| Ключ | Значение | Описание |
-| --- | --- | --- |
-| `bot` | `{{BOT_USERNAME_TEXT}}` | Username бота в PuzzleBot (всегда используйте переменную). |
-| `token` | `[Ваш API-токен]` | API-токен бота для авторизации запроса. |
-| `user` | `{{USER_ID_TEXT}}` | Идентификатор пользователя/сессии. |
-| `model` | ключ модели (например, `gpt_5`) | Технический идентификатор модели, которую нужно вызвать. |
-| `prompt` | `{{prompt}}` | Текст задачи для модели. |
-| `role` | `[текст роли]` | Дополнительная инструкция по стилю ответа (необязательно). |
-| `params` | JSON-объект | Дополнительные параметры конкретной модели (если поддерживаются). |
-| `images` | `url1,url2` | Ссылки на входные изображения через запятую, без массива `[]`. |
-| `video_url` | `https://...` | Ссылка на входное видео для video-сценариев (при необходимости). |
-| `send_answer` | `true` | Отправлять ли результат в чат (`true` по умолчанию). |
+Если `send_answer = false`, результат не отправляется пользователю в чат, а сохраняется в переменную `{{tracker_answer}}`.

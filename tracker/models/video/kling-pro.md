@@ -2,33 +2,55 @@
 
 Продвинутая видео-модель для детального контроля результата.
 
-## Спецификация
+## Как отправлять запрос
 
-- Endpoint: `https://api.pxsto.re/main/puzzlebot-tracker`
+- Ссылка: `https://api.pxsto.re/main/puzzlebot-tracker`
 - Метод: `POST`
-- Формат: `application/json`
+- Вид запроса в PuzzleBot: `Сформированный`
+- Формат тела: `application/json` или те же ключи в no-code параметрах.
 
-### Набор параметров (no-code)
+Обязательная база для любого запроса: `bot`, `token`, `user`, `model`. Дальше добавьте содержимое задачи: `prompt`, `images`, `video_url` или параметры документа — в зависимости от модели. Если поле помечено как необязательное, его можно не добавлять.
 
-```json
+## Пример запроса с комментариями
+
+```jsonc
 {
-  "bot": "{{BOT_USERNAME_TEXT}}",
-  "token": "[Ваш API-токен]",
-  "user": "{{USER_ID_TEXT}}",
-  "model": "kling_pro",
-  "prompt": "{{prompt}}",
-  "role": "[текст роли]",
-  "images": "https://example.com/reference.jpg,https://example.com/reference-2.jpg",
-  "params": {
-    "duration": 5,
-    "mode": "pro",
-    "aspect_ratio": "16:9",
-    "sound": true
+  "bot": "{{BOT_USERNAME_TEXT}}", // обязательно: username бота в PuzzleBot.
+  "token": "[Ваш API-токен]", // обязательно: API-токен бота для доступа к трекеру.
+  "user": "{{USER_ID_TEXT}}", // обязательно: ID пользователя или сессии, к которой относится запрос.
+  "model": "kling_pro", // обязательно: точный ключ модели.
+  "prompt": "{{prompt}}", // обязательно: текст задачи для модели.
+  "role": "[текст роли]", // необязательно: роль, стиль или ограничения для модели.
+  "images": "https://example.com/reference.jpg,https://example.com/reference-2.jpg", // необязательно: ссылки, file_id или переменные с изображениями через запятую, без массива `[]`.
+  "params": { // необязательно: вложенные настройки конкретной модели.
+    "duration": 5, // необязательно: длительность результата.
+    "mode": "pro", // необязательно: режим качества или скорости.
+    "aspect_ratio": "16:9", // необязательно: соотношение сторон результата.
+    "sound": true // необязательно: включает звук.
   }
 }
 ```
 
-### Пример ответа
+## Параметры
+
+| Параметр | Тип | Обязательный | Описание |
+| --- | --- | --- | --- |
+| `bot` | string | Да | Username бота. В PuzzleBot обычно используется `{{BOT_USERNAME_TEXT}}`. |
+| `token` | string | Да | API-токен бота для авторизации запроса. |
+| `user` | string | Да | ID пользователя или сессии. В PuzzleBot обычно используется `{{USER_ID_TEXT}}`. |
+| `model` | string | Да | Точный ключ вызываемой модели: `kling_pro`. |
+| `prompt` | string | Да | описание видео. |
+| `images` | string | Нет | входные изображения/референсы. |
+| `params.duration` | number | Нет | длительность. |
+| `params.mode` | string | Нет | `std` или `pro` (нормализуется). |
+| `params.aspect_ratio` | string | Нет | соотношение сторон. |
+| `params.sound` | boolean | Нет | включение звука. |
+| `params.multi_shot` | boolean | Нет | доступно в multi-shot сценарии. |
+| `params.resolution` | string | Нет | если `1080p`, то `mode=pro`; если `720p`, то `mode=std`. |
+| `role` | string | Нет | Дополнительная инструкция для модели: роль, стиль ответа, ограничения. |
+| `send_answer` | boolean | Нет | `true` отправляет результат пользователю. `false` не отправляет сообщение и сохраняет результат в `{{tracker_answer}}`. По умолчанию `true`. |
+
+## Ответ
 
 ```json
 {
@@ -36,30 +58,4 @@
 }
 ```
 
-## Параметры
-
-- `prompt` (string, required) — описание видео.
-- `bot` (string, required) — username бота, всегда передавайте `{{BOT_USERNAME_TEXT}}`.
-- `user` (string, required) — ID пользователя/сессии для трекинга.
-- `images` (string, optional) — входные изображения/референсы.
-- `params.duration` (number, optional) — длительность.
-- `params.mode` (string, optional) — `std` или `pro` (нормализуется).
-- `params.aspect_ratio` (string, optional) — соотношение сторон.
-- `params.sound` (boolean, optional) — включение звука.
-- `params.multi_shot` (boolean, optional) — доступно в multi-shot сценарии.
-- `params.resolution` (string, optional) — если `1080p`, то `mode=pro`; если `720p`, то `mode=std`.
-
-## Параметры запроса
-
-| Ключ | Значение | Описание |
-| --- | --- | --- |
-| `bot` | `{{BOT_USERNAME_TEXT}}` | Username бота в PuzzleBot (всегда используйте переменную). |
-| `token` | `[Ваш API-токен]` | API-токен бота для авторизации запроса. |
-| `user` | `{{USER_ID_TEXT}}` | Идентификатор пользователя/сессии. |
-| `model` | ключ модели (например, `gpt_5`) | Технический идентификатор модели, которую нужно вызвать. |
-| `prompt` | `{{prompt}}` | Текст задачи для модели. |
-| `role` | `[текст роли]` | Дополнительная инструкция по стилю ответа (необязательно). |
-| `params` | JSON-объект | Дополнительные параметры конкретной модели (если поддерживаются). |
-| `images` | `url1,url2` | Ссылки на входные изображения через запятую, без массива `[]`. |
-| `video_url` | `https://...` | Ссылка на входное видео для video-сценариев (при необходимости). |
-| `send_answer` | `true` | Отправлять ли результат в чат (`true` по умолчанию). |
+Если `send_answer = false`, результат не отправляется пользователю в чат, а сохраняется в переменную `{{tracker_answer}}`.
