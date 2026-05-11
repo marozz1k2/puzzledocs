@@ -92,6 +92,16 @@
 ### music
 
 - suno
+- flow_music
+
+#### Методы музыкальных моделей
+
+- suno-simple
+- suno-custom
+- suno-cover
+- suno-extend
+- suno-separate
+- suno-submodels
 
 ### other
 
@@ -138,4 +148,16 @@
 | sber_speech_large | sound | tracker/models/voice/ |
 | sber_speech | sound | tracker/models/voice/ |
 | suno | music | tracker/models/music/ |
+| flow_music | music | tracker/models/music/ |
 | upscale | other | tracker/models/other/ |
+
+## Матрица методов музыкальных моделей
+
+| method_key | parent_model | Секция документации |
+| --- | --- | --- |
+| suno-simple | suno | tracker/models/music/ |
+| suno-custom | suno | tracker/models/music/ |
+| suno-cover | suno | tracker/models/music/ |
+| suno-extend | suno | tracker/models/music/ |
+| suno-separate | suno | tracker/models/music/ |
+| suno-submodels | suno | tracker/models/music/ |

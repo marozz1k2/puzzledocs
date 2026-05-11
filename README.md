@@ -45,7 +45,7 @@
 - [Голосовые модели](tracker/models/voice/README.md)
 - [Фото-модели](tracker/models/photo/README.md)
 - [Видео-модели](tracker/models/video/README.md)
-- [Музыкальные модели](tracker/models/music/README.md)
+- [Музыкальные модели: Suno и Flow Music](tracker/models/music/README.md)
 - [Другие модели](tracker/models/other/README.md)
 
 ## Puzzle AI Tracker
