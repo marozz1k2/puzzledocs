@@ -39,11 +39,15 @@
 ## Модели
 
 - [nano_banana](nano-banana.md)
+- [nano_banana_pro](nano-banana-pro.md)
 - [midjourney](midjourney.md)
 - [gpt_image](gpt-image.md)
+- [gpt_image_2](gpt-image-2.md)
+- [gpt_image_1_5](gpt-image-1-5.md)
 - [flux_2_flex](flux-2-flex.md)
 - [flux_2_max](flux-2-max.md)
 - [flux_2_pro](flux-2-pro.md)
+- [flux_2_klein](flux-2-klein.md)
 - [higgsfield_photo](higgsfield-photo.md)
 - [image_upscale](image-upscale.md)
 - [seedream](seedream.md)

@@ -38,8 +38,8 @@
 | `model` | string | Да | Точный ключ вызываемой модели: `flux_2_pro`. |
 | `prompt` | string | Да | описание изображения. |
 | `images` | string | Нет | входные изображения/референсы. |
-| `params.resolution` | string | Нет | по умолчанию `2k` (в `freeAiChat` принудительно `1k`). |
-| `params.aspect_ratio` | string | Нет | по умолчанию `auto`. |
+| `params.resolution` | string | Нет | `1k`, `2k` или `4k`; по умолчанию `2k`. |
+| `params.aspect_ratio` | string | Нет | `auto`, `1:1`, `3:4`, `4:3`, `9:16` или `16:9`; по умолчанию `auto`. |
 | `role` | string | Нет | Дополнительная инструкция для модели: роль, стиль ответа, ограничения. |
 | `send_answer` | boolean | Нет | `true` отправляет результат пользователю. `false` не отправляет сообщение и сохраняет результат в `{{tracker_answer}}`. По умолчанию `true`. |
 

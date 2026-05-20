@@ -73,9 +73,11 @@
 
 ***
 
-| Команда-триггер | Блокирует   |
-| --------------- | ----------- |
-| `whisper_mute`  | **Whisper** |
+| Команда-триггер     | Блокирует                  |
+| ------------------- | -------------------------- |
+| `whisper_mute`      | **Whisper**                |
+| `speech_mute`       | **Yandex speech**          |
+| `sber_speech_mute`  | **Sber speech**            |
 
 #### **Фото модели**
 
@@ -84,6 +86,10 @@
 | `gpt_image_mute`   | **Gpt image**               |
 | `nano_banana_mute` | **Nano banana**             |
 | `flux_2_mute`      | **Все модели серии Flux 2** |
+| `image_upscale_mute` | **Image Upscale** |
+| `seedream_mute` | **Seedream** |
+| `kling_image_mute` | **Kling Image** |
+| `higgsfield_photo_mute` | **Higgsfield photo** |
 | `midjourney_mute`  | **Midjourney fast**         |
 
 #### **Видео модели**
@@ -96,6 +102,10 @@
 | `kling_pro_mute`        | **Kling pro**        |
 | `veo_mute`              | **Veo quality**      |
 | `veo_fast_mute`         | **Veo fast**         |
+| `sora_mute`             | **Sora**             |
+| `sora_pro_mute`         | **Sora Pro**         |
+| `minimax_hailuo_mute`   | **Minimax Hailuo**   |
+| `video`                 | **Hollywood video**  |
 | `higgsfield_video_mute` | **Higgsfield video** |
 | `grok_video_mute`       | **Grok video**       |
 

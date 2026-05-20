@@ -15,8 +15,8 @@
 
 | Команда-триггер         | Вызывается после     |
 | ----------------------- | -------------------- |
-| `gpt_done`              | **ChatGpt free**     |
-| `gpt_5_done`            | **Gpt 5.2**          |
+| `gpt_done`              | **ChatGpt free / GPT-5 Nano** |
+| `gpt_5_done`            | **Gpt 5**            |
 | `gpt_5_mini_done`       | **Gpt 5 mini**       |
 | `deepseek_done`         | **Deepseek**         |
 | `gpt_4_1_done`          | **Gpt 4.1**          |
@@ -41,9 +41,13 @@
 
 ***
 
-| Команда-триггер | Вызывается после |
-| --------------- | ---------------- |
-| `whisper_done`  | **Whisper**      |
+| Команда-триггер            | Вызывается после             |
+| -------------------------- | ---------------------------- |
+| `whisper_done`             | **Whisper**                  |
+| `yandex_speech_done`       | **Yandex speech**            |
+| `yandex_speech_large_done` | **Yandex speech (large)**    |
+| `sber_speech_done`         | **Sber speech**              |
+| `sber_speech_large_done`   | **Sber speech large**        |
 
 #### **Фото модели**
 
@@ -54,6 +58,10 @@
 | `flux_2_pro_done`  | **Flux 2 pro**      |
 | `flux_2_flex_done` | **Flux 2 flex**     |
 | `flux_2_max_done`  | **Flux 2 max**      |
+| `image_upscale_done` | **Image Upscale** |
+| `seedream_done` | **Seedream** |
+| `kling_image_done` | **Kling Image** |
+| `higgsfield_photo_done` | **Higgsfield photo** |
 | `midjourney_done`  | **Midjourney fast** |
 
 #### **Видео модели**
@@ -66,8 +74,12 @@
 | `kling_pro_done`   | **Kling pro**        |
 | `veo_done`         | **Veo quality**      |
 | `veo_fast_done`    | **Veo fast**         |
-| `higgsfield_video` | **Higgsfield video** |
-| `grok_video`       | **Grok video**       |
+| `sora_done`        | **Sora**             |
+| `sora_pro_done`    | **Sora Pro**         |
+| `minimax_hailuo_done` | **Minimax Hailuo** |
+| `hollywood_video_done` | **Hollywood video** |
+| `higgsfield_video_done` | **Higgsfield video** |
+| `grok_video_done` | **Grok video** |
 
 #### Музыкальные модели
 

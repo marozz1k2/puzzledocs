@@ -62,11 +62,15 @@
 ### photo
 
 - nano_banana
+- nano_banana_pro
 - midjourney
 - gpt_image
+- gpt_image_2
+- gpt_image_1_5
 - flux_2_flex
 - flux_2_max
 - flux_2_pro
+- flux_2_klein
 - higgsfield_photo
 - image_upscale
 - seedream
@@ -76,10 +80,28 @@
 
 - veo
 - veo_fast
+- sora
+- sora_pro
 - grok_video
 - higgsfield_video
+- minimax_hailuo
+- hollywood_video
+- midjourney_video
 - kling
 - kling_pro
+- kling_2_5
+- kling_2_5_pro
+- kling_2_6
+- kling_2_6_pro
+- kling_2_6_motion_control
+- kling_3_motion_control
+- kling_3_motion_control_pro
+- kling_3_omni
+- kling_3_omni_pro
+- kling_3_omni_edit
+- kling_3_omni_edit_pro
+- kling_omni
+- kling_omni_pro
 
 ### sound
 
@@ -127,21 +149,43 @@
 | deepseek | gpt | tracker/models/text/ |
 | vision | gpt | tracker/models/text/ |
 | nano_banana | photo | tracker/models/photo/ |
+| nano_banana_pro | photo | tracker/models/photo/ |
 | midjourney | photo | tracker/models/photo/ |
 | gpt_image | photo | tracker/models/photo/ |
+| gpt_image_2 | photo | tracker/models/photo/ |
+| gpt_image_1_5 | photo | tracker/models/photo/ |
 | flux_2_flex | photo | tracker/models/photo/ |
 | flux_2_max | photo | tracker/models/photo/ |
 | flux_2_pro | photo | tracker/models/photo/ |
+| flux_2_klein | photo | tracker/models/photo/ |
 | higgsfield_photo | photo | tracker/models/photo/ |
 | image_upscale | photo | tracker/models/photo/ |
 | seedream | photo | tracker/models/photo/ |
 | kling_image | photo | tracker/models/photo/ |
 | veo | video | tracker/models/video/ |
 | veo_fast | video | tracker/models/video/ |
+| sora | video | tracker/models/video/ |
+| sora_pro | video | tracker/models/video/ |
 | grok_video | video | tracker/models/video/ |
 | higgsfield_video | video | tracker/models/video/ |
+| minimax_hailuo | video | tracker/models/video/ |
+| hollywood_video | video | tracker/models/video/ |
+| midjourney_video | video | tracker/models/video/ |
 | kling | video | tracker/models/video/ |
 | kling_pro | video | tracker/models/video/ |
+| kling_2_5 | video | tracker/models/video/ |
+| kling_2_5_pro | video | tracker/models/video/ |
+| kling_2_6 | video | tracker/models/video/ |
+| kling_2_6_pro | video | tracker/models/video/ |
+| kling_2_6_motion_control | video | tracker/models/video/ |
+| kling_3_motion_control | video | tracker/models/video/ |
+| kling_3_motion_control_pro | video | tracker/models/video/ |
+| kling_3_omni | video | tracker/models/video/ |
+| kling_3_omni_pro | video | tracker/models/video/ |
+| kling_3_omni_edit | video | tracker/models/video/ |
+| kling_3_omni_edit_pro | video | tracker/models/video/ |
+| kling_omni | video | tracker/models/video/ |
+| kling_omni_pro | video | tracker/models/video/ |
 | yandex_speech_large | sound | tracker/models/voice/ |
 | yandex_speech | sound | tracker/models/voice/ |
 | gpt_audio | sound | tracker/models/voice/ |

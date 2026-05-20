@@ -28,8 +28,8 @@
 
 | Команда-триггер             | Вызывается после     |
 | --------------------------- | -------------------- |
-| `gpt_free_category`         | **ChatGpt free**     |
-| `gpt_5_category`            | **Gpt 5.2**          |
+| `gpt_free_category`         | **ChatGpt free / GPT-5 Nano** |
+| `gpt_5_category`            | **Gpt 5**            |
 | `gpt_5_mini_category`       | **Gpt 5 mini**       |
 | `deepseek_category`         | **Deepseek**         |
 | `gpt_4_1_category`          | **Gpt 4.1**          |
@@ -54,9 +54,13 @@
 
 ***
 
-| Команда-триггер    | Вызывается после |
-| ------------------ | ---------------- |
-| `whisper_category` | **Whisper**      |
+| Команда-триггер                 | Вызывается после             |
+| ------------------------------- | ---------------------------- |
+| `whisper_category`              | **Whisper**                  |
+| `yandex_speech_category`        | **Yandex speech**            |
+| `yandex_speech_large_category`  | **Yandex speech (large)**    |
+| `sber_speech`                   | **Sber speech**              |
+| `speech`                        | **Sber speech large**        |
 
 #### **Фото модели**
 
@@ -67,6 +71,10 @@
 | `flux_2_pro_category`  | **Flux 2 pro**      |
 | `flux_2_flex_category` | **Flux 2 flex**     |
 | `flux_2_max_category`  | **Flux 2 max**      |
+| `image_upscale_category` | **Image Upscale** |
+| `seedream_category` | **Seedream** |
+| `kling_image_category` | **Kling Image** |
+| `higgsfield_photo_category` | **Higgsfield photo** |
 | `midjourney_category`  | **Midjourney fast** |
 
 #### **Видео модели**
@@ -79,6 +87,10 @@
 | `kling_pro_category`        | **Kling pro**        |
 | `veo_category`              | **Veo quality**      |
 | `veo_fast_category`         | **Veo fast**         |
+| `sora_category`             | **Sora**             |
+| `sora_pro_category`         | **Sora Pro**         |
+| `minimax_hailuo_category`   | **Minimax Hailuo**   |
+| `video`                     | **Hollywood video**  |
 | `higgsfield_video_category` | **Higgsfield video** |
 | `grok_video_category`       | **Grok video**       |
 
