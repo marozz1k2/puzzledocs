@@ -27,6 +27,7 @@
     "quality": "high", // необязательно: качество генерации.
     "aspect_ratio": "1:1", // необязательно: соотношение сторон результата.
     "size": "1024x1024", // необязательно: точный размер результата для GPT Image 2.
+    "background": "auto", // необязательно: фон результата.
     "output_format": "png", // необязательно: формат файла результата.
     "output_compression": 50, // необязательно: сжатие JPEG/WebP от 0 до 100.
     "moderation": "auto" // необязательно: строгость фильтрации контента.
@@ -48,6 +49,7 @@
 | `params.quality` | string | Нет | Для GPT Image 2: `low`, `medium`, `high` или `auto`. Для совместимости со старыми настройками можно оставлять `medium` или `high`. |
 | `params.aspect_ratio` | string | Нет | `1:1`, `2:3` или `3:2`. Если передан `params.size`, точный размер важнее соотношения сторон. |
 | `params.size` | string | Нет | Точный размер результата для GPT Image 2, например `1024x1024`, `1536x1024`, `1024x1536`, `2048x2048`, `3840x2160` или `auto`. |
+| `params.background` | string | Нет | Фон результата: `auto` или `opaque`. Прозрачный фон для `gpt_image_2` не поддерживается. |
 | `params.output_format` | string | Нет | Формат результата: `png`, `jpeg` или `webp`. По умолчанию OpenAI возвращает `png`. |
 | `params.output_compression` | number | Нет | Степень сжатия `jpeg`/`webp` от `0` до `100`. Для `png` не используется. |
 | `params.moderation` | string | Нет | Строгость модерации изображения: `auto` или `low`. |
