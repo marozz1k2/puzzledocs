@@ -4,7 +4,7 @@ PxAI Tracker позволяет вызывать AI-модели из коман
 
 ## Каталоги моделей
 
-- [Текстовые модели](../../../tracker/models/text/README.md), включая [OpenRouter text](../../../tracker/models/text/openrouter-text.md).
+- [Текстовые модели](../../../tracker/models/text/README.md), включая OpenRouter text.
 - [Фото-модели](../../../tracker/models/photo/README.md).
 - [Видео-модели](../../../tracker/models/video/README.md).
 - [Голосовые модели](../../../tracker/models/voice/README.md), включая [OpenRouter speech](../../../tracker/models/voice/openrouter-speech.md) и [OpenRouter transcription](../../../tracker/models/voice/openrouter-transcription.md).

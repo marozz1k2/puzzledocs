@@ -19,7 +19,7 @@
 | Claude 3.5 Haiku | `claude_3_5_haiku` | Совместимость со старыми сценариями Claude. | Уточняется |
 | Grok 4 | `grok_4` | Текстовые задачи через xAI. | Уточняется |
 | Web-search | `web_search` | Ответы с поиском в интернете. | 30 |
-| OpenRouter text | см. [каталог OpenRouter text](../../tracker/models/text/openrouter-text.md) | 326 текстовых моделей OpenRouter: OpenAI, Anthropic, Google, Qwen, DeepSeek, Mistral и другие. | 1-500 |
+| OpenRouter text | см. [Текстовые модели](../../tracker/models/text/README.md) | 326 текстовых моделей OpenRouter: OpenAI, Anthropic, Google, Qwen, DeepSeek, Mistral и другие. | Меняется, не фиксируется в документации |
 
 #### Компьютерное зрение
 
@@ -36,8 +36,8 @@
 | Yandex Speech Large | `yandex_speech_large` | Расширенный синтез речи через Яндекс. | 10-35 |
 | Sber Speech | `sber_speech` | Синтез речи через Сбер. | 5-25 |
 | Sber Speech Large | `sber_speech_large` | Расширенный синтез речи через Сбер. | 5-25 |
-| OpenRouter speech | см. [каталог OpenRouter speech](../../tracker/models/voice/openrouter-speech.md) | 9 моделей синтеза речи через OpenRouter. | 5-35 |
-| OpenRouter transcription | см. [каталог OpenRouter transcription](../../tracker/models/voice/openrouter-transcription.md) | 10 моделей расшифровки аудио через OpenRouter. | 2-150 |
+| OpenRouter speech | см. [каталог OpenRouter speech](../../tracker/models/voice/openrouter-speech.md) | 9 моделей синтеза речи через OpenRouter. | Меняется, не фиксируется в документации |
+| OpenRouter transcription | см. [каталог OpenRouter transcription](../../tracker/models/voice/openrouter-transcription.md) | 10 моделей расшифровки аудио через OpenRouter. | Меняется, не фиксируется в документации |
 
 #### Фото-модели
 

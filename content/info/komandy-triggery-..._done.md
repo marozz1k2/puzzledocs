@@ -28,7 +28,7 @@
 | `claude_4_5_haiku_done` | **Claude 4.5 haiku** |
 | `grok_4_done`           | **Grok 4**           |
 | `web_search_done`       | **Web-search**       |
-| `<model_key>_done`      | **OpenRouter text**. Для каждой модели используется свой ключ из [каталога](../../tracker/models/text/openrouter-text.md), например `openai_gpt_5_4_pro_done`. |
+| `<model_key>_done`      | **OpenRouter text**. Для каждой модели используется свой ключ из [списка текстовых моделей](../../tracker/models/text/README.md), например `openai_gpt_5_4_pro_done`. |
 
 #### Компьютерное зрение
 

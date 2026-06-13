@@ -2,7 +2,7 @@
 
 Динамический каталог OpenRouter-моделей для синтеза речи и голосовых сценариев через no-code API.
 
-Список ниже актуален на 13.06.2026 и включает активные модели трекера. В трекер передаётся не провайдерский ID, а ключ из колонки `Ключ модели`.
+Список ниже актуален на 13.06.2026 и включает активные модели трекера. В поле `model` передаётся ключ из колонки `Ключ в трекере`.
 
 ## Как отправлять запрос
 
@@ -49,22 +49,21 @@
 | --- | --- |
 | Категория сегментации | `openrouter_speech_category` |
 | Команда после успешного выполнения | Индивидуальная: `<model_key>_done`, например `google_gemini_3_1_flash_tts_preview_done`. |
-| Стоимость | От 5 до 35 AI-запросов за вызов, точная стоимость указана в таблице. |
 | Количество активных моделей | 9 |
 
 ## Активные модели
 
-| Ключ модели | Название | Провайдерский ID | Стоимость, AI |
-| --- | --- | --- | --- |
-| `canopylabs_orpheus_3b_0_1_ft` | Canopy Labs: Orpheus 3B | `canopylabs/orpheus-3b-0.1-ft` | 15 |
-| `google_gemini_3_1_flash_tts_preview` | Google: Gemini 3.1 Flash TTS Preview | `google/gemini-3.1-flash-tts-preview` | 35 |
-| `hexgrad_kokoro_82m` | hexgrad: Kokoro 82M | `hexgrad/kokoro-82m` | 5 |
-| `microsoft_mai_voice_2` | Microsoft: MAI-Voice-2 | `microsoft/mai-voice-2` | 35 |
-| `mistralai_voxtral_mini_tts_2603` | Mistral: Voxtral Mini TTS | `mistralai/voxtral-mini-tts-2603` | 30 |
-| `sesame_csm_1b` | Sesame: CSM 1B | `sesame/csm-1b` | 15 |
-| `x_ai_grok_voice_tts_1_0` | xAI: Grok Voice TTS 1.0 | `x-ai/grok-voice-tts-1.0` | 30 |
-| `zyphra_zonos_v0_1_hybrid` | Zyphra: Zonos v0.1 Hybrid | `zyphra/zonos-v0.1-hybrid` | 15 |
-| `zyphra_zonos_v0_1_transformer` | Zyphra: Zonos v0.1 Transformer | `zyphra/zonos-v0.1-transformer` | 15 |
+| Ключ в трекере | Название | Ключ модели |
+| --- | --- | --- |
+| `canopylabs_orpheus_3b_0_1_ft` | Canopy Labs: Orpheus 3B | `canopylabs/orpheus-3b-0.1-ft` |
+| `google_gemini_3_1_flash_tts_preview` | Google: Gemini 3.1 Flash TTS Preview | `google/gemini-3.1-flash-tts-preview` |
+| `hexgrad_kokoro_82m` | hexgrad: Kokoro 82M | `hexgrad/kokoro-82m` |
+| `microsoft_mai_voice_2` | Microsoft: MAI-Voice-2 | `microsoft/mai-voice-2` |
+| `mistralai_voxtral_mini_tts_2603` | Mistral: Voxtral Mini TTS | `mistralai/voxtral-mini-tts-2603` |
+| `sesame_csm_1b` | Sesame: CSM 1B | `sesame/csm-1b` |
+| `x_ai_grok_voice_tts_1_0` | xAI: Grok Voice TTS 1.0 | `x-ai/grok-voice-tts-1.0` |
+| `zyphra_zonos_v0_1_hybrid` | Zyphra: Zonos v0.1 Hybrid | `zyphra/zonos-v0.1-hybrid` |
+| `zyphra_zonos_v0_1_transformer` | Zyphra: Zonos v0.1 Transformer | `zyphra/zonos-v0.1-transformer` |
 
 ## Ответ
 

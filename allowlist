@@ -12,7 +12,7 @@
 ## Обязательные правила публикации
 
 - Глобальное правило: новые ветки не создавать; все изменения, коммиты и PR выполняются только в `main`.
-- Для каждой модели из этого allowlist создаётся отдельная статья в секции её `model_type`.
+- Отдельная статья создаётся для моделей и сценариев с уникальными параметрами запроса. Текстовые модели с одинаковой схемой запроса объединяются в общую статью `tracker/models/text/README.md`.
 - Для массовых OpenRouter-моделей используется отдельная статья-каталог на категорию (`openrouter_text_category`, `openrouter_speech_category`, `openrouter_transcription_category`), потому что список синхронизируется с активными моделями и меняется динамически.
 - Во всех статьях использовать только термин `no-code API`.
 - В пользовательских статьях использовать термин **`URL-адрес`** (вместо слова `endpoint`).
@@ -152,7 +152,7 @@
 | gpt_4_mini | gpt | tracker/models/text/ |
 | deepseek | gpt | tracker/models/text/ |
 | vision | gpt | tracker/models/text/ |
-| openrouter_text_category | gpt | tracker/models/text/openrouter-text.md |
+| openrouter_text_category | gpt | tracker/models/text/README.md |
 | nano_banana | photo | tracker/models/photo/ |
 | nano_banana_pro | photo | tracker/models/photo/ |
 | midjourney | photo | tracker/models/photo/ |
