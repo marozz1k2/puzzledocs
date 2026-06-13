@@ -1,40 +1,95 @@
 # AI-модели и стоимость
 
+Список ниже отражает модели, доступные в документации и трекере. Для OpenRouter-каталогов точная стоимость каждой модели указана в отдельной странице трекера.
+
 #### Текстовые модели
 
-***
-
-<table data-full-width="false"><thead><tr><th>Модель</th><th>Описание</th><th>Команда</th><th>Стоимость 💠AI</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>ChatGpt free</strong> <br><sub>GPT-5 Nano</sub><br><code>gpt_free</code></td><td>Практичная текстовая модель для любых задач.</td><td>любой текст</td><td>Бесплатно при активной подписке Премиум </td><td></td></tr><tr><td><strong>Gpt 5.5</strong> <br><sub>Джипити 5.5</sub><br><code>gpt_5</code></td><td>Флагманская текстовая модель, работает с фото.</td><td>любой текст</td><td><p>💠25</p><p><sub>~5.5₽</sub></p></td><td></td></tr><tr><td><strong>Gpt 5 mini</strong><br><sub>GPT-5.4 Mini</sub><br><code>gpt_5_mini</code></td><td>Облегченная версия GPT-5.</td><td>любой текст</td><td>💠10   <br><sub>~2.2₽</sub></td><td></td></tr><tr><td><strong>Deepseek</strong><br><sub>Дипсик</sub><br><code>deepseek</code></td><td>Прорывная творческая модель от китайских разработчиков последней версии</td><td>любой текст</td><td>💠10 <br><sub>~2.2₽</sub></td><td></td></tr><tr><td><strong>Gpt 4.1</strong><br><sub>Джипити 4.1</sub><br><code>gpt_4_1</code></td><td>Стабильная и оптимизированная</td><td>любой текст</td><td>💠15<br><sub>~3.3₽</sub></td><td></td></tr><tr><td><strong>Gemini 2.5 pro</strong><br><sub>Джеминай 2.5 про</sub><br><code>gemini_2_5_pro</code></td><td>Творческая, размышляющая</td><td>любой текст</td><td><p>💠25</p><p><sub>~5.5₽</sub></p></td><td></td></tr><tr><td><strong>Gemini 3 pro</strong><br><sub>Джеминай 3 про</sub><br><code>gemini_3_pro</code></td><td>Творческая, размышляющая новая версия модели</td><td>любой текст</td><td>💠30<br><sub>~6.6₽</sub></td><td></td></tr><tr><td><strong>Gemini 2.5 flash</strong><br><sub>Джеминай 2.5 флэш</sub><br><code>gemini_2_5_flash</code></td><td>Проверенная версия модели от Google</td><td>любой текст</td><td>💠10<br><sub>~2.2₽</sub></td><td></td></tr><tr><td><strong>Gemini 3 flash</strong><br><sub>Джеминай 3 флэш</sub><br><code>gemini_3_flash</code></td><td>Новая версия стабильной, хорошей модели от Google</td><td>любой текст</td><td>💠15<br><sub>~3.3₽</sub></td><td></td></tr><tr><td><strong>Claude 3.5 haiku</strong><br><sub>Клод 3.5 хайку</sub><br><code>claude_3_5_haiku</code></td><td>Отличная модель от Anthropic </td><td>любой текст</td><td>💠10<br><sub>~2.2₽</sub></td><td></td></tr><tr><td><strong>Claude 4.5 haiku</strong><br><sub>Клод 4.5 хайку</sub><br><code>claude_4_5_haiku</code></td><td>Новая версия отличной модели  от Anthropic  </td><td>любой текст</td><td>💠15<br><sub>~3.3₽</sub></td><td></td></tr><tr><td><strong>Grok 4</strong><br><sub>Грок 4</sub><br><code>grok_4</code></td><td>Передовая модель от X.AI</td><td>любой текст</td><td>💠35<br><sub>~7.7₽</sub></td><td></td></tr><tr><td><strong>Web-search</strong></td><td>Поиск в интернете</td><td>любой текст</td><td>💠15<br><sub>~3.3₽</sub></td><td></td></tr></tbody></table>
-
-#### Голосовые модели
-
-***
-
-<table data-full-width="false"><thead><tr><th>Модель</th><th>Описание</th><th>Команда</th><th>Стоимость 💠AI</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Yandex speech</strong><br><sub>Яндекс Спич</sub><br><code>yandex_speech</code></td><td>Синтезирует текст в речь. На выбор много голосов.</td><td>по умолчанию триггеры /speech, /voice + ваш запрос. модернизируется в ЛК и в формате мини-апп (Трекер)</td><td>💠10-35<br><sub>~2.2-7.7₽</sub></td><td></td></tr><tr><td><strong>Whisper</strong><br><sub>Виспер</sub><br><code>gpt_audio</code></td><td>Транскрибация голосового сообщения в текст</td><td>голосовое сообщение</td><td>💠2<br><sub>~0.44₽</sub></td><td></td></tr><tr><td><strong>Sber speech</strong><br>Сбер Спич<br><code>sber_speech</code></td><td>Синтезирует текст в речь. На выбор много голосов.</td><td>модернизируется в ЛК и в формате мини-апп (Трекер)</td><td>💠5-25<br><sub>~1.1-5.5₽</sub></td><td></td></tr></tbody></table>
+| Модель | Ключ | Когда выбирать | Стоимость AI |
+| --- | --- | --- | --- |
+| ChatGPT free / GPT-5 Nano | `gpt_free` | Базовые текстовые задачи при активной подписке. | Бесплатно при активной подписке |
+| GPT 5 | `gpt_5` | Сложные текстовые задачи, логика, аккуратные ответы. | 25 |
+| GPT 5 mini | `gpt_5_mini` | Быстрые текстовые ответы дешевле флагманской модели. | 10 |
+| GPT 4.1 | `gpt_4_1` | Стабильные текстовые задачи и совместимость со старыми сценариями. | Уточняется |
+| DeepSeek | `deepseek` | Текстовые и reasoning-задачи с альтернативной моделью. | Уточняется |
+| Gemini 3 Pro | `gemini_3_pro` | Сложные задачи и большой контекст. | Уточняется |
+| Gemini 3 Flash | `gemini_3_flash` | Быстрые ответы Google Gemini. | Уточняется |
+| Gemini 2.5 Pro | `gemini_2_5_pro` | Проверенная версия Gemini Pro. | Уточняется |
+| Gemini 2.5 Flash | `gemini_2_5_flash` | Быстрая версия Gemini. | Уточняется |
+| Claude 4.5 Haiku | `claude_4_5_haiku` | Быстрые ответы Claude. | Уточняется |
+| Claude 3.5 Haiku | `claude_3_5_haiku` | Совместимость со старыми сценариями Claude. | Уточняется |
+| Grok 4 | `grok_4` | Текстовые задачи через xAI. | Уточняется |
+| Web-search | `web_search` | Ответы с поиском в интернете. | 30 |
+| OpenRouter text | см. [каталог OpenRouter text](../../tracker/models/text/openrouter-text.md) | 326 текстовых моделей OpenRouter: OpenAI, Anthropic, Google, Qwen, DeepSeek, Mistral и другие. | 1-500 |
 
 #### Компьютерное зрение
 
-***
+| Модель | Ключ | Когда выбирать | Стоимость AI |
+| --- | --- | --- | --- |
+| Vision | `vision` | Анализ изображений, распознавание текста и объектов. | 10 |
 
-<table data-full-width="false"><thead><tr><th>Модель</th><th>Описание</th><th>Команда</th><th>Стоимость 💠AI</th><th data-hidden></th></tr></thead><tbody><tr><td><p><strong>Gpt Vision</strong></p><p><sub>Вижн</sub><br><code>vision</code></p></td><td>Расшифровывает текст с фото.</td><td>загрузить фото + текст</td><td>💠зависит от выбранной в настройках модели Gpt</td><td></td></tr></tbody></table>
+#### Голосовые и аудио-модели
 
-#### Фото модели
+| Модель | Ключ | Когда выбирать | Стоимость AI |
+| --- | --- | --- | --- |
+| GPT Audio / Whisper | `gpt_audio` | Расшифровка голосовых сообщений. | 2 |
+| Yandex Speech | `yandex_speech` | Синтез речи через Яндекс. | 10-35 |
+| Yandex Speech Large | `yandex_speech_large` | Расширенный синтез речи через Яндекс. | 10-35 |
+| Sber Speech | `sber_speech` | Синтез речи через Сбер. | 5-25 |
+| Sber Speech Large | `sber_speech_large` | Расширенный синтез речи через Сбер. | 5-25 |
+| OpenRouter speech | см. [каталог OpenRouter speech](../../tracker/models/voice/openrouter-speech.md) | 9 моделей синтеза речи через OpenRouter. | 5-35 |
+| OpenRouter transcription | см. [каталог OpenRouter transcription](../../tracker/models/voice/openrouter-transcription.md) | 10 моделей расшифровки аудио через OpenRouter. | 2-150 |
 
-***
+#### Фото-модели
 
-<table data-full-width="false"><thead><tr><th>Модель</th><th>Описание</th><th>Команда</th><th>Стоимость 💠AI</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Midjourney</strong><br><sub>Миджорни</sub><br><code>midjourney</code></td><td>Творческий инструмент для создания изображений</td><td><code>/img</code> + текст</td><td>скоро </td><td></td></tr><tr><td><strong>Gpt image</strong><br><sub>Джипити (фото)</sub><br><code>gpt_image</code></td><td>Мощный инструмент для создания и редактирования фото от OpenAI</td><td><code>/image</code> + текст</td><td>💠40 <br><sub>~8.8₽</sub><br>  </td><td></td></tr><tr><td><strong>Nano banana</strong><br><sub>Нано банана</sub> <br><code>nano_banana</code></td><td>Мощный инструмент для создания и редактирования фото от Google</td><td><code>/banana</code> + текст</td><td>💠40<br><sub>~8.8₽</sub></td><td></td></tr><tr><td><strong>Flux 2 pro</strong><br><sub>Флакс 2 про</sub><br><code>flux_2_pro</code></td><td>Новая модель для создания и редактирования фото от Black forest labs</td><td><code>/flux_pro</code> + текст</td><td>💠20<br><sub>~4.4₽</sub></td><td></td></tr><tr><td><strong>Flux 2 Klein</strong><br><sub>Флакс 2 кляйн</sub><br><code>flux_2_klein</code></td><td>Лёгкая модель серии Flux 2 для генерации и редактирования фото</td><td><code>/klein</code> + текст</td><td>уточняется</td><td></td></tr><tr><td><strong>Flux 2 flex</strong><br><sub>Флакс 2 флекс</sub><br><code>flux_2_flex</code></td><td>Новая модель для создания и редактирования фото + хорошо работает с текстом от Black forest labs</td><td><code>/flex</code> + текст</td><td>💠60<br><sub>~13.2₽</sub></td><td></td></tr><tr><td><strong>Flux 2 max</strong><br><sub>Флакс 2 макс</sub><br><code>flux_2_max</code></td><td>Новая максимально мощная модель для создания и редактирования фото от Black forest labs</td><td><code>/flux_max</code> + текст</td><td>💠60<br><sub>~13.2₽</sub></td><td></td></tr><tr><td><strong>Upscale</strong><br>Апскейл и улучшение фото<br><code>image_upscale</code></td><td>Увеличение изображения со множеством функций, новая версия</td><td>(загрузить фото) + <code>upscale</code></td><td>💠30<br><sub>~6.6₽</sub> </td><td></td></tr><tr><td><strong>Kling Image</strong><br>Клинг Имейдж<br><code>kling_image</code></td><td>Новая модель для создания и редактирования фото от KLING AI</td><td><code>/kling_image</code> + текст</td><td>💠10<br><sub>~2.2₽</sub></td><td></td></tr><tr><td>Higgsfield <br>Хиггсфилд<br><code>higgsfield_photo</code><br></td><td>Модель для фотореализма</td><td><code>/higgsfield</code> + текст</td><td>💠30<br><sub>~6.6₽</sub> </td><td></td></tr></tbody></table>
+| Модель | Ключ | Когда выбирать | Стоимость AI |
+| --- | --- | --- | --- |
+| GPT Image | `gpt_image` | Генерация и редактирование изображений через OpenAI. | Уточняется |
+| GPT Image 2 | `gpt_image_2` | Новая версия GPT Image. | Уточняется |
+| GPT Image 1.5 | `gpt_image_1_5` | Совместимость со сценариями GPT Image 1.5. | Уточняется |
+| Nano Banana | `nano_banana` | Генерация и редактирование фото через Google. | Уточняется |
+| Nano Banana Pro | `nano_banana_pro` | Улучшенная версия Nano Banana. | 39 |
+| Midjourney | `midjourney` | Креативная генерация изображений. | Уточняется |
+| Flux 2 Pro | `flux_2_pro` | Генерация и редактирование изображений Flux. | Уточняется |
+| Flux 2 Flex | `flux_2_flex` | Flux 2 с улучшенной работой с текстом. | 60 |
+| Flux 2 Max | `flux_2_max` | Максимальная версия Flux 2. | Уточняется |
+| Flux 2 Klein | `flux_2_klein` | Лёгкая версия Flux 2. | Уточняется |
+| Image Upscale | `image_upscale` | Апскейл и улучшение изображений. | Уточняется |
+| Seedream | `seedream` | Генерация и редактирование изображений Seedream. | Уточняется |
+| Kling Image | `kling_image` | Генерация и редактирование изображений Kling. | Уточняется |
+| Higgsfield Photo | `higgsfield_photo` | Фотореалистичные изображения Higgsfield. | Уточняется |
 
-#### Видео модели
+#### Видео-модели
 
-***
-
-
-
-<table data-full-width="false"><thead><tr><th>Модель</th><th>Описание</th><th>Команда</th><th>Стоимость 💠AI</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Kling</strong><br><sub>Клинг</sub><br><code>kling</code></td><td>Один из лидеров видеогенерации</td><td><code>/kling</code> + текст</td><td>💠150<br><sub>~33₽ / 5 сек</sub> <sub>- зависит от субмодели</sub>  </td><td></td></tr><tr><td><strong>Kling pro</strong><br><sub>Клинг про</sub><br><code>kling_pro</code></td><td>Продвинутая версия Клинга (улучшенное качество, увеличенная  длительность)</td><td><code>/kling</code> + текст</td><td>💠300<br><sub>~66₽ / 10 сек - зависит от субмодели</sub>  </td><td></td></tr><tr><td><strong>Veo</strong><br><sub>Вео</sub><br><code>veo</code></td><td>Продвинутая видеогенерация со звуком от Google (качественный режим)</td><td><code>/veo</code> + текст</td><td>💠300<br><sub>~66₽ / 8 сек</sub> </td><td></td></tr><tr><td><strong>Veo fast</strong><br><sub>Вео лёгкий</sub><br><code>veo_fast</code></td><td>Продвинутая видеогенерация со звуком от Google (быстрый режим)</td><td><code>/veofast</code> + текст </td><td>💠150<br><sub>~33₽ / 8 сек</sub></td><td></td></tr><tr><td><strong>Sora</strong><br><sub>Сора</sub><br><code>sora</code></td><td>Видео-модель OpenAI для генерации роликов по тексту или одному изображению.</td><td><code>/sora</code> + текст</td><td>уточняется</td><td></td></tr><tr><td><strong>Sora Pro</strong><br><sub>Сора Про</sub><br><code>sora_pro</code></td><td>Расширенная версия Sora для более сложных сцен и стабильных кадров.</td><td><code>/sora_pro</code> + текст</td><td>уточняется</td><td></td></tr><tr><td><strong>Minimax Hailuo</strong><br><sub>Минимакс</sub><br><code>minimax_hailuo</code></td><td>Видео-модель для генерации роликов по тексту и референсам</td><td><code>/minimax</code> или <code>/hailuo</code> + текст</td><td>уточняется</td><td></td></tr><tr><td><strong>Hollywood video</strong><br><sub>Hollywood video</sub><br><code>hollywood_video</code></td><td>Видео-модель с режимами text-to-video, first/last frame и omni-reference</td><td><code>hollywood_video</code> + текст</td><td>зависит от длительности</td><td></td></tr><tr><td><strong>Midjourney Video</strong><br><sub>Миджорни видео</sub><br><code>midjourney_video</code></td><td>Видео-модель Midjourney для роликов по тексту и референсам</td><td><code>/midjourney_video</code> или <code>/mjvideo</code> + текст</td><td>уточняется</td><td></td></tr><tr><td><strong>Higgsfield video</strong><br><sub>Хиггсфилд видео</sub><br><code>higgsfield_video</code></td><td>Достойное качество, модные спецэффекты</td><td><code>/higgsvideo</code> + текст </td><td>💠75<br><sub>~16.5₽ / 5 сек</sub></td><td></td></tr><tr><td><strong>Grok video</strong><br><sub>Грок видео</sub><br><code>grok_video</code></td><td>Видео нейросеть от X.AI, хорошее качество видео, со звуком </td><td><code>/grokvideo</code> + текст </td><td>💠100<br><sub>~22₽ / 6 сек</sub>  </td><td></td></tr></tbody></table>
+| Модель | Ключ | Когда выбирать | Стоимость AI |
+| --- | --- | --- | --- |
+| Veo quality | `veo` | Видео Google Veo в качественном режиме. | 300 |
+| Veo fast | `veo_fast` | Видео Google Veo в быстром режиме. | 150 |
+| Grok Video | `grok_video` | Видео через xAI Grok. | 100 |
+| Hollywood Video | `hollywood_video` | Видео через Seedance 2.0 Pro. | 350 |
+| Midjourney Video | `midjourney_video` | Видео Midjourney. | 300 |
+| Minimax Hailuo | `minimax_hailuo` | Видео Minimax/Hailuo. | 120 |
+| Kling 3.0 | `kling` | Базовая модель Kling 3.0. | 300 |
+| Kling 3.0 Pro | `kling_pro` | Расширенная версия Kling 3.0. | 300 |
+| Kling 2.5 Turbo | `kling_2_5` | Версия Kling 2.5 Turbo. | 300 |
+| Kling 2.5 Turbo Pro | `kling_2_5_pro` | Pro-версия Kling 2.5 Turbo. | 300 |
+| Kling 2.6 | `kling_2_6` | Версия Kling 2.6. | 300 |
+| Kling 2.6 Pro | `kling_2_6_pro` | Pro-версия Kling 2.6. | 300 |
+| Kling 2.6 Motion Control | `kling_2_6_motion_control` | Kling 2.6 с управлением движением. | 300 |
+| Kling 3.0 Motion Control | `kling_3_motion_control` | Kling 3.0 с управлением движением. | 300 |
+| Kling 3.0 Motion Control Pro | `kling_3_motion_control_pro` | Pro-версия Kling 3.0 Motion Control. | 300 |
+| Kling 3.0 Omni | `kling_3_omni` | Kling 3.0 Omni. | 300 |
+| Kling 3.0 Omni Pro | `kling_3_omni_pro` | Pro-версия Kling 3.0 Omni. | 300 |
+| Kling 3.0 Omni Edit | `kling_3_omni_edit` | Редактирование видео Kling 3.0 Omni. | 300 |
+| Kling 3.0 Omni Edit Pro | `kling_3_omni_edit_pro` | Pro-редактирование видео Kling 3.0 Omni. | 300 |
+| Kling O1 | `kling_omni` | Kling O1. | 300 |
+| Kling O1 Pro | `kling_omni_pro` | Pro-версия Kling O1. | 300 |
+| Sora | `sora` | Видео OpenAI Sora. | Уточняется |
+| Sora Pro | `sora_pro` | Расширенная версия Sora. | Уточняется |
+| Higgsfield Video | `higgsfield_video` | Видеоэффекты и модные видео-сценарии Higgsfield. | Уточняется |
 
 #### Музыкальные модели
 
-***
-
-<table data-full-width="false"><thead><tr><th>Модель</th><th>Описание</th><th>Команда</th><th>Стоимость 💠AI</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Suno</strong><br><sub>Суно</sub><br><code>suno</code></td><td>Создание музыки и песен.</td><td><code>/suno</code> + текст</td><td>💠50<br><sub>~11₽</sub></td><td></td></tr></tbody></table>
-
+| Модель | Ключ | Когда выбирать | Стоимость AI |
+| --- | --- | --- | --- |
+| Suno | `suno` | Создание музыки и песен. | Уточняется |
+| Flow Music | `flow_music` | Генерация музыки через Flow Music. | Уточняется |

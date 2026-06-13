@@ -28,6 +28,7 @@
 | `claude_4_5_haiku_done` | **Claude 4.5 haiku** |
 | `grok_4_done`           | **Grok 4**           |
 | `web_search_done`       | **Web-search**       |
+| `<model_key>_done`      | **OpenRouter text**. Для каждой модели используется свой ключ из [каталога](../../tracker/models/text/openrouter-text.md), например `openai_gpt_5_4_pro_done`. |
 
 #### Компьютерное зрение
 
@@ -43,21 +44,27 @@
 
 | Команда-триггер            | Вызывается после             |
 | -------------------------- | ---------------------------- |
-| `whisper_done`             | **Whisper**                  |
+| `gpt_audio_done`           | **GPT Audio / Whisper**      |
 | `yandex_speech_done`       | **Yandex speech**            |
 | `yandex_speech_large_done` | **Yandex speech (large)**    |
 | `sber_speech_done`         | **Sber speech**              |
 | `sber_speech_large_done`   | **Sber speech large**        |
+| `<model_key>_done`         | **OpenRouter speech**. Для каждой модели используется свой ключ из [каталога](../../tracker/models/voice/openrouter-speech.md). |
+| `<model_key>_done`         | **OpenRouter transcription**. Для каждой модели используется свой ключ из [каталога](../../tracker/models/voice/openrouter-transcription.md). |
 
 #### **Фото модели**
 
 | Команда-триггер    | Вызывается после    |
 | ------------------ | ------------------- |
 | `gpt_image_done`   | **Gpt image**       |
+| `gpt_image_2_done` | **Gpt image 2**     |
+| `gpt_image_1_5_done` | **Gpt image 1.5** |
 | `nano_banana_done` | **Nano banana**     |
+| `nano_banana_pro_done` | **Nano Banana Pro** |
 | `flux_2_pro_done`  | **Flux 2 pro**      |
 | `flux_2_flex_done` | **Flux 2 flex**     |
 | `flux_2_max_done`  | **Flux 2 max**      |
+| `flux_2_klein_done` | **Flux 2 Klein**   |
 | `image_upscale_done` | **Image Upscale** |
 | `seedream_done` | **Seedream** |
 | `kling_image_done` | **Kling Image** |
@@ -78,8 +85,22 @@
 | `sora_pro_done`    | **Sora Pro**         |
 | `minimax_hailuo_done` | **Minimax Hailuo** |
 | `hollywood_video_done` | **Hollywood video** |
+| `midjourney_video_done` | **Midjourney Video** |
 | `higgsfield_video_done` | **Higgsfield video** |
 | `grok_video_done` | **Grok video** |
+| `kling_2_5_done` | **Kling 2.5 Turbo** |
+| `kling_2_5_pro_done` | **Kling 2.5 Turbo Pro** |
+| `kling_2_6_done` | **Kling 2.6** |
+| `kling_2_6_pro_done` | **Kling 2.6 Pro** |
+| `kling_2_6_motion_control_done` | **Kling 2.6 Motion Control** |
+| `kling_3_motion_control_done` | **Kling 3.0 Motion Control** |
+| `kling_3_motion_control_pro_done` | **Kling 3.0 Motion Control Pro** |
+| `kling_3_omni_done` | **Kling 3.0 Omni** |
+| `kling_3_omni_pro_done` | **Kling 3.0 Omni Pro** |
+| `kling_3_omni_edit_done` | **Kling 3.0 Omni Edit** |
+| `kling_3_omni_edit_pro_done` | **Kling 3.0 Omni Edit Pro** |
+| `kling_omni_done` | **Kling O1** |
+| `kling_omni_pro_done` | **Kling O1 Pro** |
 
 #### Музыкальные модели
 
@@ -88,4 +109,5 @@
 | Команда-триггер | Вызывается после |
 | --------------- | ---------------- |
 | `suno_done`     | **Suno AI**      |
+| `flow_music_done` | **Flow Music** |
 

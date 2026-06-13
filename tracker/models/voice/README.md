@@ -36,6 +36,11 @@
 | `params` | object | Нет | Вложенные настройки конкретной модели. |
 | `send_answer` | boolean | Нет | `true` отправляет результат в чат, `false` сохраняет его в `{{tracker_answer}}`. |
 
+## Динамические каталоги
+
+- [OpenRouter speech](openrouter-speech.md) — 9 активных моделей синтеза речи.
+- [OpenRouter transcription](openrouter-transcription.md) — 10 активных моделей расшифровки аудио.
+
 ## Модели
 
 - [yandex_speech_large](yandex-speech-large.md)

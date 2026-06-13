@@ -13,6 +13,7 @@
 
 - Глобальное правило: новые ветки не создавать; все изменения, коммиты и PR выполняются только в `main`.
 - Для каждой модели из этого allowlist создаётся отдельная статья в секции её `model_type`.
+- Для массовых OpenRouter-моделей используется отдельная статья-каталог на категорию (`openrouter_text_category`, `openrouter_speech_category`, `openrouter_transcription_category`), потому что список синхронизируется с активными моделями и меняется динамически.
 - Во всех статьях использовать только термин `no-code API`.
 - В пользовательских статьях использовать термин **`URL-адрес`** (вместо слова `endpoint`).
 - Не публиковать служебную/системную информацию (например: `system_role`, внутренние команды, skills, внутренние поля маршрутизации).
@@ -58,6 +59,7 @@
 - gpt_4_mini
 - deepseek
 - vision
+- openrouter_text_category
 
 ### photo
 
@@ -110,6 +112,8 @@
 - gpt_audio
 - sber_speech_large
 - sber_speech
+- openrouter_speech_category
+- openrouter_transcription_category
 
 ### music
 
@@ -148,6 +152,7 @@
 | gpt_4_mini | gpt | tracker/models/text/ |
 | deepseek | gpt | tracker/models/text/ |
 | vision | gpt | tracker/models/text/ |
+| openrouter_text_category | gpt | tracker/models/text/openrouter-text.md |
 | nano_banana | photo | tracker/models/photo/ |
 | nano_banana_pro | photo | tracker/models/photo/ |
 | midjourney | photo | tracker/models/photo/ |
@@ -191,6 +196,8 @@
 | gpt_audio | sound | tracker/models/voice/ |
 | sber_speech_large | sound | tracker/models/voice/ |
 | sber_speech | sound | tracker/models/voice/ |
+| openrouter_speech_category | sound | tracker/models/voice/openrouter-speech.md |
+| openrouter_transcription_category | sound | tracker/models/voice/openrouter-transcription.md |
 | suno | music | tracker/models/music/ |
 | flow_music | music | tracker/models/music/ |
 | upscale | other | tracker/models/other/ |

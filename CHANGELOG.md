@@ -4,6 +4,17 @@ hidden: true
 
 # Changelog
 
+## Июнь 2026
+
+<details>
+
+<summary>Новое</summary>
+
+* Добавлены динамические каталоги OpenRouter для трекера: `openrouter_text_category` (326 моделей), `openrouter_speech_category` (9 моделей) и `openrouter_transcription_category` (10 моделей).
+* Обновлены навигация, главная страница, allowlist и разделы моделей для новых OpenRouter-страниц.
+
+</details>
+
 ## Май 2026
 
 <details>

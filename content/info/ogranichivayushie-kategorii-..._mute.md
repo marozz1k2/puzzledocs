@@ -60,6 +60,7 @@
 | Категория  | Блокируемая модель / функция     |
 | ---------- | -------------------------------- |
 | `gpt_mute` | **Все текстовые модели ChatGpt** |
+| `openrouter_text_category` | Используйте как категорию доступа к **OpenRouter text**; отдельная общая `..._mute` категория для OpenRouter text не задана. |
 
 #### Компьютерное зрение
 
@@ -75,9 +76,11 @@
 
 | Команда-триггер     | Блокирует                  |
 | ------------------- | -------------------------- |
-| `whisper_mute`      | **Whisper**                |
+| `gpt_audio_mute`    | **GPT Audio / Whisper**    |
 | `speech_mute`       | **Yandex speech**          |
 | `sber_speech_mute`  | **Sber speech**            |
+| `openrouter_speech_category` | Используйте как категорию доступа к **OpenRouter speech**; отдельная общая `..._mute` категория не задана. |
+| `openrouter_transcription_category` | Используйте как категорию доступа к **OpenRouter transcription**; отдельная общая `..._mute` категория не задана. |
 
 #### **Фото модели**
 
@@ -85,7 +88,9 @@
 | ------------------ | --------------------------- |
 | `gpt_image_mute`   | **Gpt image**               |
 | `nano_banana_mute` | **Nano banana**             |
+| `nano_banana_pro_mute` | **Nano Banana Pro**       |
 | `flux_2_mute`      | **Все модели серии Flux 2** |
+| `flux_2_klein_mute` | **Flux 2 Klein**           |
 | `image_upscale_mute` | **Image Upscale** |
 | `seedream_mute` | **Seedream** |
 | `kling_image_mute` | **Kling Image** |
@@ -105,9 +110,23 @@
 | `sora_mute`             | **Sora**             |
 | `sora_pro_mute`         | **Sora Pro**         |
 | `minimax_hailuo_mute`   | **Minimax Hailuo**   |
-| `video`                 | **Hollywood video**  |
+| `hollywood_video_mute`  | **Hollywood video**  |
+| `midjourney_video_mute` | **Midjourney Video** |
 | `higgsfield_video_mute` | **Higgsfield video** |
 | `grok_video_mute`       | **Grok video**       |
+| `kling_2_5_mute`        | **Kling 2.5 Turbo**  |
+| `kling_2_5_pro_mute`    | **Kling 2.5 Turbo Pro** |
+| `kling_2_6_mute`        | **Kling 2.6**        |
+| `kling_2_6_pro_mute`    | **Kling 2.6 Pro**    |
+| `kling_2_6_motion_control_mute` | **Kling 2.6 Motion Control** |
+| `kling_3_motion_control_mute` | **Kling 3.0 Motion Control** |
+| `kling_3_motion_control_pro_mute` | **Kling 3.0 Motion Control Pro** |
+| `kling_3_omni_mute`     | **Kling 3.0 Omni**   |
+| `kling_3_omni_pro_mute` | **Kling 3.0 Omni Pro** |
+| `kling_3_omni_edit_mute` | **Kling 3.0 Omni Edit** |
+| `kling_3_omni_edit_pro_mute` | **Kling 3.0 Omni Edit Pro** |
+| `kling_omni_mute`       | **Kling O1**         |
+| `kling_omni_pro_mute`   | **Kling O1 Pro**     |
 
 #### Музыкальные модели
 
@@ -116,3 +135,4 @@
 | Команда-триггер | Блокирует   |
 | --------------- | ----------- |
 | `suno_mute`     | **Suno AI** |
+| `flow_music_mute` | **Flow Music** |

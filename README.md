@@ -30,7 +30,7 @@
 | `bot` | string | Да | Username бота. Используйте `{{BOT_USERNAME_TEXT}}`. |
 | `token` | string | Да | API-токен бота. |
 | `user` | string | Да | ID пользователя или сессии. Используйте `{{USER_ID_TEXT}}`. |
-| `model` | string | Да | Ключ модели из нужной статьи, например `gpt_5`, `gpt_image`, `veo`. |
+| `model` | string | Да | Ключ модели из нужной статьи, например `gpt_5`, `gpt_image`, `veo` или `openai_gpt_5_4_pro` из каталога OpenRouter. |
 | `prompt` | string | Зависит от модели | Текст задачи. Для большинства моделей обязателен. |
 | `images` | string | Зависит от модели | Ссылки, file_id или переменные с изображениями через запятую, без массива `[]`. |
 | `params` | object | Нет | Вложенные настройки конкретной модели. |
@@ -41,8 +41,8 @@
 
 ## Разделы
 
-- [Текстовые модели](tracker/models/text/README.md)
-- [Голосовые модели](tracker/models/voice/README.md)
+- [Текстовые модели и OpenRouter text](tracker/models/text/README.md)
+- [Голосовые модели, OpenRouter speech и transcription](tracker/models/voice/README.md)
 - [Фото-модели](tracker/models/photo/README.md)
 - [Видео-модели](tracker/models/video/README.md)
 - [Музыкальные модели: Suno и Flow Music](tracker/models/music/README.md)

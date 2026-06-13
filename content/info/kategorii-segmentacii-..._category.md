@@ -41,6 +41,7 @@
 | `claude_4_5_haiku_category` | **Claude 4.5 haiku** |
 | `grok_4_category`           | **Grok 4**           |
 | `web_search_category`       | **Web-search**       |
+| `openrouter_text_category`  | **OpenRouter text**  |
 
 #### Компьютерное зрение
 
@@ -56,21 +57,27 @@
 
 | Команда-триггер                 | Вызывается после             |
 | ------------------------------- | ---------------------------- |
-| `whisper_category`              | **Whisper**                  |
+| `gpt_audio_category`            | **GPT Audio / Whisper**      |
 | `yandex_speech_category`        | **Yandex speech**            |
 | `yandex_speech_large_category`  | **Yandex speech (large)**    |
-| `sber_speech`                   | **Sber speech**              |
-| `speech`                        | **Sber speech large**        |
+| `sber_speech_category`          | **Sber speech**              |
+| `sber_speech_large_category`    | **Sber speech large**        |
+| `openrouter_speech_category`    | **OpenRouter speech**        |
+| `openrouter_transcription_category` | **OpenRouter transcription** |
 
 #### **Фото модели**
 
 | Команда-триггер        | Вызывается после    |
 | ---------------------- | ------------------- |
 | `gpt_image_category`   | **Gpt image**       |
+| `gpt_image_2_category` | **Gpt image 2**     |
+| `gpt_image_1_5_category` | **Gpt image 1.5** |
 | `nano_banana_category` | **Nano banana**     |
+| `nano_banana_pro_category` | **Nano Banana Pro** |
 | `flux_2_pro_category`  | **Flux 2 pro**      |
 | `flux_2_flex_category` | **Flux 2 flex**     |
 | `flux_2_max_category`  | **Flux 2 max**      |
+| `flux_2_klein_category` | **Flux 2 Klein**   |
 | `image_upscale_category` | **Image Upscale** |
 | `seedream_category` | **Seedream** |
 | `kling_image_category` | **Kling Image** |
@@ -90,9 +97,23 @@
 | `sora_category`             | **Sora**             |
 | `sora_pro_category`         | **Sora Pro**         |
 | `minimax_hailuo_category`   | **Minimax Hailuo**   |
-| `video`                     | **Hollywood video**  |
+| `hollywood_video_category`  | **Hollywood video**  |
+| `midjourney_video_category` | **Midjourney Video** |
 | `higgsfield_video_category` | **Higgsfield video** |
 | `grok_video_category`       | **Grok video**       |
+| `kling_2_5_category`        | **Kling 2.5 Turbo**  |
+| `kling_2_5_pro_category`    | **Kling 2.5 Turbo Pro** |
+| `kling_2_6_category`        | **Kling 2.6**        |
+| `kling_2_6_pro_category`    | **Kling 2.6 Pro**    |
+| `kling_2_6_motion_control_category` | **Kling 2.6 Motion Control** |
+| `kling_3_motion_control_category` | **Kling 3.0 Motion Control** |
+| `kling_3_motion_control_pro_category` | **Kling 3.0 Motion Control Pro** |
+| `kling_3_omni_category`     | **Kling 3.0 Omni**   |
+| `kling_3_omni_pro_category` | **Kling 3.0 Omni Pro** |
+| `kling_3_omni_edit_category` | **Kling 3.0 Omni Edit** |
+| `kling_3_omni_edit_pro_category` | **Kling 3.0 Omni Edit Pro** |
+| `kling_omni_category`       | **Kling O1**         |
+| `kling_omni_pro_category`   | **Kling O1 Pro**     |
 
 #### Музыкальные модели
 
@@ -101,3 +122,4 @@
 | Команда-триггер | Вызывается после |
 | --------------- | ---------------- |
 | `suno_category` | **Suno AI**      |
+| `flow_music_category` | **Flow Music** |
