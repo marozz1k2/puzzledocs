@@ -32,9 +32,11 @@
 
 ## Модели
 
+`💠—` означает, что точная стоимость показывается в интерфейсе перед запуском.
+
 | Ключ | Модель | Стоимость |
 | --- | --- | ---: |
-| `deepgram_nova_3` | Nova-3 | 💠0 |
+| `deepgram_nova_3` | Nova-3 | 💠— |
 | `google_chirp_3` | Chirp 3 | 💠10 |
 | `microsoft_mai_transcribe_1_5` | MAI-Transcribe 1.5 | 💠150 |
 | `mistralai_voxtral_mini_transcribe` | Voxtral Mini Transcribe | 💠2 |
@@ -45,7 +47,7 @@
 | `openai_whisper_large_v3` | Whisper Large V3 | 💠2 |
 | `openai_whisper_large_v3_turbo` | Whisper Large V3 Turbo | 💠25 |
 | `qwen_qwen3_asr_flash_2026_02_10` | Qwen3 ASR Flash | 💠35 |
-| `x_ai_grok_stt_1_0` | Grok STT 1.0 | 💠0 |
+| `x_ai_grok_stt_1_0` | Grok STT 1.0 | 💠— |
 
 ## Ответ
 

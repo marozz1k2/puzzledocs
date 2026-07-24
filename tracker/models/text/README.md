@@ -55,6 +55,8 @@
 | `gpt_terra` | Земля | 💠60 |
 | `gpt_sol` | Солнце | 💠120 |
 
+`💠—` означает, что точная стоимость показывается в интерфейсе перед запуском.
+
 ## Все текстовые модели
 
 В поле `model` передавайте точный ключ из первой колонки.
@@ -80,8 +82,8 @@
 | `aion_labs_aion_1_0` | Aion-1.0 | 💠27 |
 | `aion_labs_aion_1_0_mini` | Aion-1.0-Mini | 💠20 |
 | `aion_labs_aion_2_0` | Aion-2.0 | 💠25 |
-| `aion_labs_aion_3_0` | Aion-3.0 | 💠0 |
-| `aion_labs_aion_3_0_mini` | Aion-3.0-Mini | 💠0 |
+| `aion_labs_aion_3_0` | Aion-3.0 | 💠— |
+| `aion_labs_aion_3_0_mini` | Aion-3.0-Mini | 💠— |
 | `aion_labs_aion_rp_llama_3_1_8b` | Aion-RP 1.0 (8B) | 💠25 |
 | `anthropic_claude_3_haiku` | Claude 3 Haiku | 💠14 |
 | `anthropic_claude_3_5_haiku` | Claude 3.5 Haiku | 💠27 |
@@ -98,13 +100,13 @@
 | `anthropic_claude_opus_4_7_fast` | Claude Opus 4.7 (Fast) | 💠220 |
 | `anthropic_claude_opus_4_8` | Claude Opus 4.8 | 💠220 |
 | `anthropic_claude_opus_4_8_fast` | Claude Opus 4.8 (Fast) | 💠180 |
-| `anthropic_claude_opus_5` | Claude Opus 5 | 💠0 |
-| `anthropic_claude_opus_5_fast` | Claude Opus 5 (Fast) | 💠0 |
+| `anthropic_claude_opus_5` | Claude Opus 5 | 💠— |
+| `anthropic_claude_opus_5_fast` | Claude Opus 5 (Fast) | 💠— |
 | `latest_anthropic_claude_opus_latest` | Claude Opus Latest | 💠220 |
 | `anthropic_claude_sonnet_4` | Claude Sonnet 4 | 💠44 |
 | `anthropic_claude_sonnet_4_5` | Claude Sonnet 4.5 | 💠44 |
 | `anthropic_claude_sonnet_4_6` | Claude Sonnet 4.6 | 💠44 |
-| `anthropic_claude_sonnet_5` | Claude Sonnet 5 | 💠0 |
+| `anthropic_claude_sonnet_5` | Claude Sonnet 5 | 💠— |
 | `latest_anthropic_claude_sonnet_latest` | Claude Sonnet Latest | 💠44 |
 | `arcee_ai_coder_large` | Coder Large | 💠14 |
 | `mistralai_codestral_2508` | Codestral 2508 | 💠13 |
@@ -123,7 +125,7 @@
 | `deepseek_deepseek_v4_pro` | DeepSeek V4 Pro | 💠14 |
 | `mistralai_devstral_2512` | Devstral 2 2512 | 💠25 |
 | `baidu_ernie_4_5_vl_424b_a47b` | ERNIE 4.5 VL 424B A47B | 💠15 |
-| `sakana_fugu_ultra` | Fugu Ultra | 💠0 |
+| `sakana_fugu_ultra` | Fugu Ultra | 💠— |
 | `google_gemini_2_5_flash` | Gemini 2.5 Flash | 💠30 |
 | `google_gemini_2_5_flash_lite_preview_09_2025` | Gemini 2.5 Flash Lite Preview 09-2025 | 💠10 |
 | `google_gemini_2_5_pro_preview_05_06` | Gemini 2.5 Pro Preview 05-06 | 💠25 |
@@ -132,8 +134,8 @@
 | `google_gemini_3_1_flash_lite` | Gemini 3.1 Flash Lite | 💠15 |
 | `google_gemini_3_1_flash_lite_preview` | Gemini 3.1 Flash Lite Preview | 💠15 |
 | `google_gemini_3_1_pro_preview_customtools` | Gemini 3.1 Pro Preview Custom Tools | 💠30 |
-| `google_gemini_3_5_flash_lite` | Gemini 3.5 Flash Lite | 💠0 |
-| `google_gemini_3_6_flash` | Gemini 3.6 Flash | 💠0 |
+| `google_gemini_3_5_flash_lite` | Gemini 3.5 Flash Lite | 💠— |
+| `google_gemini_3_6_flash` | Gemini 3.6 Flash | 💠— |
 | `latest_google_gemini_flash_latest` | Gemini Flash Latest | 💠19 |
 | `latest_google_gemini_pro_latest` | Gemini Pro Latest | 💠30 |
 | `google_gemma_2_27b_it` | Gemma 2 27B | 💠14 |
@@ -155,8 +157,8 @@
 | `z_ai_glm_5` | GLM 5 | 💠26 |
 | `z_ai_glm_5_turbo` | GLM 5 Turbo | 💠26 |
 | `z_ai_glm_5_1` | GLM 5.1 | 💠15 |
-| `z_ai_glm_5_2` | GLM 5.2 | 💠0 |
-| `z_ai_glm_5v_turbo` | GLM 5V Turbo | 💠0 |
+| `z_ai_glm_5_2` | GLM 5.2 | 💠— |
+| `z_ai_glm_5v_turbo` | GLM 5V Turbo | 💠— |
 | `openai_gpt_chat_latest` | GPT Chat Latest | 💠86 |
 | `latest_openai_gpt_latest` | GPT Latest | 💠86 |
 | `latest_openai_gpt_mini_latest` | GPT Mini Latest | 💠25 |
@@ -197,9 +199,9 @@
 | `openai_gpt_5_4_pro` | GPT-5.4 Pro | 💠500 |
 | `openai_gpt_5_5` | GPT-5.5 | 💠86 |
 | `openai_gpt_5_5_pro` | GPT-5.5 Pro | 💠500 |
-| `openai_gpt_5_6_luna` | GPT-5.6 Luna | 💠0 |
-| `openai_gpt_5_6_sol` | GPT-5.6 Sol | 💠0 |
-| `openai_gpt_5_6_terra` | GPT-5.6 Terra | 💠0 |
+| `openai_gpt_5_6_luna` | GPT-5.6 Luna | 💠— |
+| `openai_gpt_5_6_sol` | GPT-5.6 Sol | 💠— |
+| `openai_gpt_5_6_terra` | GPT-5.6 Terra | 💠— |
 | `openai_gpt_oss_20b` | gpt-oss-20b | 💠2 |
 | `openai_gpt_oss_20b_free` | gpt-oss-20b (free) | 💠1 |
 | `openai_gpt_oss_120b` | gpt-oss-120b | 💠2 |
@@ -207,47 +209,47 @@
 | `openai_gpt_oss_safeguard_20b` | gpt-oss-safeguard-20b | 💠2 |
 | `ibm_granite_granite_4_0_h_micro` | Granite 4.0 Micro | 💠2 |
 | `ibm_granite_granite_4_1_8b` | Granite 4.1 8B | 💠2 |
-| `x_ai_grok_4_5` | Grok 4.5 | 💠0 |
+| `x_ai_grok_4_5` | Grok 4.5 | 💠— |
 | `x_ai_grok_4_20` | Grok 4.20 | 💠35 |
 | `x_ai_grok_4_20_multi_agent` | Grok 4.20 Multi-Agent | 💠13 |
 | `x_ai_grok_build_0_1` | Grok Build 0.1 | 💠33 |
-| `latest_x_ai_grok_latest` | Grok Latest | 💠0 |
+| `latest_x_ai_grok_latest` | Grok Latest | 💠— |
 | `nousresearch_hermes_3_llama_3_1_70b` | Hermes 3 70B Instruct | 💠14 |
 | `nousresearch_hermes_3_llama_3_1_405b` | Hermes 3 405B Instruct | 💠19 |
 | `nousresearch_hermes_3_llama_3_1_405b_free` | Hermes 3 405B Instruct (free) | 💠1 |
 | `nousresearch_hermes_4_70b` | Hermes 4 70B | 💠10 |
 | `nousresearch_hermes_4_405b` | Hermes 4 405B | 💠14 |
 | `tencent_hunyuan_a13b_instruct` | Hunyuan A13B Instruct | 💠11 |
-| `tencent_hy3` | Hy3 | 💠0 |
+| `tencent_hy3` | Hy3 | 💠— |
 | `tencent_hy3_preview` | Hy3 preview | 💠2 |
 | `inflection_inflection_3_pi` | Inflection 3 Pi | 💠28 |
 | `inflection_inflection_3_productivity` | Inflection 3 Productivity | 💠28 |
-| `thinkingmachines_inkling` | Inkling | 💠0 |
+| `thinkingmachines_inkling` | Inkling | 💠— |
 | `prime_intellect_intellect_3` | INTELLECT-3 | 💠14 |
 | `ai21_jamba_large_1_7` | Jamba Large 1.7 | 💠15 |
-| `kwaipilot_kat_coder_air_v2_5` | KAT-Coder-Air V2.5 | 💠0 |
+| `kwaipilot_kat_coder_air_v2_5` | KAT-Coder-Air V2.5 | 💠— |
 | `kwaipilot_kat_coder_pro_v2` | KAT-Coder-Pro V2 | 💠14 |
-| `kwaipilot_kat_coder_pro_v2_5` | KAT-Coder-Pro V2.5 | 💠0 |
+| `kwaipilot_kat_coder_pro_v2_5` | KAT-Coder-Pro V2.5 | 💠— |
 | `moonshotai_kimi_k2` | Kimi K2 0711 | 💠31 |
 | `moonshotai_kimi_k2_0905` | Kimi K2 0905 | 💠35 |
 | `moonshotai_kimi_k2_thinking` | Kimi K2 Thinking | 💠35 |
 | `moonshotai_kimi_k2_5` | Kimi K2.5 | 💠22 |
 | `moonshotai_kimi_k2_6` | Kimi K2.6 | 💠15 |
-| `moonshotai_kimi_k2_7_code` | Kimi K2.7 Code | 💠0 |
-| `moonshotai_kimi_k3` | Kimi K3 | 💠0 |
-| `poolside_laguna_m_1` | Laguna M.1 | 💠0 |
+| `moonshotai_kimi_k2_7_code` | Kimi K2.7 Code | 💠— |
+| `moonshotai_kimi_k3` | Kimi K3 | 💠— |
+| `poolside_laguna_m_1` | Laguna M.1 | 💠— |
 | `poolside_laguna_m_1_free` | Laguna M.1 (free) | 💠1 |
-| `poolside_laguna_s_2_1` | Laguna S 2.1 | 💠0 |
-| `poolside_laguna_s_2_1_free` | Laguna S 2.1 (free) | 💠0 |
-| `poolside_laguna_xs_2_1` | Laguna XS 2.1 | 💠0 |
-| `poolside_laguna_xs_2_1_free` | Laguna XS 2.1 (free) | 💠0 |
+| `poolside_laguna_s_2_1` | Laguna S 2.1 | 💠— |
+| `poolside_laguna_s_2_1_free` | Laguna S 2.1 (free) | 💠— |
+| `poolside_laguna_xs_2_1` | Laguna XS 2.1 | 💠— |
+| `poolside_laguna_xs_2_1_free` | Laguna XS 2.1 (free) | 💠— |
 | `poolside_laguna_xs_2_free` | Laguna XS.2 (free) | 💠1 |
 | `liquid_lfm_2_24b_a2b` | LFM2-24B-A2B | 💠2 |
 | `liquid_lfm_2_5_1_2b_instruct_free` | LFM2.5-1.2B-Instruct (free) | 💠1 |
 | `liquid_lfm_2_5_1_2b_thinking_free` | LFM2.5-1.2B-Thinking (free) | 💠1 |
 | `inclusionai_ling_2_6_1t` | Ling-2.6-1T | 💠11 |
 | `inclusionai_ling_2_6_flash` | Ling-2.6-flash | 💠2 |
-| `inclusionai_ling_3_0_flash_free` | Ling-3.0-flash (free) | 💠0 |
+| `inclusionai_ling_3_0_flash_free` | Ling-3.0-flash (free) | 💠— |
 | `meta_llama_llama_3_8b_instruct` | Llama 3 8B Instruct | 💠2 |
 | `sao10k_l3_lunaris_8b` | Llama 3 8B Lunaris | 💠2 |
 | `meta_llama_llama_3_70b_instruct` | Llama 3 70B Instruct | 💠13 |
@@ -267,7 +269,7 @@
 | `meta_llama_llama_4_scout` | Llama 4 Scout | 💠2 |
 | `meta_llama_llama_guard_3_8b` | Llama Guard 3 8B | 💠10 |
 | `meta_llama_llama_guard_4_12b` | Llama Guard 4 12B | 💠2 |
-| `meituan_longcat_2_0` | LongCat 2.0 | 💠0 |
+| `meituan_longcat_2_0` | LongCat 2.0 | 💠— |
 | `anthracite_org_magnum_v4_72b` | Magnum v4 72B | 💠13 |
 | `inception_mercury_2` | Mercury 2 | 💠12 |
 | `xiaomi_mimo_v2_flash` | MiMo-V2-Flash | 💠2 |
@@ -299,7 +301,7 @@
 | `latest_moonshotai_kimi_latest` | MoonshotAI Kimi Latest | 💠15 |
 | `morph_morph_v3_fast` | Morph V3 Fast | 💠19 |
 | `morph_morph_v3_large` | Morph V3 Large | 💠30 |
-| `meta_muse_spark_1_1` | Muse Spark 1.1 | 💠0 |
+| `meta_muse_spark_1_1` | Muse Spark 1.1 | 💠— |
 | `gryphe_mythomax_l2_13b` | MythoMax 13B | 💠2 |
 | `nvidia_nemotron_3_nano_30b_a3b` | Nemotron 3 Nano 30B A3B | 💠2 |
 | `nvidia_nemotron_3_nano_30b_a3b_free` | Nemotron 3 Nano 30B A3B (free) | 💠1 |
@@ -311,10 +313,10 @@
 | `nvidia_nemotron_3_5_content_safety_free` | Nemotron 3.5 Content Safety (free) | 💠1 |
 | `nvidia_nemotron_nano_9b_v2_free` | Nemotron Nano 9B V2 (free) | 💠1 |
 | `nvidia_nemotron_nano_12b_v2_vl_free` | Nemotron Nano 12B 2 VL (free) | 💠1 |
-| `nex_agi_nex_n2_mini` | Nex-N2-Mini | 💠0 |
-| `nex_agi_nex_n2_pro` | Nex-N2-Pro | 💠0 |
+| `nex_agi_nex_n2_mini` | Nex-N2-Mini | 💠— |
+| `nex_agi_nex_n2_pro` | Nex-N2-Pro | 💠— |
 | `nex_agi_nex_n2_pro_free` | Nex-N2-Pro (free) | 💠1 |
-| `cohere_north_mini_code_free` | North Mini Code (free) | 💠0 |
+| `cohere_north_mini_code_free` | North Mini Code (free) | 💠— |
 | `amazon_nova_2_lite_v1` | Nova 2 Lite | 💠30 |
 | `amazon_nova_lite_v1` | Nova Lite 1.0 | 💠2 |
 | `amazon_nova_micro_v1` | Nova Micro 1.0 | 💠2 |
@@ -413,7 +415,7 @@
 | `arcee_ai_trinity_large_thinking` | Trinity Large Thinking | 💠13 |
 | `arcee_ai_trinity_mini` | Trinity Mini | 💠2 |
 | `bytedance_ui_tars_1_5_7b` | UI-TARS 7B | 💠2 |
-| `cognitivecomputations_dolphin_mistral_24b_venice_edition` | Uncensored | 💠0 |
+| `cognitivecomputations_dolphin_mistral_24b_venice_edition` | Uncensored | 💠— |
 | `cognitivecomputations_dolphin_mistral_24b_venice_db66220940` | Uncensored (free) | 💠1 |
 | `thedrummer_unslopnemo_12b` | UnslopNemo 12B | 💠11 |
 | `arcee_ai_virtuoso_large` | Virtuoso Large | 💠18 |

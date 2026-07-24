@@ -4,6 +4,8 @@
 
 Стоимость указана рядом с моделью в формате **💠25**. Перед запуском проверьте значение в интерфейсе: для некоторых видео- и музыкальных операций оно зависит от выбранных параметров.
 
+Если указано **💠—**, точная стоимость появится в интерфейсе перед запуском.
+
 ## Быстрый выбор
 
 | Задача | Что открыть |
@@ -63,8 +65,8 @@
 | Aion-1.0 | 💠27 |
 | Aion-1.0-Mini | 💠20 |
 | Aion-2.0 | 💠25 |
-| Aion-3.0 | 💠0 |
-| Aion-3.0-Mini | 💠0 |
+| Aion-3.0 | 💠— |
+| Aion-3.0-Mini | 💠— |
 | Aion-RP 1.0 (8B) | 💠25 |
 | Claude 3 Haiku | 💠14 |
 | Claude 3.5 Haiku | 💠27 |
@@ -86,15 +88,15 @@
 | Claude Opus 4.8 | 💠220 |
 | Claude Opus 4.8 | 💠75 |
 | Claude Opus 4.8 (Fast) | 💠180 |
-| Claude Opus 5 | 💠0 |
-| Claude Opus 5 (Fast) | 💠0 |
+| Claude Opus 5 | 💠— |
+| Claude Opus 5 (Fast) | 💠— |
 | Claude Opus Latest | 💠220 |
 | Claude Sonnet 4 | 💠44 |
 | Claude Sonnet 4.5 | 💠44 |
 | Claude Sonnet 4.5 | 💠45 |
 | Claude Sonnet 4.6 | 💠44 |
 | Claude Sonnet 4.6 | 💠45 |
-| Claude Sonnet 5 | 💠0 |
+| Claude Sonnet 5 | 💠— |
 | Claude Sonnet 5 | 💠45 |
 | Claude Sonnet Latest | 💠44 |
 | Coder Large | 💠14 |
@@ -116,7 +118,7 @@
 | DeepSeek V4 Pro | 💠14 |
 | Devstral 2 2512 | 💠25 |
 | ERNIE 4.5 VL 424B A47B | 💠15 |
-| Fugu Ultra | 💠0 |
+| Fugu Ultra | 💠— |
 | Gemini 2.5 Flash | 💠30 |
 | Gemini 2.5 Flash Lite Preview 09-2025 | 💠10 |
 | Gemini 2.5 Pro Preview 05-06 | 💠25 |
@@ -125,8 +127,8 @@
 | Gemini 3.1 Flash Lite | 💠15 |
 | Gemini 3.1 Flash Lite Preview | 💠15 |
 | Gemini 3.1 Pro Preview Custom Tools | 💠30 |
-| Gemini 3.5 Flash Lite | 💠0 |
-| Gemini 3.6 Flash | 💠0 |
+| Gemini 3.5 Flash Lite | 💠— |
+| Gemini 3.6 Flash | 💠— |
 | Gemini Flash Latest | 💠19 |
 | Gemini Pro Latest | 💠30 |
 | Gemma 2 27B | 💠14 |
@@ -148,8 +150,8 @@
 | GLM 5 | 💠26 |
 | GLM 5 Turbo | 💠26 |
 | GLM 5.1 | 💠15 |
-| GLM 5.2 | 💠0 |
-| GLM 5V Turbo | 💠0 |
+| GLM 5.2 | 💠— |
+| GLM 5V Turbo | 💠— |
 | GPT Chat Latest | 💠86 |
 | GPT Latest | 💠86 |
 | GPT Mini Latest | 💠25 |
@@ -190,9 +192,9 @@
 | GPT-5.4 Pro | 💠500 |
 | GPT-5.5 | 💠86 |
 | GPT-5.5 Pro | 💠500 |
-| GPT-5.6 Luna | 💠0 |
-| GPT-5.6 Sol | 💠0 |
-| GPT-5.6 Terra | 💠0 |
+| GPT-5.6 Luna | 💠— |
+| GPT-5.6 Sol | 💠— |
+| GPT-5.6 Terra | 💠— |
 | gpt-oss-20b | 💠2 |
 | gpt-oss-20b (free) | 💠1 |
 | gpt-oss-120b | 💠2 |
@@ -201,48 +203,48 @@
 | Granite 4.0 Micro | 💠2 |
 | Granite 4.1 8B | 💠2 |
 | Grok 4.5 | 💠25 |
-| Grok 4.5 | 💠0 |
+| Grok 4.5 | 💠— |
 | Grok 4.20 | 💠35 |
 | Grok 4.20 Multi-Agent | 💠13 |
 | Grok Build 0.1 | 💠33 |
-| Grok Latest | 💠0 |
+| Grok Latest | 💠— |
 | Hermes 3 70B Instruct | 💠14 |
 | Hermes 3 405B Instruct | 💠19 |
 | Hermes 3 405B Instruct (free) | 💠1 |
 | Hermes 4 70B | 💠10 |
 | Hermes 4 405B | 💠14 |
 | Hunyuan A13B Instruct | 💠11 |
-| Hy3 | 💠0 |
+| Hy3 | 💠— |
 | Hy3 preview | 💠2 |
 | Inflection 3 Pi | 💠28 |
 | Inflection 3 Productivity | 💠28 |
-| Inkling | 💠0 |
+| Inkling | 💠— |
 | INTELLECT-3 | 💠14 |
 | Jamba Large 1.7 | 💠15 |
-| KAT-Coder-Air V2.5 | 💠0 |
+| KAT-Coder-Air V2.5 | 💠— |
 | KAT-Coder-Pro V2 | 💠14 |
-| KAT-Coder-Pro V2.5 | 💠0 |
+| KAT-Coder-Pro V2.5 | 💠— |
 | Kimi K2 0711 | 💠31 |
 | Kimi K2 0905 | 💠35 |
 | Kimi K2 Thinking | 💠35 |
 | Kimi K2.5 | 💠22 |
 | Kimi K2.6 | 💠15 |
-| Kimi K2.7 Code | 💠0 |
+| Kimi K2.7 Code | 💠— |
 | Kimi K3 | 💠105 |
-| Kimi K3 | 💠0 |
-| Laguna M.1 | 💠0 |
+| Kimi K3 | 💠— |
+| Laguna M.1 | 💠— |
 | Laguna M.1 (free) | 💠1 |
-| Laguna S 2.1 | 💠0 |
-| Laguna S 2.1 (free) | 💠0 |
-| Laguna XS 2.1 | 💠0 |
-| Laguna XS 2.1 (free) | 💠0 |
+| Laguna S 2.1 | 💠— |
+| Laguna S 2.1 (free) | 💠— |
+| Laguna XS 2.1 | 💠— |
+| Laguna XS 2.1 (free) | 💠— |
 | Laguna XS.2 (free) | 💠1 |
 | LFM2-24B-A2B | 💠2 |
 | LFM2.5-1.2B-Instruct (free) | 💠1 |
 | LFM2.5-1.2B-Thinking (free) | 💠1 |
 | Ling-2.6-1T | 💠11 |
 | Ling-2.6-flash | 💠2 |
-| Ling-3.0-flash (free) | 💠0 |
+| Ling-3.0-flash (free) | 💠— |
 | Llama 3 8B Instruct | 💠2 |
 | Llama 3 8B Lunaris | 💠2 |
 | Llama 3 70B Instruct | 💠13 |
@@ -262,7 +264,7 @@
 | Llama 4 Scout | 💠2 |
 | Llama Guard 3 8B | 💠10 |
 | Llama Guard 4 12B | 💠2 |
-| LongCat 2.0 | 💠0 |
+| LongCat 2.0 | 💠— |
 | Magnum v4 72B | 💠13 |
 | Mercury 2 | 💠12 |
 | MiMo-V2-Flash | 💠2 |
@@ -294,7 +296,7 @@
 | MoonshotAI Kimi Latest | 💠15 |
 | Morph V3 Fast | 💠19 |
 | Morph V3 Large | 💠30 |
-| Muse Spark 1.1 | 💠0 |
+| Muse Spark 1.1 | 💠— |
 | MythoMax 13B | 💠2 |
 | Nemotron 3 Nano 30B A3B | 💠2 |
 | Nemotron 3 Nano 30B A3B (free) | 💠1 |
@@ -306,10 +308,10 @@
 | Nemotron 3.5 Content Safety (free) | 💠1 |
 | Nemotron Nano 9B V2 (free) | 💠1 |
 | Nemotron Nano 12B 2 VL (free) | 💠1 |
-| Nex-N2-Mini | 💠0 |
-| Nex-N2-Pro | 💠0 |
+| Nex-N2-Mini | 💠— |
+| Nex-N2-Pro | 💠— |
 | Nex-N2-Pro (free) | 💠1 |
-| North Mini Code (free) | 💠0 |
+| North Mini Code (free) | 💠— |
 | Nova 2 Lite | 💠30 |
 | Nova Lite 1.0 | 💠2 |
 | Nova Micro 1.0 | 💠2 |
@@ -408,7 +410,7 @@
 | Trinity Large Thinking | 💠13 |
 | Trinity Mini | 💠2 |
 | UI-TARS 7B | 💠2 |
-| Uncensored | 💠0 |
+| Uncensored | 💠— |
 | Uncensored (free) | 💠1 |
 | UnslopNemo 12B | 💠11 |
 | Virtuoso Large | 💠18 |
@@ -530,27 +532,27 @@
 | Сбер спич | 💠5 |
 | Сбер спич (расширенный) | 💠15 |
 | Audio Isolation | 💠25 |
-| Aura-2 | 💠0 |
+| Aura-2 | 💠— |
 | Chirp 3 | 💠10 |
 | CSM 1B | 💠15 |
 | Gemini 3.1 Flash TTS Preview | 💠35 |
 | GPT-4o Mini Transcribe | 💠10 |
 | GPT-4o Transcribe | 💠20 |
-| Grok STT 1.0 | 💠0 |
+| Grok STT 1.0 | 💠— |
 | Grok Voice TTS 1.0 | 💠30 |
 | Kokoro 82M | 💠5 |
 | MAI-Transcribe 1.5 | 💠150 |
 | MAI-Voice-2 | 💠35 |
-| MAI-Voice-2-Flash | 💠0 |
-| Nova-3 | 💠0 |
+| MAI-Voice-2-Flash | 💠— |
+| Nova-3 | 💠— |
 | Orpheus 3B | 💠15 |
 | Parakeet TDT 0.6B v3 | 💠2 |
-| Qwen-Audio-3.0-TTS Flash | 💠0 |
-| Qwen-Audio-3.0-TTS Plus | 💠0 |
+| Qwen-Audio-3.0-TTS Flash | 💠— |
+| Qwen-Audio-3.0-TTS Plus | 💠— |
 | Qwen3 ASR Flash | 💠35 |
 | Sound Effect | 💠20 |
-| Speech 2.8 HD | 💠0 |
-| Speech 2.8 Turbo | 💠0 |
+| Speech 2.8 HD | 💠— |
+| Speech 2.8 Turbo | 💠— |
 | Speech To Text | 💠160 |
 | Text to Dialogue | 💠100 |
 | Text to Speech | 💠100 |
