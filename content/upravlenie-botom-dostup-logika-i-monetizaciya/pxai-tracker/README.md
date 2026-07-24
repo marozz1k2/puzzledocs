@@ -2,14 +2,14 @@
 
 PxAI Tracker позволяет вызывать модели из команд PuzzleBot через действие «Отправить запрос». В запросе всегда передаётся база `bot`, `token`, `user`, `model`; остальные параметры зависят от выбранной модели.
 
-В едином каталоге Unifically доступны 113 моделей, а OpenRouter публикуется отдельными динамическими списками. Стоимость обозначается как `💠25` и показывается рядом с моделью или операцией.
+В каталоге PuzzleAI доступны модели для текста, изображений, видео, голоса и музыки. Стоимость обозначается как `💠25` и показывается рядом с моделью или операцией.
 
 ## Каталоги моделей
 
-- [Текстовые модели](../../../tracker/models/text/README.md), включая OpenRouter text.
+- [Текстовые модели](../../../tracker/models/text/README.md).
 - [Фото-модели](../../../tracker/models/photo/README.md).
 - [Видео-модели](../../../tracker/models/video/README.md).
-- [Голосовые модели](../../../tracker/models/voice/README.md), включая [OpenRouter speech](../../../tracker/models/voice/openrouter-speech.md) и [OpenRouter transcription](../../../tracker/models/voice/openrouter-transcription.md).
+- [Голосовые модели](../../../tracker/models/voice/README.md), включая [синтез речи](../../../tracker/models/voice/speech-catalog.md) и [распознавание речи](../../../tracker/models/voice/transcription-catalog.md).
 - [Музыкальные модели](../../../tracker/models/music/README.md): Suno, Producer, QW Music и FlowMusic.
 
 ## Основной URL-адрес

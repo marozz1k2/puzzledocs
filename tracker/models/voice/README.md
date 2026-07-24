@@ -36,10 +36,10 @@
 | `params` | object | Нет | Вложенные настройки конкретной модели. |
 | `send_answer` | boolean | Нет | `true` отправляет результат в чат, `false` сохраняет его в `{{tracker_answer}}`. |
 
-## Динамические каталоги
+## Дополнительные модели
 
-- [OpenRouter speech](openrouter-speech.md) — 9 активных моделей синтеза речи.
-- [OpenRouter transcription](openrouter-transcription.md) — 10 активных моделей расшифровки аудио.
+- [Синтез речи](speech-catalog.md)
+- [Распознавание речи](transcription-catalog.md)
 
 ## Модели
 

@@ -41,7 +41,6 @@
 | `claude_4_5_haiku_category` | **Claude 4.5 haiku** |
 | `grok_4_category`           | **Grok 4**           |
 | `web_search_category`       | **Web-search**       |
-| `openrouter_text_category`  | **OpenRouter text**  |
 
 #### Компьютерное зрение
 
@@ -62,8 +61,6 @@
 | `yandex_speech_large_category`  | **Yandex speech (large)**    |
 | `sber_speech_category`          | **Sber speech**              |
 | `sber_speech_large_category`    | **Sber speech large**        |
-| `openrouter_speech_category`    | **OpenRouter speech**        |
-| `openrouter_transcription_category` | **OpenRouter transcription** |
 
 #### **Фото модели**
 
@@ -94,8 +91,6 @@
 | `kling_pro_category`        | **Kling pro**        |
 | `veo_category`              | **Veo quality**      |
 | `veo_fast_category`         | **Veo fast**         |
-| `sora_category`             | **Sora**             |
-| `sora_pro_category`         | **Sora Pro**         |
 | `minimax_hailuo_category`   | **Minimax Hailuo**   |
 | `hollywood_video_category`  | **Hollywood video**  |
 | `midjourney_video_category` | **Midjourney Video** |
@@ -122,6 +117,6 @@
 | Команда-триггер | Вызывается после |
 | --------------- | ---------------- |
 | `suno_category` | **Suno** |
-| `producer_category` | **Producer / Google Lyria 3** |
+| `producer_category` | **Producer** |
 | `qwmusic_category` | **QW Music** |
 | `flowmusic_category` | **FlowMusic** |

@@ -1,8 +1,8 @@
 # GPT Audio
 
-GPT Audio — это мощная модель от OpenAI для автоматического распознавания речи. Она позволяет обрабатывать аудиофайлы и голосовые сообщения и переводить их в текст.&#x20;
+GPT Audio распознаёт речь в аудиофайлах и голосовых сообщениях и переводит её в текст.&#x20;
 
-Для альтернативных ASR-моделей через OpenRouter используйте ключи из каталога [OpenRouter transcription](../../../tracker/models/voice/openrouter-transcription.md).
+Другие варианты доступны в каталоге [Распознавание речи](../../../tracker/models/voice/transcription-catalog.md).
 
 ***
 
@@ -69,7 +69,7 @@ GPT Audio — это мощная модель от OpenAI для автомат
 **Создайте команды:**
 
 * `gpt_audio_done`
-* `<model_key>_done` для моделей из каталога OpenRouter transcription, например `openai_whisper_large_v3_done`
+* `<model_key>_done` для моделей из каталога распознавания речи, например `openai_whisper_large_v3_done`
 
 <figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 

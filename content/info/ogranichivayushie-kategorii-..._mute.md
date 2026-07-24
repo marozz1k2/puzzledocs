@@ -60,7 +60,6 @@
 | Категория  | Блокируемая модель / функция     |
 | ---------- | -------------------------------- |
 | `gpt_mute` | **Все текстовые модели ChatGpt** |
-| `openrouter_text_category` | Используйте как категорию доступа к **OpenRouter text**; отдельная общая `..._mute` категория для OpenRouter text не задана. |
 
 #### Компьютерное зрение
 
@@ -79,8 +78,6 @@
 | `gpt_audio_mute`    | **GPT Audio / Whisper**    |
 | `speech_mute`       | **Yandex speech**          |
 | `sber_speech_mute`  | **Sber speech**            |
-| `openrouter_speech_category` | Используйте как категорию доступа к **OpenRouter speech**; отдельная общая `..._mute` категория не задана. |
-| `openrouter_transcription_category` | Используйте как категорию доступа к **OpenRouter transcription**; отдельная общая `..._mute` категория не задана. |
 
 #### **Фото модели**
 
@@ -107,8 +104,6 @@
 | `kling_pro_mute`        | **Kling pro**        |
 | `veo_mute`              | **Veo quality**      |
 | `veo_fast_mute`         | **Veo fast**         |
-| `sora_mute`             | **Sora**             |
-| `sora_pro_mute`         | **Sora Pro**         |
 | `minimax_hailuo_mute`   | **Minimax Hailuo**   |
 | `hollywood_video_mute`  | **Hollywood video**  |
 | `midjourney_video_mute` | **Midjourney Video** |
@@ -135,6 +130,6 @@
 | Команда-триггер | Блокирует   |
 | --------------- | ----------- |
 | `suno_mute` | **Suno** |
-| `producer_mute` | **Producer / Google Lyria 3** |
+| `producer_mute` | **Producer** |
 | `qwmusic_mute` | **QW Music** |
 | `flowmusic_mute` | **FlowMusic** |

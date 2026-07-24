@@ -37,7 +37,7 @@
 * [PxAI Tracker](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/README.md)
   * [Nano Banana](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/nano-banana.md)
   * [GPT Image](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/gpt-image.md)
-  * [Google Veo](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/google-veo.md)
+  * [Veo](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/veo.md)
   * [Document Tracker](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/document-tracker.md)
   * [GPT Audio](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/gpt-audio.md)
   * [Яндекс Спич](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/yandeks-spich.md)

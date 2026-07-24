@@ -1,53 +1,575 @@
 # Модели и стоимость
 
-В едином каталоге Unifically доступно **113 моделей**. Каталог и цены одинаковы в Плагине, Трекере и AI Studios. Модели OpenRouter доступны в отдельных динамических списках.
+Здесь собраны модели PuzzleAI для текста, изображений, видео, голоса и музыки.
 
-Данные синхронизированы 24 июля 2026 года.
+Стоимость указана рядом с моделью в формате **💠25**. Перед запуском проверьте значение в интерфейсе: для некоторых видео- и музыкальных операций оно зависит от выбранных параметров.
 
-| Категория | Моделей | Что можно делать |
+## Быстрый выбор
+
+| Задача | Что открыть |
+| --- | --- |
+| Написать или проанализировать текст | [Текстовые модели](#текстовые-модели) |
+| Создать или изменить изображение | [Изображения](#изображения) |
+| Создать или обработать видео | [Видео](#видео) |
+| Озвучить или расшифровать аудио | [Голос и аудио](#голос-и-аудио) |
+| Создать песню или обработать трек | [Музыка](#музыка) |
+
+## Текстовые модели
+
+Для большинства задач достаточно одной из популярных моделей:
+
+| Модель | Стоимость | Когда выбирать |
 | --- | ---: | --- |
-| Текст | 20 | Писать, анализировать, искать информацию и работать с документами. |
-| Изображения | 31 | Создавать и редактировать изображения, делать апскейл. |
-| Видео | 45 | Создавать видео из текста или изображения, редактировать ролики. |
-| Аудио и музыка | 17 | Озвучивать, расшифровывать, создавать и обрабатывать музыку. |
+| GPT-5.5 | 💠86 | Сложные задачи, анализ и точные развёрнутые ответы. |
+| GPT-5 | 💠25 | Сложные текстовые задачи и логика. |
+| GPT-5 Mini | 💠10 | Быстрые ответы с меньшей стоимостью. |
+| Луна | 💠30 | Быстрые универсальные ответы. |
+| Земля | 💠60 | Сбалансированные сложные задачи. |
+| Солнце | 💠120 | Самые требовательные задачи. |
+| Claude Haiku 4.5 | 💠15 | Быстрые ответы и обработка текста. |
+| Claude Sonnet 4.6 | 💠45 | Тексты, анализ и программирование. |
+| Claude Sonnet 5 | 💠45 | Сложные рассуждения и большие материалы. |
+| Claude Opus 4.8 | 💠75 | Глубокий анализ и сложные инструкции. |
+| Grok 4.5 | 💠25 | Универсальные текстовые задачи. |
+| Kimi K3 | 💠105 | Большие документы и длинный контекст. |
+| Composer 2.5 | 💠5 | Работа с кодом и техническими задачами. |
+| Composer 2.5 Fast | 💠15 | Быстрая работа с кодом. |
+| DeepSeek | 💠10 | Рассуждения, код и анализ. |
+| Gemini 3 Flash | 💠15 | Быстрые ответы и большой контекст. |
+| Gemini 3 Pro | 💠30 | Сложные задачи и большой контекст. |
+| Поиск в интернете | 💠30 | Ответы с поиском актуальной информации. |
 
-## Что означает 💠
+<details>
+<summary><strong>Все текстовые модели</strong></summary>
 
-💠 — единица баланса PuzzleAI. Стоимость указывается коротко, без дополнительной подписи:
+| Модель | Стоимость |
+| --- | ---: |
+| Виспер | 💠2 |
+| Грок 4 | 💠35 |
+| Джеминай 2.5 про | 💠25 |
+| Джеминай 2.5 флэш | 💠10 |
+| Джеминай 3 про | 💠30 |
+| Джеминай 3 флэш | 💠15 |
+| Джипити 4.1 | 💠15 |
+| Джипити 5 | 💠25 |
+| Джипити 5 мини | 💠10 |
+| Джипити 5 нано беспл. | 💠10 |
+| ДипСик | 💠10 |
+| Земля | 💠60 |
+| Клод 4.5 хайку | 💠25 |
+| Луна | 💠30 |
+| Поиск в интернет | 💠30 |
+| Солнце | 💠120 |
+| Aion-1.0 | 💠27 |
+| Aion-1.0-Mini | 💠20 |
+| Aion-2.0 | 💠25 |
+| Aion-3.0 | 💠0 |
+| Aion-3.0-Mini | 💠0 |
+| Aion-RP 1.0 (8B) | 💠25 |
+| Claude 3 Haiku | 💠14 |
+| Claude 3.5 Haiku | 💠27 |
+| Claude Fable 5 | 💠350 |
+| Claude Fable Latest | 💠350 |
+| Claude Haiku 4.5 | 💠25 |
+| Claude Haiku 4.5 | 💠15 |
+| Claude Haiku Latest | 💠25 |
+| Claude Opus 4 | 💠225 |
+| Claude Opus 4.1 | 💠225 |
+| Claude Opus 4.5 | 💠150 |
+| Claude Opus 4.5 | 💠75 |
+| Claude Opus 4.6 | 💠165 |
+| Claude Opus 4.6 | 💠75 |
+| Claude Opus 4.6 (Fast) | 💠220 |
+| Claude Opus 4.7 | 💠180 |
+| Claude Opus 4.7 | 💠75 |
+| Claude Opus 4.7 (Fast) | 💠220 |
+| Claude Opus 4.8 | 💠220 |
+| Claude Opus 4.8 | 💠75 |
+| Claude Opus 4.8 (Fast) | 💠180 |
+| Claude Opus 5 | 💠0 |
+| Claude Opus 5 (Fast) | 💠0 |
+| Claude Opus Latest | 💠220 |
+| Claude Sonnet 4 | 💠44 |
+| Claude Sonnet 4.5 | 💠44 |
+| Claude Sonnet 4.5 | 💠45 |
+| Claude Sonnet 4.6 | 💠44 |
+| Claude Sonnet 4.6 | 💠45 |
+| Claude Sonnet 5 | 💠0 |
+| Claude Sonnet 5 | 💠45 |
+| Claude Sonnet Latest | 💠44 |
+| Coder Large | 💠14 |
+| Codestral 2508 | 💠13 |
+| Cogito v2.1 671B | 💠26 |
+| Command A | 💠28 |
+| Command R (08-2024) | 💠11 |
+| Command R+ (08-2024) | 💠28 |
+| Command R7B (12-2024) | 💠2 |
+| Composer 2.5 | 💠5 |
+| Composer 2.5 Fast | 💠15 |
+| Cydonia 24B V4.1 | 💠11 |
+| DeepSeek V3 | 💠12 |
+| DeepSeek V3 0324 | 💠12 |
+| DeepSeek V3.1 | 💠12 |
+| DeepSeek V3.1 Terminus | 💠13 |
+| DeepSeek V3.2 Exp | 💠11 |
+| DeepSeek V4 Flash | 💠2 |
+| DeepSeek V4 Pro | 💠14 |
+| Devstral 2 2512 | 💠25 |
+| ERNIE 4.5 VL 424B A47B | 💠15 |
+| Fugu Ultra | 💠0 |
+| Gemini 2.5 Flash | 💠30 |
+| Gemini 2.5 Flash Lite Preview 09-2025 | 💠10 |
+| Gemini 2.5 Pro Preview 05-06 | 💠25 |
+| Gemini 2.5 Pro Preview 06-05 | 💠25 |
+| Gemini 3 Flash Preview | 💠40 |
+| Gemini 3.1 Flash Lite | 💠15 |
+| Gemini 3.1 Flash Lite Preview | 💠15 |
+| Gemini 3.1 Pro Preview Custom Tools | 💠30 |
+| Gemini 3.5 Flash Lite | 💠0 |
+| Gemini 3.6 Flash | 💠0 |
+| Gemini Flash Latest | 💠19 |
+| Gemini Pro Latest | 💠30 |
+| Gemma 2 27B | 💠14 |
+| Gemma 3 4B | 💠2 |
+| Gemma 3 12B | 💠2 |
+| Gemma 3 27B | 💠2 |
+| Gemma 3n 4B | 💠2 |
+| Gemma 4 26B A4B | 💠2 |
+| Gemma 4 26B A4B (free) | 💠1 |
+| Gemma 4 31B | 💠8 |
+| Gemma 4 31B (free) | 💠1 |
+| GLM 4.5 | 💠31 |
+| GLM 4.5 Air | 💠12 |
+| GLM 4.5V | 💠25 |
+| GLM 4.6 | 💠21 |
+| GLM 4.6V | 💠13 |
+| GLM 4.7 | 💠21 |
+| GLM 4.7 Flash | 💠7 |
+| GLM 5 | 💠26 |
+| GLM 5 Turbo | 💠26 |
+| GLM 5.1 | 💠15 |
+| GLM 5.2 | 💠0 |
+| GLM 5V Turbo | 💠0 |
+| GPT Chat Latest | 💠86 |
+| GPT Latest | 💠86 |
+| GPT Mini Latest | 💠25 |
+| GPT-3.5 Turbo | 💠19 |
+| GPT-3.5 Turbo (older v0613) | 💠33 |
+| GPT-3.5 Turbo 16k | 💠12 |
+| GPT-3.5 Turbo Instruct | 💠40 |
+| GPT-4 | 💠221 |
+| GPT-4 Turbo | 💠98 |
+| GPT-4 Turbo Preview | 💠98 |
+| GPT-4.1 Mini | 💠19 |
+| GPT-4.1 Nano | 💠10 |
+| GPT-4o | 💠28 |
+| GPT-4o (2024-05-13) | 💠49 |
+| GPT-4o (2024-08-06) | 💠28 |
+| GPT-4o (2024-11-20) | 💠28 |
+| GPT-4o Search Preview | 💠28 |
+| GPT-4o-mini | 💠11 |
+| GPT-4o-mini (2024-07-18) | 💠11 |
+| GPT-4o-mini Search Preview | 💠11 |
+| GPT-5 | 💠25 |
+| GPT-5 Chat | 💠25 |
+| GPT-5 Codex | 💠25 |
+| GPT-5 Mini | 💠23 |
+| GPT-5 Nano | 💠6 |
+| GPT-5 Pro | 💠330 |
+| GPT-5.1 | 💠25 |
+| GPT-5.1 Chat | 💠25 |
+| GPT-5.1-Codex | 💠25 |
+| GPT-5.1-Codex-Max | 💠25 |
+| GPT-5.1-Codex-Mini | 💠23 |
+| GPT-5.2 | 💠39 |
+| GPT-5.2 Chat | 💠39 |
+| GPT-5.2 Pro | 💠463 |
+| GPT-5.2-Codex | 💠39 |
+| GPT-5.3 Chat | 💠39 |
+| GPT-5.3-Codex | 💠39 |
+| GPT-5.4 Pro | 💠500 |
+| GPT-5.5 | 💠86 |
+| GPT-5.5 Pro | 💠500 |
+| GPT-5.6 Luna | 💠0 |
+| GPT-5.6 Sol | 💠0 |
+| GPT-5.6 Terra | 💠0 |
+| gpt-oss-20b | 💠2 |
+| gpt-oss-20b (free) | 💠1 |
+| gpt-oss-120b | 💠2 |
+| gpt-oss-120b (free) | 💠1 |
+| gpt-oss-safeguard-20b | 💠2 |
+| Granite 4.0 Micro | 💠2 |
+| Granite 4.1 8B | 💠2 |
+| Grok 4.5 | 💠25 |
+| Grok 4.5 | 💠0 |
+| Grok 4.20 | 💠35 |
+| Grok 4.20 Multi-Agent | 💠13 |
+| Grok Build 0.1 | 💠33 |
+| Grok Latest | 💠0 |
+| Hermes 3 70B Instruct | 💠14 |
+| Hermes 3 405B Instruct | 💠19 |
+| Hermes 3 405B Instruct (free) | 💠1 |
+| Hermes 4 70B | 💠10 |
+| Hermes 4 405B | 💠14 |
+| Hunyuan A13B Instruct | 💠11 |
+| Hy3 | 💠0 |
+| Hy3 preview | 💠2 |
+| Inflection 3 Pi | 💠28 |
+| Inflection 3 Productivity | 💠28 |
+| Inkling | 💠0 |
+| INTELLECT-3 | 💠14 |
+| Jamba Large 1.7 | 💠15 |
+| KAT-Coder-Air V2.5 | 💠0 |
+| KAT-Coder-Pro V2 | 💠14 |
+| KAT-Coder-Pro V2.5 | 💠0 |
+| Kimi K2 0711 | 💠31 |
+| Kimi K2 0905 | 💠35 |
+| Kimi K2 Thinking | 💠35 |
+| Kimi K2.5 | 💠22 |
+| Kimi K2.6 | 💠15 |
+| Kimi K2.7 Code | 💠0 |
+| Kimi K3 | 💠105 |
+| Kimi K3 | 💠0 |
+| Laguna M.1 | 💠0 |
+| Laguna M.1 (free) | 💠1 |
+| Laguna S 2.1 | 💠0 |
+| Laguna S 2.1 (free) | 💠0 |
+| Laguna XS 2.1 | 💠0 |
+| Laguna XS 2.1 (free) | 💠0 |
+| Laguna XS.2 (free) | 💠1 |
+| LFM2-24B-A2B | 💠2 |
+| LFM2.5-1.2B-Instruct (free) | 💠1 |
+| LFM2.5-1.2B-Thinking (free) | 💠1 |
+| Ling-2.6-1T | 💠11 |
+| Ling-2.6-flash | 💠2 |
+| Ling-3.0-flash (free) | 💠0 |
+| Llama 3 8B Instruct | 💠2 |
+| Llama 3 8B Lunaris | 💠2 |
+| Llama 3 70B Instruct | 💠13 |
+| Llama 3.1 8B Instruct | 💠2 |
+| Llama 3.1 70B Hanami x1 | 💠11 |
+| Llama 3.1 70B Instruct | 💠11 |
+| Llama 3.1 Euryale 70B v2.2 | 💠15 |
+| Llama 3.2 1B Instruct | 💠2 |
+| Llama 3.2 3B Instruct | 💠2 |
+| Llama 3.2 3B Instruct (free) | 💠1 |
+| Llama 3.2 11B Vision Instruct | 💠11 |
+| Llama 3.3 70B Instruct | 💠4 |
+| Llama 3.3 70B Instruct (free) | 💠1 |
+| Llama 3.3 Euryale 70B | 💠14 |
+| Llama 3.3 Nemotron Super 49B V1.5 | 💠11 |
+| Llama 4 Maverick | 💠11 |
+| Llama 4 Scout | 💠2 |
+| Llama Guard 3 8B | 💠10 |
+| Llama Guard 4 12B | 💠2 |
+| LongCat 2.0 | 💠0 |
+| Magnum v4 72B | 💠13 |
+| Mercury 2 | 💠12 |
+| MiMo-V2-Flash | 💠2 |
+| MiMo-V2.5 | 💠4 |
+| MiMo-V2.5-Pro | 💠14 |
+| MiniMax M1 | 💠28 |
+| MiniMax M2 | 💠13 |
+| MiniMax M2-her | 💠14 |
+| MiniMax M2.1 | 💠13 |
+| MiniMax M2.5 | 💠13 |
+| MiniMax M2.7 | 💠13 |
+| MiniMax M3 | 💠14 |
+| MiniMax-01 | 💠14 |
+| Ministral 3 3B 2512 | 💠2 |
+| Ministral 3 8B 2512 | 💠2 |
+| Ministral 3 14B 2512 | 💠2 |
+| Mistral Large | 💠13 |
+| Mistral Large 3 2512 | 💠19 |
+| Mistral Large 2407 | 💠13 |
+| Mistral Medium 3 | 💠25 |
+| Mistral Medium 3.1 | 💠25 |
+| Mistral Medium 3.5 | 💠14 |
+| Mistral Nemo | 💠2 |
+| Mistral Small 3 | 💠2 |
+| Mistral Small 3.1 24B | 💠12 |
+| Mistral Small 3.2 24B | 💠2 |
+| Mistral Small 4 | 💠11 |
+| Mixtral 8x22B Instruct | 💠13 |
+| MoonshotAI Kimi Latest | 💠15 |
+| Morph V3 Fast | 💠19 |
+| Morph V3 Large | 💠30 |
+| Muse Spark 1.1 | 💠0 |
+| MythoMax 13B | 💠2 |
+| Nemotron 3 Nano 30B A3B | 💠2 |
+| Nemotron 3 Nano 30B A3B (free) | 💠1 |
+| Nemotron 3 Nano Omni (free) | 💠1 |
+| Nemotron 3 Super | 💠10 |
+| Nemotron 3 Super (free) | 💠1 |
+| Nemotron 3 Ultra | 💠33 |
+| Nemotron 3 Ultra (free) | 💠1 |
+| Nemotron 3.5 Content Safety (free) | 💠1 |
+| Nemotron Nano 9B V2 (free) | 💠1 |
+| Nemotron Nano 12B 2 VL (free) | 💠1 |
+| Nex-N2-Mini | 💠0 |
+| Nex-N2-Pro | 💠0 |
+| Nex-N2-Pro (free) | 💠1 |
+| North Mini Code (free) | 💠0 |
+| Nova 2 Lite | 💠30 |
+| Nova Lite 1.0 | 💠2 |
+| Nova Micro 1.0 | 💠2 |
+| Nova Premier 1.0 | 💠37 |
+| Nova Pro 1.0 | 💠14 |
+| o1 | 💠184 |
+| o1-pro | 💠500 |
+| o3 | 💠15 |
+| o3 Deep Research | 💠123 |
+| o3 Mini | 💠11 |
+| o3 Mini High | 💠11 |
+| o3 Pro | 💠245 |
+| o4 Mini | 💠11 |
+| o4 Mini Deep Research | 💠15 |
+| o4 Mini High | 💠11 |
+| Olmo 3 32B Think | 💠11 |
+| Palmyra X5 | 💠12 |
+| Perceptron Mk1 | 💠15 |
+| Phi 4 | 💠2 |
+| Phi 4 Mini Instruct | 💠5 |
+| Qwen Plus 0728 | 💠12 |
+| Qwen Plus 0728 (thinking) | 💠12 |
+| Qwen-Plus | 💠12 |
+| Qwen2.5 7B Instruct | 💠2 |
+| Qwen2.5 72B Instruct | 💠11 |
+| Qwen2.5 Coder 32B Instruct | 💠15 |
+| Qwen2.5 VL 72B Instruct | 💠16 |
+| Qwen3 8B | 💠6 |
+| Qwen3 14B | 💠2 |
+| Qwen3 30B A3B | 💠11 |
+| Qwen3 30B A3B Instruct 2507 | 💠2 |
+| Qwen3 30B A3B Thinking 2507 | 💠9 |
+| Qwen3 32B | 💠2 |
+| Qwen3 235B A22B | 💠23 |
+| Qwen3 235B A22B Instruct 2507 | 💠2 |
+| Qwen3 235B A22B Thinking 2507 | 💠2 |
+| Qwen3 Coder 30B A3B Instruct | 💠2 |
+| Qwen3 Coder 480B A35B | 💠19 |
+| Qwen3 Coder 480B A35B (free) | 💠1 |
+| Qwen3 Coder Flash | 💠13 |
+| Qwen3 Coder Next | 💠12 |
+| Qwen3 Coder Plus | 💠13 |
+| Qwen3 Max | 💠25 |
+| Qwen3 Max Thinking | 💠25 |
+| Qwen3 Next 80B A3B Instruct | 💠13 |
+| Qwen3 Next 80B A3B Instruct (free) | 💠1 |
+| Qwen3 Next 80B A3B Thinking | 💠12 |
+| Qwen3 VL 8B Instruct | 💠11 |
+| Qwen3 VL 8B Thinking | 💠14 |
+| Qwen3 VL 30B A3B Instruct | 💠11 |
+| Qwen3 VL 30B A3B Thinking | 💠15 |
+| Qwen3 VL 32B Instruct | 💠10 |
+| Qwen3 VL 235B A22B Instruct | 💠13 |
+| Qwen3 VL 235B A22B Thinking | 💠31 |
+| Qwen3.5 397B A17B | 💠29 |
+| Qwen3.5 Plus 2026-02-15 | 💠16 |
+| Qwen3.5 Plus 2026-04-20 | 💠20 |
+| Qwen3.5-9B | 💠2 |
+| Qwen3.5-27B | 💠16 |
+| Qwen3.5-35B-A3B | 💠13 |
+| Qwen3.5-122B-A10B | 💠24 |
+| Qwen3.5-Flash | 💠2 |
+| Qwen3.6 27B | 💠29 |
+| Qwen3.6 35B A3B | 💠13 |
+| Qwen3.6 Flash | 💠14 |
+| Qwen3.6 Max Preview | 💠13 |
+| Qwen3.6 Plus | 💠23 |
+| Qwen3.7 Plus | 💠15 |
+| R1 | 💠36 |
+| R1 0528 | 💠28 |
+| R1 Distill Llama 70B | 💠15 |
+| R1 Distill Qwen 32B | 💠11 |
+| Reka Edge | 💠2 |
+| Reka Flash 3 | 💠2 |
+| Relace Apply 3 | 💠20 |
+| Relace Search | 💠14 |
+| ReMM SLERP 13B | 💠13 |
+| Ring-2.6-1T | 💠11 |
+| Rnj 1 Instruct | 💠2 |
+| Rocinante 12B | 💠11 |
+| Saba | 💠11 |
+| Seed 1.6 | 💠23 |
+| Seed 1.6 Flash | 💠2 |
+| Seed-2.0-Lite | 💠23 |
+| Seed-2.0-Mini | 💠10 |
+| Skyfall 36B V2 | 💠14 |
+| Solar Pro 3 | 💠11 |
+| Sonar | 💠19 |
+| Sonar Deep Research | 💠15 |
+| Sonar Pro | 💠44 |
+| Sonar Pro Search | 💠44 |
+| Sonar Reasoning Pro | 💠15 |
+| Step 3.5 Flash | 💠2 |
+| Step 3.7 Flash | 💠14 |
+| Switchpoint Router | 💠18 |
+| Trinity Large Thinking | 💠13 |
+| Trinity Mini | 💠2 |
+| UI-TARS 7B | 💠2 |
+| Uncensored | 💠0 |
+| Uncensored (free) | 💠1 |
+| UnslopNemo 12B | 💠11 |
+| Virtuoso Large | 💠18 |
+| Weaver (alpha) | 💠15 |
+| WizardLM-2 8x22B | 💠13 |
 
-- `💠25` — за одну операцию;
-- `💠5/сек.` — за секунду результата;
-- `💠10/час` — за час обработки;
-- `💠2/1000 символов` — за каждую тысячу символов.
+</details>
 
-Перед запуском стоимость показывается рядом с моделью или операцией. Если цена зависит от длительности, размера или других параметров, интерфейс пересчитает её автоматически.
+## Компьютерное зрение
 
-## Как выбрать модель
+| Модель | Стоимость | Для чего подходит |
+| --- | ---: | --- |
+| Vision | 💠10 | Анализ изображений, распознавание текста и объектов. |
 
-1. Выберите категорию: текст, изображение, видео, аудио или музыка.
-2. Откройте подходящую модель.
-3. Заполните только показанные поля.
-4. Проверьте стоимость рядом с кнопкой запуска.
-5. Запустите задачу и дождитесь результата.
+## Изображения
 
-Не обязательно запоминать названия и цены: каталог обновляется автоматически, а актуальное значение всегда видно в интерфейсе.
+| Модель | Стоимость |
+| --- | ---: |
+| Апскейл и улучшение фото | 💠5 |
+| Джипити фото | 💠80 |
+| Клинг имейдж | 💠10 |
+| Миджорни | 💠40 |
+| Нано банана | 💠80 |
+| Си дрим | 💠30 |
+| Флакс 2 макс | 💠50 |
+| Флакс 2 про | 💠25 |
+| Флакс 2 флекс | 💠60 |
+| Flux 2 кляйн | 💠10 |
+| Flux.2 Klein 4B | 💠10 |
+| Flux.2 Klein 9B | 💠15 |
+| Grok Imagine Image | 💠25 |
+| Kling 2.1 Image | 💠10 |
+| Kling 3.0 Image | 💠20 |
+| Kling 3.0 Omni Image | 💠40 |
+| Nano Banana 2 Lite | 💠20 |
+| Nano Banana Pro | 💠39 |
+| Qwen Image | 💠35 |
+| Qwen Image 2.0 | 💠25 |
+| Qwen Image 2.0 Pro | 💠55 |
+| Qwen Image Max | 💠55 |
+| Qwen Image Plus | 💠25 |
+| SeeDream 4.0 | 💠25 |
+| SeeDream 4.5 | 💠35 |
+| SeeDream 5.0 Pro | 💠60 |
+| Wan 2.2 Flash Image | 💠20 |
+| Wan 2.2 Image | 💠35 |
+| Wan 2.5 Image | 💠25 |
+| Wan 2.6 Image | 💠25 |
+| Wan 2.7 Image | 💠25 |
+| Wan 2.7 Pro Image | 💠55 |
+| Z Image Turbo | 💠25 |
+
+## Видео
+
+| Модель | Стоимость |
+| --- | ---: |
+| Вео | 💠300 |
+| Вео быстрый | 💠150 |
+| Голливуд видео | 💠350/сек. |
+| Грок видео | 💠100 |
+| Клинг 2.6 контроль движений | 💠300 |
+| Клинг 3 эдит | 💠300 |
+| Минимакс | 💠120 |
+| Gemini Omni Flash Video | 💠900 |
+| Gemini Omni Flash Video Edit | 💠1200 |
+| Grok Imagine Upscale | 💠50 |
+| Grok Imagine Video | 💠15/сек. |
+| Grok Imagine Video 1.5 | 💠25/сек. |
+| Grok Imagine Video Extend | 💠15/сек. |
+| HappyHorse 1.0 Video | 💠170/сек. |
+| HappyHorse 1.0 Video Edit | 💠170/сек. |
+| HappyHorse 1.1 Video | 💠130/сек. |
+| Kling 2.1 Master Video | 💠200/сек. |
+| Kling 2.1 Video | 💠70/сек. |
+| Kling 2.5 Turbo | 💠300 |
+| Kling 2.5 Turbo Pro | 💠300 |
+| Kling 2.6 | 💠300 |
+| Kling 2.6 Motion Control | 💠80/сек. |
+| Kling 2.6 Pro | 💠300 |
+| Kling 3.0 | 💠300 |
+| Kling 3.0 Motion Control | 💠300 |
+| Kling 3.0 Motion Control Pro | 💠300 |
+| Kling 3.0 Omni | 💠300 |
+| Kling 3.0 Omni Edit Pro | 💠300 |
+| Kling 3.0 Omni Pro | 💠300 |
+| Kling 3.0 Pro | 💠300 |
+| Kling 3.0 Turbo Video | 💠85/сек. |
+| Kling O1 | 💠300 |
+| Kling O1 Pro | 💠300 |
+| Kling O1 Video Edit | 💠120/сек. |
+| Midjourney Video | 💠300 |
+| MiniMax 2.0 | 💠85/сек. |
+| MiniMax 2.3 Fast | 💠55/сек. |
+| SeeDance 1.0 | 💠30/сек. |
+| SeeDance 1.0 Pro | 💠90/сек. |
+| SeeDance 1.0 Pro Fast | 💠40/сек. |
+| SeeDance 1.5 Pro | 💠90/сек. |
+| SeeDance 2.0 Fast | 💠180/сек. |
+| SeeDance 2.0 Mini | 💠150/сек. |
+| Topaz Video Upscale | 💠160/сек. |
+| Veo 3.1 Extend | 💠600 |
+| Veo 3.1 Lite | 💠150 |
+| Veo 3.1 Lite Relaxed | 💠75 |
+| Veo 3.1 Upscale | 💠500 |
+| Wan 2.2 Flash Video | 💠70/сек. |
+| Wan 2.2 Video | 💠280 |
+| Wan 2.5 Video | 💠105/сек. |
+| Wan 2.6 Flash Video | 💠105/сек. |
+| Wan 2.6 Video | 💠105/сек. |
+| Wan 2.7 Video | 💠105/сек. |
+| Wan 2.7 Video Edit | 💠105/сек. |
+
+Стоимость с пометкой «/сек.» считается за секунду готового видео.
+
+## Голос и аудио
+
+| Модель | Стоимость |
+| --- | ---: |
+| Сбер спич | 💠5 |
+| Сбер спич (расширенный) | 💠15 |
+| Audio Isolation | 💠25 |
+| Aura-2 | 💠0 |
+| Chirp 3 | 💠10 |
+| CSM 1B | 💠15 |
+| Gemini 3.1 Flash TTS Preview | 💠35 |
+| GPT-4o Mini Transcribe | 💠10 |
+| GPT-4o Transcribe | 💠20 |
+| Grok STT 1.0 | 💠0 |
+| Grok Voice TTS 1.0 | 💠30 |
+| Kokoro 82M | 💠5 |
+| MAI-Transcribe 1.5 | 💠150 |
+| MAI-Voice-2 | 💠35 |
+| MAI-Voice-2-Flash | 💠0 |
+| Nova-3 | 💠0 |
+| Orpheus 3B | 💠15 |
+| Parakeet TDT 0.6B v3 | 💠2 |
+| Qwen-Audio-3.0-TTS Flash | 💠0 |
+| Qwen-Audio-3.0-TTS Plus | 💠0 |
+| Qwen3 ASR Flash | 💠35 |
+| Sound Effect | 💠20 |
+| Speech 2.8 HD | 💠0 |
+| Speech 2.8 Turbo | 💠0 |
+| Speech To Text | 💠160 |
+| Text to Dialogue | 💠100 |
+| Text to Speech | 💠100 |
+| Voice Changer | 💠100 |
+| Voxtral Mini Transcribe | 💠2 |
+| Voxtral Mini TTS | 💠30 |
+| Whisper 1 | 💠5 |
+| Whisper Large V3 | 💠2 |
+| Whisper Large V3 Turbo | 💠25 |
+| Zonos v0.1 Hybrid | 💠15 |
+| Zonos v0.1 Transformer | 💠15 |
 
 ## Музыка
 
-В музыкальном разделе доступны Suno, Producer / Google Lyria 3, QW Music и FlowMusic.
-
 | Модель | Стоимость | Для чего подходит |
-| --- | --- | --- |
-| Suno | `💠0`–`💠30` | Песни, каверы, stems, ремастеринг, MIDI и редактирование трека. |
-| Producer / Google Lyria 3 | `💠1` или `💠3` | Генерация и точечная замена музыки, вокала или инструментала. |
-| QW Music | `💠1` | Песня по описанию, своему тексту, стилю или мелодии. |
-| FlowMusic | `💠1`–`💠3` | Генерация, продление, замена фрагмента и экспорт. |
+| --- | ---: | --- |
+| [Suno](muzykalnye-modeli-i-operacii.md) | 💠0–💠30 | Песни, каверы, ремастеринг, дорожки, MIDI и редактирование трека. |
+| [Producer](muzykalnye-modeli-i-operacii.md) | 💠1 или 💠3 | Генерация и точечная замена музыки, вокала или инструментала. |
+| [QW Music](muzykalnye-modeli-i-operacii.md) | 💠1 | Песня по описанию, своему тексту, стилю или мелодии. |
+| [FlowMusic](muzykalnye-modeli-i-operacii.md) | 💠1–💠3 | Генерация, продление, замена фрагмента и экспорт. |
 
-[Подробнее о музыкальных моделях и операциях](muzykalnye-modeli-i-operacii.md)
-
-## Актуальный каталог
-
-- [Каталог моделей Unifically](https://unifically.com/models)
-- [Цены Unifically](https://unifically.com/pricing)
-
-Коммерческая стоимость PuzzleAI может отличаться от внешнего прайса. Для списания всегда используется значение, показанное в PuzzleAI.
+[Все музыкальные операции и параметры](muzykalnye-modeli-i-operacii.md)

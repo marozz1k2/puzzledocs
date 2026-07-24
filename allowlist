@@ -13,7 +13,7 @@
 
 - Глобальное правило: новые ветки не создавать; все изменения, коммиты и PR выполняются только в `main`.
 - Отдельная статья создаётся для моделей и сценариев с уникальными параметрами запроса. Текстовые модели с одинаковой схемой запроса объединяются в общую статью `tracker/models/text/README.md`.
-- Для массовых OpenRouter-моделей используется отдельная статья-каталог на категорию (`openrouter_text_category`, `openrouter_speech_category`, `openrouter_transcription_category`), потому что список синхронизируется с активными моделями и меняется динамически.
+- Модели с одинаковой схемой запроса объединяются в одну понятную статью-каталог.
 - Во всех статьях использовать только термин `no-code API`.
 - В пользовательских статьях использовать термин **`URL-адрес`** (вместо слова `endpoint`).
 - Не публиковать служебную/системную информацию (например: `system_role`, внутренние команды, skills, внутренние поля маршрутизации).
@@ -59,7 +59,6 @@
 - gpt_4_mini
 - deepseek
 - vision
-- openrouter_text_category
 
 ### photo
 
@@ -82,8 +81,6 @@
 
 - veo
 - veo_fast
-- sora
-- sora_pro
 - grok_video
 - higgsfield_video
 - minimax_hailuo
@@ -112,8 +109,6 @@
 - gpt_audio
 - sber_speech_large
 - sber_speech
-- openrouter_speech_category
-- openrouter_transcription_category
 
 ### music
 
@@ -154,7 +149,6 @@
 | gpt_4_mini | gpt | tracker/models/text/ |
 | deepseek | gpt | tracker/models/text/ |
 | vision | gpt | tracker/models/text/ |
-| openrouter_text_category | gpt | tracker/models/text/README.md |
 | nano_banana | photo | tracker/models/photo/ |
 | nano_banana_pro | photo | tracker/models/photo/ |
 | midjourney | photo | tracker/models/photo/ |
@@ -171,8 +165,6 @@
 | kling_image | photo | tracker/models/photo/ |
 | veo | video | tracker/models/video/ |
 | veo_fast | video | tracker/models/video/ |
-| sora | video | tracker/models/video/ |
-| sora_pro | video | tracker/models/video/ |
 | grok_video | video | tracker/models/video/ |
 | higgsfield_video | video | tracker/models/video/ |
 | minimax_hailuo | video | tracker/models/video/ |
@@ -198,8 +190,6 @@
 | gpt_audio | sound | tracker/models/voice/ |
 | sber_speech_large | sound | tracker/models/voice/ |
 | sber_speech | sound | tracker/models/voice/ |
-| openrouter_speech_category | sound | tracker/models/voice/openrouter-speech.md |
-| openrouter_transcription_category | sound | tracker/models/voice/openrouter-transcription.md |
 | suno | music | tracker/models/music/ |
 | producer | music | tracker/models/music/producer.md |
 | qwmusic | music | tracker/models/music/qw-music.md |

@@ -28,7 +28,7 @@
 | `claude_4_5_haiku_done` | **Claude 4.5 haiku** |
 | `grok_4_done`           | **Grok 4**           |
 | `web_search_done`       | **Web-search**       |
-| `<model_key>_done`      | **OpenRouter text**. Для каждой модели используется свой ключ из [списка текстовых моделей](../../tracker/models/text/README.md), например `openai_gpt_5_4_pro_done`. |
+| `<model_key>_done`      | Для каждой дополнительной текстовой модели используется свой ключ из [списка моделей](../../tracker/models/text/README.md), например `openai_gpt_5_4_pro_done`. |
 
 #### Компьютерное зрение
 
@@ -49,8 +49,8 @@
 | `yandex_speech_large_done` | **Yandex speech (large)**    |
 | `sber_speech_done`         | **Sber speech**              |
 | `sber_speech_large_done`   | **Sber speech large**        |
-| `<model_key>_done`         | **OpenRouter speech**. Для каждой модели используется свой ключ из [каталога](../../tracker/models/voice/openrouter-speech.md). |
-| `<model_key>_done`         | **OpenRouter transcription**. Для каждой модели используется свой ключ из [каталога](../../tracker/models/voice/openrouter-transcription.md). |
+| `<model_key>_done`         | Для моделей синтеза речи используется свой ключ из [каталога](../../tracker/models/voice/speech-catalog.md). |
+| `<model_key>_done`         | Для моделей распознавания речи используется свой ключ из [каталога](../../tracker/models/voice/transcription-catalog.md). |
 
 #### **Фото модели**
 
@@ -81,8 +81,6 @@
 | `kling_pro_done`   | **Kling pro**        |
 | `veo_done`         | **Veo quality**      |
 | `veo_fast_done`    | **Veo fast**         |
-| `sora_done`        | **Sora**             |
-| `sora_pro_done`    | **Sora Pro**         |
 | `minimax_hailuo_done` | **Minimax Hailuo** |
 | `hollywood_video_done` | **Hollywood video** |
 | `midjourney_video_done` | **Midjourney Video** |
@@ -109,7 +107,7 @@
 | Команда-триггер | Вызывается после |
 | --------------- | ---------------- |
 | `suno_done` | **Suno** |
-| `producer_done` | **Producer / Google Lyria 3** |
+| `producer_done` | **Producer** |
 | `qwmusic_done` | **QW Music** |
 | `flowmusic_done` | **FlowMusic** |
 

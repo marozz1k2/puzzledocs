@@ -40,8 +40,6 @@
 
 - [veo](veo.md)
 - [veo_fast](veo-fast.md)
-- [sora](sora.md)
-- [sora_pro](sora-pro.md)
 - [grok_video](grok-video.md)
 - [higgsfield_video](higgsfield-video.md)
 - [hollywood_video](hollywood-video.md)

@@ -10,10 +10,11 @@ hidden: true
 
 <summary>Новое</summary>
 
-* Добавлен обзор единого каталога из 113 моделей Unifically.
-* Документированы 31 операция Suno, 12 операций Producer / Google Lyria 3, QW Music и обновлённый FlowMusic.
+* Восстановлен полный каталог PuzzleAI с актуальными текстовыми, графическими, видео-, голосовыми и музыкальными моделями.
+* Документированы операции Suno, Producer, QW Music и FlowMusic.
 * Добавлены рабочие примеры Трекера для `suno`, `producer`, `qwmusic` и `flowmusic`.
-* Стоимость во всех пользовательских статьях приведена к формату `💠25` без словесной подписи.
+* Стоимость во всех пользовательских статьях приведена к формату `💠25`.
+* Удалены устаревшие сведения о тарифах и недоступных видео-моделях.
 
 </details>
 
@@ -23,8 +24,8 @@ hidden: true
 
 <summary>Новое</summary>
 
-* Добавлены динамические каталоги OpenRouter для трекера: `openrouter_text_category` (326 моделей), `openrouter_speech_category` (9 моделей) и `openrouter_transcription_category` (10 моделей).
-* Обновлены навигация, главная страница, allowlist и разделы моделей для новых OpenRouter-страниц.
+* Добавлены расширенные каталоги текстовых и голосовых моделей для Трекера.
+* Обновлены навигация, главная страница, allowlist и разделы моделей.
 * Текстовые модели с одинаковой схемой запроса объединены в одну статью трекера; отдельными остались только сценарии с отличающимися параметрами.
 
 </details>
@@ -37,7 +38,6 @@ hidden: true
 
 * Добавлены страницы новых активных моделей трекера: `minimax_hailuo`, `hollywood_video`, `midjourney_video`, `flux_2_klein`.
 * После сверки с живой таблицей `model_labels` добавлены активные модели `gpt_image_2`, `gpt_image_1_5`, `nano_banana_pro` и новые варианты Kling: `kling_2_5`, `kling_2_5_pro`, `kling_2_6`, `kling_2_6_pro`, `kling_2_6_motion_control`, `kling_3_motion_control`, `kling_3_motion_control_pro`, `kling_3_omni`, `kling_3_omni_pro`, `kling_3_omni_edit`, `kling_3_omni_edit_pro`, `kling_omni`, `kling_omni_pro`.
-* Добавлены видео-модели `sora` и `sora_pro` с параметрами `images`, `params.aspect_ratio`, `params.size` и `params.seconds`.
 * Уточнено, что ключ `gpt_5` в документации относится к поколению GPT-5.5.
 * Уточнены параметры `gpt_image`: субмодели `gpt_image_2` / `gpt_image_1_5`, качество `medium` / `high`, форматы `1:1`, `2:3`, `3:2`.
 * Уточнён параметр фона `params.background` для `gpt_image`, `gpt_image_2` и `gpt_image_1_5`.
