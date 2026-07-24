@@ -8,7 +8,7 @@ PxAI помогает добавить ИИ в вашего бота на кон
 PxAI работает только совместно с конструктором PuzzleBot
 {% endhint %}
 
-<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><p><strong>PuzzleBot</strong></p><p>отвечает за сценарии, команды, мини-приложения и логику внутри Telegram. </p></td><td><a href=".gitbook/assets/photo_2024-03-27_13-30-48.jpg">photo_2024-03-27_13-30-48.jpg</a></td></tr><tr><td><strong>PxAI</strong> <br>берёт на себя подключение нейросетей, биллинг и учёт AI-запросов. </td><td><a href=".gitbook/assets/photo_2024-07-24_08-59-15.jpg">photo_2024-07-24_08-59-15.jpg</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><p><strong>PuzzleBot</strong></p><p>отвечает за сценарии, команды, мини-приложения и логику внутри Telegram. </p></td><td><a href=".gitbook/assets/photo_2024-03-27_13-30-48.jpg">photo_2024-03-27_13-30-48.jpg</a></td></tr><tr><td><strong>PxAI</strong> <br>берёт на себя подключение нейросетей, биллинг и учёт баланса 💠. </td><td><a href=".gitbook/assets/photo_2024-07-24_08-59-15.jpg">photo_2024-07-24_08-59-15.jpg</a></td></tr></tbody></table>
 
 ### Какие задачи решает PxAI
 

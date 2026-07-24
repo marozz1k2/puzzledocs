@@ -134,5 +134,7 @@
 
 | Команда-триггер | Блокирует   |
 | --------------- | ----------- |
-| `suno_mute`     | **Suno AI** |
-| `flow_music_mute` | **Flow Music** |
+| `suno_mute` | **Suno** |
+| `producer_mute` | **Producer / Google Lyria 3** |
+| `qwmusic_mute` | **QW Music** |
+| `flowmusic_mute` | **FlowMusic** |

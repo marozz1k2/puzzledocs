@@ -108,6 +108,8 @@
 
 | Команда-триггер | Вызывается после |
 | --------------- | ---------------- |
-| `suno_done`     | **Suno AI**      |
-| `flow_music_done` | **Flow Music** |
+| `suno_done` | **Suno** |
+| `producer_done` | **Producer / Google Lyria 3** |
+| `qwmusic_done` | **QW Music** |
+| `flowmusic_done` | **FlowMusic** |
 

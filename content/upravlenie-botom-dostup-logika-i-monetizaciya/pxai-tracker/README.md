@@ -1,6 +1,8 @@
 # PxAI Tracker
 
-PxAI Tracker позволяет вызывать AI-модели из команд PuzzleBot через действие «Отправить запрос». В запросе всегда передаётся база `bot`, `token`, `user`, `model`; остальные параметры зависят от выбранной модели.
+PxAI Tracker позволяет вызывать модели из команд PuzzleBot через действие «Отправить запрос». В запросе всегда передаётся база `bot`, `token`, `user`, `model`; остальные параметры зависят от выбранной модели.
+
+В едином каталоге Unifically доступны 113 моделей, а OpenRouter публикуется отдельными динамическими списками. Стоимость обозначается как `💠25` и показывается рядом с моделью или операцией.
 
 ## Каталоги моделей
 
@@ -8,7 +10,7 @@ PxAI Tracker позволяет вызывать AI-модели из коман
 - [Фото-модели](../../../tracker/models/photo/README.md).
 - [Видео-модели](../../../tracker/models/video/README.md).
 - [Голосовые модели](../../../tracker/models/voice/README.md), включая [OpenRouter speech](../../../tracker/models/voice/openrouter-speech.md) и [OpenRouter transcription](../../../tracker/models/voice/openrouter-transcription.md).
-- [Музыкальные модели](../../../tracker/models/music/README.md).
+- [Музыкальные модели](../../../tracker/models/music/README.md): Suno, Producer, QW Music и FlowMusic.
 
 ## Основной URL-адрес
 

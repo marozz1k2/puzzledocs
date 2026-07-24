@@ -8,6 +8,7 @@
 
 ## Трекер запросы
 
+* [Каталог моделей и стоимость](tracker/models/catalog.md)
 * [Текстовые модели](tracker/models/text/README.md)
   * [vision](tracker/models/text/vision.md)
   * [Создание документов](tracker/models/text/document-creation.md)
@@ -67,6 +68,8 @@
   * [suno: продление](tracker/models/music/suno-extend.md)
   * [suno: разделение](tracker/models/music/suno-separate.md)
   * [suno: submodels](tracker/models/music/suno-submodels.md)
-  * [flow_music](tracker/models/music/flow-music.md)
+  * [producer](tracker/models/music/producer.md)
+  * [qwmusic](tracker/models/music/qw-music.md)
+  * [flowmusic](tracker/models/music/flow-music.md)
 * [Другое](tracker/models/other/README.md)
   * [upscale](tracker/models/other/upscale.md)

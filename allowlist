@@ -118,7 +118,9 @@
 ### music
 
 - suno
-- flow_music
+- producer
+- qwmusic
+- flowmusic
 
 #### Методы музыкальных моделей
 
@@ -199,7 +201,9 @@
 | openrouter_speech_category | sound | tracker/models/voice/openrouter-speech.md |
 | openrouter_transcription_category | sound | tracker/models/voice/openrouter-transcription.md |
 | suno | music | tracker/models/music/ |
-| flow_music | music | tracker/models/music/ |
+| producer | music | tracker/models/music/producer.md |
+| qwmusic | music | tracker/models/music/qw-music.md |
+| flowmusic | music | tracker/models/music/flow-music.md |
 | upscale | other | tracker/models/other/ |
 
 ## Матрица методов музыкальных моделей

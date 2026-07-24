@@ -121,5 +121,7 @@
 
 | Команда-триггер | Вызывается после |
 | --------------- | ---------------- |
-| `suno_category` | **Suno AI**      |
-| `flow_music_category` | **Flow Music** |
+| `suno_category` | **Suno** |
+| `producer_category` | **Producer / Google Lyria 3** |
+| `qwmusic_category` | **QW Music** |
+| `flowmusic_category` | **FlowMusic** |

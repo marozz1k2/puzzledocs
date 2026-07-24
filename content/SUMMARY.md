@@ -21,7 +21,7 @@
   * [Супер-роль](getting-started/biznes-funkcii/super-rol.md)
   * [Контент-завод](getting-started/biznes-funkcii/kontent-zavod.md)
 * [Тарифы](getting-started/tarify/README.md)
-  * [Пакеты AI-запросов](getting-started/tarify/pakety-ai-zaprosov.md)
+  * [Пакеты 💠](getting-started/tarify/pakety-ai-zaprosov.md)
 
 ## Управление ботом: доступ, логика и монетизация
 
@@ -33,7 +33,7 @@
   * [Прием платежей и монетизация](upravlenie-botom-dostup-logika-i-monetizaciya/osnovnaya-logika/priem-platezhei-i-monetizaciya.md)
 * [Полезные функции](upravlenie-botom-dostup-logika-i-monetizaciya/poleznye-funkcii/README.md)
   * [Персональная очистка истории диалога с GPT](upravlenie-botom-dostup-logika-i-monetizaciya/poleznye-funkcii/personalnaya-ochistka-istorii-dialoga-s-gpt.md)
-  * [Мониторинг остатка AI-запросов](upravlenie-botom-dostup-logika-i-monetizaciya/poleznye-funkcii/monitoring-ostatka-ai-zaprosov.md)
+  * [Мониторинг баланса 💠](upravlenie-botom-dostup-logika-i-monetizaciya/poleznye-funkcii/monitoring-ostatka-ai-zaprosov.md)
 * [PxAI Tracker](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/README.md)
   * [Nano Banana](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/nano-banana.md)
   * [GPT Image](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/gpt-image.md)
@@ -50,7 +50,8 @@
 
 ## Справочник <a href="#info" id="info"></a>
 
-* [AI-модели и стоимость](info/ai-modeli-i-stoimost.md)
+* [Модели и стоимость](info/ai-modeli-i-stoimost.md)
+* [Музыка: модели и операции](info/muzykalnye-modeli-i-operacii.md)
 * [Команды-триггеры (...\_done)](info/komandy-triggery-..._done.md)
 * [Ограничивающие категории (...\_mute)](info/ogranichivayushie-kategorii-..._mute.md)
 * [Категории сегментации (...\_category)](info/kategorii-segmentacii-..._category.md)
