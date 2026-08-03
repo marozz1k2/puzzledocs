@@ -2,7 +2,7 @@
 
 GPT Audio распознаёт речь в аудиофайлах и голосовых сообщениях и переводит её в текст.&#x20;
 
-Другие варианты доступны в каталоге [Распознавание речи](../../../tracker/models/voice/transcription-catalog.md).
+Другие варианты доступны в каталоге [Распознавание речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog).
 
 ***
 

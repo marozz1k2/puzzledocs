@@ -28,7 +28,7 @@
 | `claude_4_5_haiku_done` | **Claude 4.5 haiku** |
 | `grok_4_done`           | **Grok 4**           |
 | `web_search_done`       | **Web-search**       |
-| `<model_key>_done`      | Для каждой дополнительной текстовой модели используется свой ключ из [списка моделей](../../tracker/models/text/README.md), например `openai_gpt_5_4_pro_done`. |
+| `<model_key>_done`      | Для каждой дополнительной текстовой модели используется свой ключ из [списка моделей](https://docs.pxsto.re/tracker/treker-zaprosy/text), например `openai_gpt_5_4_pro_done`. |
 
 #### Компьютерное зрение
 
@@ -49,8 +49,8 @@
 | `yandex_speech_large_done` | **Yandex speech (large)**    |
 | `sber_speech_done`         | **Sber speech**              |
 | `sber_speech_large_done`   | **Sber speech large**        |
-| `<model_key>_done`         | Для моделей синтеза речи используется свой ключ из [каталога](../../tracker/models/voice/speech-catalog.md). |
-| `<model_key>_done`         | Для моделей распознавания речи используется свой ключ из [каталога](../../tracker/models/voice/transcription-catalog.md). |
+| `<model_key>_done`         | Для моделей синтеза речи используется свой ключ из [каталога](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog). |
+| `<model_key>_done`         | Для моделей распознавания речи используется свой ключ из [каталога](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog). |
 
 #### **Фото модели**
 

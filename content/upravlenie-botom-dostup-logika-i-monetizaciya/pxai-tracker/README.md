@@ -6,11 +6,11 @@ PxAI Tracker позволяет вызывать модели из команд 
 
 ## Каталоги моделей
 
-- [Текстовые модели](../../../tracker/models/text/README.md).
-- [Фото-модели](../../../tracker/models/photo/README.md).
-- [Видео-модели](../../../tracker/models/video/README.md).
-- [Голосовые модели](../../../tracker/models/voice/README.md), включая [синтез речи](../../../tracker/models/voice/speech-catalog.md) и [распознавание речи](../../../tracker/models/voice/transcription-catalog.md).
-- [Музыкальные модели](../../../tracker/models/music/README.md): Suno, Producer, QW Music и FlowMusic.
+- [Текстовые модели](https://docs.pxsto.re/tracker/treker-zaprosy/text).
+- [Фото-модели](https://docs.pxsto.re/tracker/treker-zaprosy/photo).
+- [Видео-модели](https://docs.pxsto.re/tracker/treker-zaprosy/video).
+- [Голосовые модели](https://docs.pxsto.re/tracker/treker-zaprosy/voice), включая [синтез речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) и [распознавание речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog).
+- [Музыкальные модели](https://docs.pxsto.re/tracker/treker-zaprosy/music): Suno, Producer, QW Music и FlowMusic.
 
 ## Основной URL-адрес
 
