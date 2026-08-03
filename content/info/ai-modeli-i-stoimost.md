@@ -570,9 +570,9 @@
 
 | Модель | Стоимость | Для чего подходит |
 | --- | ---: | --- |
-| [Suno](muzykalnye-modeli-i-operacii.md) | 💠0–💠30 | Песни, каверы, ремастеринг, дорожки, MIDI и редактирование трека. |
-| [Producer](muzykalnye-modeli-i-operacii.md) | 💠1 или 💠3 | Генерация и точечная замена музыки, вокала или инструментала. |
-| [QW Music](muzykalnye-modeli-i-operacii.md) | 💠1 | Песня по описанию, своему тексту, стилю или мелодии. |
-| [FlowMusic](muzykalnye-modeli-i-operacii.md) | 💠1–💠3 | Генерация, продление, замена фрагмента и экспорт. |
+| [Suno](muzykalnye-modeli-i-operacii.md) | 💠30 | Песни, каверы, ремастеринг, дорожки, MIDI и редактирование трека. |
+| [Producer](muzykalnye-modeli-i-operacii.md) | 💠30 | Генерация и точечная замена музыки, вокала или инструментала. |
+| [QW Music](muzykalnye-modeli-i-operacii.md) | 💠30 | Песня по описанию, своему тексту, стилю или мелодии. |
+| [FlowMusic](muzykalnye-modeli-i-operacii.md) | 💠30 | Генерация, продление, замена фрагмента и экспорт. |
 
 [Все музыкальные операции и параметры](muzykalnye-modeli-i-operacii.md)

@@ -22,18 +22,18 @@
 
 | Операция | `action` | Основные параметры | Стоимость |
 | --- | --- | --- | ---: |
-| Создать музыку | `generate` | `sound_prompt`, `lyrics_text` | 💠3 |
-| Создать текст песни | `lyrics` | `prompt` | 💠1 |
-| Продолжить трек | `extend` | `music_id`, `starts`, `sound_prompt` | 💠3 |
-| Сделать кавер | `cover` | `music_id`, `sound_prompt`, `lyrics_text` | 💠3 |
-| Создать вариацию | `variation` | `music_id` | 💠3 |
-| Заменить фрагмент | `replace` | `music_id`, `starts`, `ends`, `sound_prompt` | 💠3 |
-| Заменить вокал | `vocals_swap` | `music_id`, `sound_prompt`, `lyrics_text` | 💠3 |
-| Заменить инструментал | `instrumentals_swap` | `music_id`, `sound_prompt` | 💠3 |
-| Разделить дорожки | `stems` | `music_id` | 💠3 |
-| Скачать аудио | `download` | `music_id`, `format` | 💠1 |
-| Загрузить аудио | `upload` | `audio_url` | 💠1 |
-| Создать видео | `generate_video` | `music_id`, `preset` | 💠3 |
+| Создать музыку | `generate` | `sound_prompt`, `lyrics_text` | 💠30 |
+| Создать текст песни | `lyrics` | `prompt` | 💠30 |
+| Продолжить трек | `extend` | `music_id`, `starts`, `sound_prompt` | 💠30 |
+| Сделать кавер | `cover` | `music_id`, `sound_prompt`, `lyrics_text` | 💠30 |
+| Создать вариацию | `variation` | `music_id` | 💠30 |
+| Заменить фрагмент | `replace` | `music_id`, `starts`, `ends`, `sound_prompt` | 💠30 |
+| Заменить вокал | `vocals_swap` | `music_id`, `sound_prompt`, `lyrics_text` | 💠30 |
+| Заменить инструментал | `instrumentals_swap` | `music_id`, `sound_prompt` | 💠30 |
+| Разделить дорожки | `stems` | `music_id` | 💠30 |
+| Скачать аудио | `download` | `music_id`, `format` | 💠30 |
+| Загрузить аудио | `upload` | `audio_url` | 💠30 |
+| Создать видео | `generate_video` | `music_id`, `preset` | 💠30 |
 
 ## Основные параметры
 

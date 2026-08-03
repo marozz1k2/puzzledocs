@@ -40,8 +40,6 @@
   * [Veo](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/veo.md)
   * [Document Tracker](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/document-tracker.md)
   * [GPT Audio](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/gpt-audio.md)
-  * [Яндекс Спич](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/yandeks-spich.md)
-  * [Видеоэффекты (VFX)](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/videoeffekty-vfx.md)
   * [Музыкальное приложение](upravlenie-botom-dostup-logika-i-monetizaciya/pxai-tracker/muzykalnoe-prilozhenie.md)
 * [Бизнес-кейсы](upravlenie-botom-dostup-logika-i-monetizaciya/biznes-keisy/README.md)
   * [AI модерация чата](upravlenie-botom-dostup-logika-i-monetizaciya/biznes-keisy/ai-moderaciya-chata.md)

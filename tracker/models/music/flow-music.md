@@ -21,14 +21,14 @@
 
 | Операция | `action` | Основные параметры | Стоимость |
 | --- | --- | --- | ---: |
-| Создать музыку | `generate` | `sound_prompt`, `lyrics` | 💠3 |
-| Продолжить трек | `extend` | `clip_id`, позиция продолжения | 💠3 |
-| Заменить фрагмент | `replace` | `clip_id`, начало, конец, инструкция | 💠3 |
-| Разделить дорожки | `stems` | `clip_id` | 💠3 |
-| Создать текст песни | `lyrics` | `prompt` | 💠1 |
-| Скачать аудио | `download_audio` | `clip_id`, `format` | 💠1 |
-| Создать видео | `video_clip` | `clip_id`, `preset` | 💠1 |
-| Загрузить аудио | `upload_audio` | `audio_url` | 💠1 |
+| Создать музыку | `generate` | `sound_prompt`, `lyrics` | 💠30 |
+| Продолжить трек | `extend` | `clip_id`, позиция продолжения | 💠30 |
+| Заменить фрагмент | `replace` | `clip_id`, начало, конец, инструкция | 💠30 |
+| Разделить дорожки | `stems` | `clip_id` | 💠30 |
+| Создать текст песни | `lyrics` | `prompt` | 💠30 |
+| Скачать аудио | `download_audio` | `clip_id`, `format` | 💠30 |
+| Создать видео | `video_clip` | `clip_id`, `preset` | 💠30 |
+| Загрузить аудио | `upload_audio` | `audio_url` | 💠30 |
 
 ## Основные параметры
 
