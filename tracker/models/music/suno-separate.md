@@ -11,7 +11,7 @@ Suno умеет отделить выбранную дорожку или под
   "user": "{{USER_ID_TEXT}}", // обязательно.
   "model": "suno", // обязательно.
   "action": "stems", // разделить вокал и инструментал.
-  "music_id": "{{music_id}}", // ID исходного трека.
+  "music_id": "{{suno_music_id}}", // ID исходного трека из music_id_variable.
   "stem_type": "vocals" // нужная дорожка.
 }
 ```

@@ -9,7 +9,7 @@
   "user": "{{USER_ID_TEXT}}", // обязательно.
   "model": "suno", // обязательно.
   "action": "extend", // продолжить трек.
-  "music_id": "{{music_id}}", // ID исходного трека.
+  "music_id": "{{suno_music_id}}", // ID исходного трека из music_id_variable.
   "continue_at": 60, // с какой секунды продолжить.
   "mv": "chirp-v5-5", // версия Suno.
   "prompt": "Добавь финальный припев и плавное завершение" // инструкция.

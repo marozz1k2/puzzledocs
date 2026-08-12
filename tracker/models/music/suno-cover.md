@@ -11,7 +11,7 @@
   "user": "{{USER_ID_TEXT}}", // обязательно.
   "model": "suno", // обязательно.
   "action": "cover", // создать кавер.
-  "music_id": "{{music_id}}", // ID исходного трека.
+  "music_id": "{{suno_music_id}}", // ID исходного трека из music_id_variable.
   "mv": "chirp-v5-5", // версия Suno.
   "prompt": "Акустический кавер с мягким женским вокалом", // новое звучание.
   "title": "{{song_title}}" // необязательно: название.
