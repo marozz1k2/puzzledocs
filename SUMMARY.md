@@ -66,7 +66,7 @@
   * [suno: продление](tracker/models/music/suno-extend.md)
   * [suno: разделение](tracker/models/music/suno-separate.md)
   * [suno: скачивание](tracker/models/music/suno-download.md)
-  * [suno: submodels](tracker/models/music/suno-submodels.md)
+  * [suno: модели](tracker/models/music/suno-submodels.md)
   * [producer](tracker/models/music/producer.md)
   * [qwmusic](tracker/models/music/qw-music.md)
   * [flowmusic](tracker/models/music/flow-music.md)
