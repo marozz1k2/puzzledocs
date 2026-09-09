@@ -9,7 +9,7 @@
   "user": "{{USER_ID_TEXT}}", // обязательно.
   "model": "suno", // обязательно.
   "action": "generate", // создать песню.
-  "mv": "chirp-v5-5", // версия Suno.
+  "mv": "chirp-v6", // модель Suno.
   "prompt": "{{suno_prompt}}", // идея песни.
   "custom": false, // простой режим.
   "instrumental": false, // true для трека без вокала.

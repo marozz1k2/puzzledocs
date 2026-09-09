@@ -9,7 +9,7 @@
   "user": "{{USER_ID_TEXT}}", // обязательно.
   "model": "suno", // обязательно.
   "action": "generate", // создать песню.
-  "mv": "chirp-v5-5", // версия Suno.
+  "mv": "chirp-v6", // модель Suno.
   "prompt": "{{suno_prompt}}", // описание песни или инструкция.
   "lyrics": "{{suno_lyrics}}", // отдельная переменная со своим текстом песни.
   "custom": true, // включить кастомный режим.
