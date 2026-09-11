@@ -10,4 +10,4 @@
 
 Модели серий 3–5 удалены. Старые сохранённые значения автоматически перенаправляются на `chirp-v6`, но в новых сценариях указывайте только одну из трёх актуальных моделей.
 
-Подробнее: [сопоставление моделей TTAPI](https://docs.ttapi.io/api/en/suno#model-mapping) и [описание Suno v6](https://suno.com/blog/introducing-v6).
+Подробнее: [описание Suno v6](https://suno.com/blog/introducing-v6).
