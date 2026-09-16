@@ -40,7 +40,7 @@
 | DeepSeek | 💠10 | Рассуждения, код и анализ. |
 | Gemini 3 Flash | 💠15 | Быстрые ответы и большой контекст. |
 | Gemini 3 Pro | 💠30 | Сложные задачи и большой контекст. |
-| Поиск в интернете | 💠30 | Ответы с поиском актуальной информации. |
+| Web Searchе | 💠30 | Ответы с поиском актуальной информации. |
 
 <details>
 <summary><strong>Все текстовые модели</strong></summary>
@@ -88,7 +88,7 @@
 | Gemini 2.5 Flash | 💠10 |
 | Gemini 2.5 Flash | 💠30 |
 | Gemini 2.5 Pro | 💠25 |
-| Поиск в интернете | 💠30 |
+| Web Searchе | 💠30 |
 | GPT-4o-mini | 💠11 |
 | GPT-4o-mini (2024-07-18) | 💠11 |
 | GPT-4o-mini Search Preview | 💠11 |
@@ -211,7 +211,7 @@
 | Nemotron Nano 12B 2 VL (free) | 💠1 |
 | Nex-N2-Pro (free) | 💠1 |
 | Uncensored (free) | 💠1 |
-| Виспер | 💠2 |
+| Voxtral Mini Transcribe | 💠2 |
 | Command R7B (12-2024) | 💠2 |
 | Gemma 3 4B | 💠2 |
 | Gemma 3 12B | 💠2 |
@@ -430,16 +430,16 @@
 
 | Модель | Стоимость |
 | --- | ---: |
-| Апскейл и улучшение фото | 💠5 |
-| Джипити фото | 💠80 |
-| Клинг имейдж | 💠10 |
+| Topaz Image Upscale | 💠5 |
+| GPT Image 2.5 | 💠80 |
+| Kling O1 Image | 💠10 |
 | Миджорни | 💠40 |
 | Нано банана | 💠80 |
-| Си дрим | 💠30 |
-| Флакс 2 макс | 💠50 |
-| Флакс 2 про | 💠25 |
-| Флакс 2 флекс | 💠60 |
-| Flux 2 кляйн | 💠10 |
+| Seedream 5.0 Lite | 💠30 |
+| FLUX.2 Max | 💠50 |
+| FLUX.2 Pro | 💠25 |
+| FLUX.2 Flex | 💠60 |
+| FLUX.2 Klein | 💠10 |
 | Flux.2 Klein 4B | 💠10 |
 | Flux.2 Klein 9B | 💠15 |
 | Grok Imagine Image | 💠25 |
@@ -470,11 +470,11 @@
 | --- | ---: |
 | Вео | 💠300 |
 | Вео быстрый | 💠150 |
-| Голливуд видео | 💠350/сек. |
+| Seedance 2.0 Pro | 💠350/сек. |
 | Грок видео | 💠100 |
-| Клинг 2.6 контроль движений | 💠300 |
-| Клинг 3 эдит | 💠300 |
-| Минимакс | 💠120 |
+| Kling 2.6 Motion Control | 💠300 |
+| Kling 3.0 Omni Edit | 💠300 |
+| MiniMax Hailuo 2.3 | 💠120 |
 | Gemini Omni Flash Video | 💠900 |
 | Gemini Omni Flash Video Edit | 💠1200 |
 | Grok Imagine Upscale | 💠50 |

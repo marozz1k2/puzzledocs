@@ -53,7 +53,7 @@
 | `gemini_3_pro` | Gemini 3 Pro | 💠30 |
 | `gemini_2_5_flash` | Gemini 2.5 Flash | 💠10 |
 | `gemini_2_5_pro` | Gemini 2.5 Pro | 💠25 |
-| `web_search` | Поиск в интернете | 💠30 |
+| `web_search` | Web Searchе | 💠30 |
 
 `💠—` означает, что точная стоимость показывается в интерфейсе перед запуском.
 
@@ -78,7 +78,7 @@
 | `gemini_3_pro` | Gemini 3 Pro | 💠30 |
 | `gemini_2_5_flash` | Gemini 2.5 Flash | 💠10 |
 | `gemini_2_5_pro` | Gemini 2.5 Pro | 💠25 |
-| `web_search` | Поиск в интернете | 💠30 |
+| `web_search` | Web Searchе | 💠30 |
 | `openai_gpt_4o_mini` | GPT-4o-mini | 💠11 |
 | `openai_gpt_4o_mini_2024_07_18` | GPT-4o-mini (2024-07-18) | 💠11 |
 | `openai_gpt_4o_mini_search_preview` | GPT-4o-mini Search Preview | 💠11 |
@@ -212,7 +212,7 @@
 | `nvidia_nemotron_nano_12b_v2_vl_free` | Nemotron Nano 12B 2 VL (free) | 💠1 |
 | `nex_agi_nex_n2_pro_free` | Nex-N2-Pro (free) | 💠1 |
 | `cognitivecomputations_dolphin_mistral_24b_venice_db66220940` | Uncensored (free) | 💠1 |
-| `gpt_audio` | Виспер | 💠2 |
+| `gpt_audio` | Voxtral Mini Transcribe | 💠2 |
 | `cohere_command_r7b_12_2024` | Command R7B (12-2024) | 💠2 |
 | `google_gemma_3_4b_it` | Gemma 3 4B | 💠2 |
 | `google_gemma_3_12b_it` | Gemma 3 12B | 💠2 |
