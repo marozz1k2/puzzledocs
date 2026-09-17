@@ -477,7 +477,7 @@
 | MiniMax Hailuo 2.3 | 💠120 |
 | Gemini Omni Flash Video | 💠900 |
 | Gemini Omni Flash Video Edit | 💠1200 |
-| Grok Imagine Upscale | 💠50 |
+| Grok Imagine Upscale | 💠100 |
 | Grok Imagine Video | 💠15/сек. |
 | Grok Imagine Video 1.5 | 💠25/сек. |
 | Grok Imagine Video Extend | 💠15/сек. |
@@ -514,7 +514,7 @@
 | Topaz Video Upscale | 💠160/сек. |
 | Veo 3.1 Extend | 💠600 |
 | Veo 3.1 Lite | 💠150 |
-| Veo 3.1 Lite Relaxed | 💠75 |
+| Veo 3.1 Lite Relaxed | 💠100 |
 | Veo 3.1 Upscale | 💠500 |
 | Wan 2.2 Flash Video | 💠70/сек. |
 | Wan 2.2 Video | 💠280 |
@@ -525,6 +525,10 @@
 | Wan 2.7 Video Edit | 💠105/сек. |
 
 Стоимость с пометкой «/сек.» считается за секунду готового видео.
+
+Минимальная стоимость одного видеозапроса — 💠100. Если ставка за секунду даёт
+меньше, за запрос всё равно списывается 💠100: например, ролик на 1 секунду по
+ставке 💠30/сек. обойдётся в 💠100, а на 5 секунд — в 💠150.
 
 ## Голос
 
