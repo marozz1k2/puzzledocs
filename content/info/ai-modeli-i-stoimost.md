@@ -543,7 +543,6 @@
 | GPT-4o Mini Transcribe | 💠10 |
 | GPT-4o Transcribe | 💠20 |
 | Grok STT 1.0 | 💠— |
-| Grok Voice TTS 1.0 | 💠2 |
 | MAI-Transcribe 1.5 | 💠150 |
 | Nova-3 | 💠— |
 | Parakeet TDT 0.6B v3 | 💠2 |
