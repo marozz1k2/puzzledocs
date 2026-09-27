@@ -475,8 +475,8 @@
 | Kling 2.6 Motion Control | 💠300 |
 | Kling 3.0 Omni Edit | 💠300 |
 | MiniMax Hailuo 2.3 | 💠120 |
-| Gemini Omni Flash Video | 💠900 |
-| Gemini Omni Flash Video Edit | 💠1200 |
+| Gemini Omni Flash 1.1 Video | 💠300 |
+| Gemini Omni Flash 1.1 Video Edit | 💠300 |
 | Grok Imagine Upscale | 💠100 |
 | Grok Imagine Video | 💠15/сек. |
 | Grok Imagine Video 1.5 | 💠25/сек. |
