@@ -80,8 +80,6 @@
 | Команда-триггер     | Блокирует                  |
 | ------------------- | -------------------------- |
 | `gpt_audio_mute`    | **GPT Audio / Whisper**    |
-| `speech_mute`       | **Yandex speech**          |
-| `sber_speech_mute`  | **Sber speech**            |
 
 #### **Фото модели**
 

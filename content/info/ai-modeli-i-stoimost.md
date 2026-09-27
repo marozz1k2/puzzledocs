@@ -534,41 +534,29 @@
 
 | Модель | Стоимость |
 | --- | ---: |
-| Сбер спич | 💠5 |
-| Сбер спич (расширенный) | 💠15 |
 | Audio Isolation | 💠25 |
-| Aura-2 | 💠— |
 | Chirp 3 | 💠10 |
-| CSM 1B | 💠15 |
-| Gemini 3.1 Flash TTS Preview | 💠35 |
+| ElevenLabs Multilingual V2 | 💠3 |
+| Gemini 2.5 Flash TTS | 💠5 |
+| Gemini 2.5 Pro TTS | 💠5 |
+| Gemini 3.1 Flash TTS | 💠5 |
 | GPT-4o Mini Transcribe | 💠10 |
 | GPT-4o Transcribe | 💠20 |
 | Grok STT 1.0 | 💠— |
-| Grok Voice TTS 1.0 | 💠30 |
-| Kokoro 82M | 💠5 |
+| Grok Voice TTS 1.0 | 💠2 |
 | MAI-Transcribe 1.5 | 💠150 |
-| MAI-Voice-2 | 💠35 |
-| MAI-Voice-2-Flash | 💠— |
 | Nova-3 | 💠— |
-| Orpheus 3B | 💠15 |
 | Parakeet TDT 0.6B v3 | 💠2 |
-| Qwen-Audio-3.0-TTS Flash | 💠— |
-| Qwen-Audio-3.0-TTS Plus | 💠— |
 | Qwen3 ASR Flash | 💠35 |
 | Sound Effect | 💠20 |
-| Speech 2.8 HD | 💠— |
-| Speech 2.8 Turbo | 💠— |
 | Speech To Text | 💠160 |
 | Text to Dialogue | 💠100 |
 | Text to Speech | 💠100 |
 | Voice Changer | 💠100 |
 | Voxtral Mini Transcribe | 💠2 |
-| Voxtral Mini TTS | 💠30 |
 | Whisper 1 | 💠5 |
 | Whisper Large V3 | 💠2 |
 | Whisper Large V3 Turbo | 💠25 |
-| Zonos v0.1 Hybrid | 💠15 |
-| Zonos v0.1 Transformer | 💠15 |
 
 ## Музыка
 

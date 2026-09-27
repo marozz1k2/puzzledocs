@@ -45,10 +45,6 @@
 | Команда-триггер            | Вызывается после             |
 | -------------------------- | ---------------------------- |
 | `gpt_audio_done`           | **GPT Audio / Whisper**      |
-| `yandex_speech_done`       | **Yandex speech**            |
-| `yandex_speech_large_done` | **Yandex speech (large)**    |
-| `sber_speech_done`         | **Sber speech**              |
-| `sber_speech_large_done`   | **Sber speech large**        |
 | `<model_key>_done`         | Для моделей синтеза речи используется свой ключ из [каталога](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog). |
 | `<model_key>_done`         | Для моделей распознавания речи используется свой ключ из [каталога](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog). |
 

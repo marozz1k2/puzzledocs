@@ -57,10 +57,6 @@
 | Команда-триггер                 | Вызывается после             |
 | ------------------------------- | ---------------------------- |
 | `gpt_audio_category`            | **GPT Audio / Whisper**      |
-| `yandex_speech_category`        | **Yandex speech**            |
-| `yandex_speech_large_category`  | **Yandex speech (large)**    |
-| `sber_speech_category`          | **Sber speech**              |
-| `sber_speech_large_category`    | **Sber speech large**        |
 
 #### **Фото модели**
 
