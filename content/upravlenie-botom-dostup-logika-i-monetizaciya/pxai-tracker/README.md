@@ -12,6 +12,12 @@ PxAI Tracker позволяет вызывать модели из команд 
 - [Голосовые модели](https://docs.pxsto.re/tracker/treker-zaprosy/voice), включая [синтез речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) и [распознавание речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog).
 - [Музыкальные модели](https://docs.pxsto.re/tracker/treker-zaprosy/music): Suno, Producer, QW Music и FlowMusic.
 
+## Ответы в группы и топики Telegram
+
+Для ответа в группу добавьте в запрос поле `chat` с числовым ID группы. Для конкретного топика форума передайте также `topic` с ID топика. Поле `user` остаётся ID пользователя, запускающего запрос, а `send_answer` должно быть `true`.
+
+[Примеры запросов, получение ID и проверка настройки](https://docs.pxsto.re/tracker#otvety-v-gruppy-i-topiki-telegram).
+
 ## Основной URL-адрес
 
 `https://api.pxsto.re/main/puzzlebot-tracker`
