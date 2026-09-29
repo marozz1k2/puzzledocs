@@ -4,7 +4,7 @@
 
 Стоимость указана рядом с моделью в формате **💠25**. Перед запуском проверьте значение в интерфейсе: для некоторых видео- и музыкальных операций оно зависит от выбранных параметров.
 
-Если указано **💠—**, точная стоимость появится в интерфейсе перед запуском.
+Стоимость фиксированного запроса указана числом; для посекундных моделей рядом со ставкой показано `/сек`.
 
 ## Быстрый выбор
 
@@ -18,405 +18,319 @@
 
 ## Текстовые модели
 
-Сначала показаны основные модели в рекомендуемом порядке. Полный каталог ниже отсортирован по популярности, затем по стоимости.
-
-| Модель | Стоимость | Когда выбирать |
-| --- | ---: | --- |
-| GPT-5 Nano (бесплатная) | 💠10 | Простые вопросы и знакомство с возможностями. |
-| GPT-5 Mini | 💠10 | Быстрые ответы с меньшей стоимостью. |
-| GPT-5 | 💠25 | Сложные текстовые задачи и логика. |
-| GPT-5.5 | 💠86 | Сложные задачи, анализ и точные развёрнутые ответы. |
-| Composer 2.5 | 💠5 | Работа с кодом и техническими задачами. |
-| Composer 2.5 Fast | 💠15 | Быстрая работа с кодом. |
-| Луна | 💠30 | Быстрые универсальные ответы. |
-| Земля | 💠60 | Сбалансированные сложные задачи. |
-| Солнце | 💠120 | Самые требовательные задачи. |
-| Claude Haiku 4.5 | 💠15 | Быстрые ответы и обработка текста. |
-| Claude Sonnet 4.6 | 💠45 | Тексты, анализ и программирование. |
-| Claude Sonnet 5 | 💠45 | Сложные рассуждения и большие материалы. |
-| Claude Opus 4.8 | 💠75 | Глубокий анализ и сложные инструкции. |
-| Grok 4.5 | 💠25 | Универсальные текстовые задачи. |
-| Kimi K3 | 💠105 | Большие документы и длинный контекст. |
-| DeepSeek | 💠10 | Рассуждения, код и анализ. |
-| Gemini 3 Flash | 💠15 | Быстрые ответы и большой контекст. |
-| Gemini 3 Pro | 💠30 | Сложные задачи и большой контекст. |
-| Web Searchе | 💠30 | Ответы с поиском актуальной информации. |
-
-<details>
-<summary><strong>Все текстовые модели</strong></summary>
+Стоимость текстового запроса — не выше **💠150**. Отключённые модели не включены. Цены сверены с действующими тарифами 29.09.2026.
 
 | Модель | Стоимость |
 | --- | ---: |
-| GPT-5 Nano (бесплатная) | 💠10 |
-| GPT-5 Mini | 💠10 |
-| GPT-5 Mini | 💠23 |
-| GPT-5 | 💠25 |
-| GPT-5 | 💠25 |
-| GPT-5.5 | 💠86 |
-| GPT-4.1 | 💠15 |
+| GPT-5.4 Nano (free) | 💠0 |
+| GPT-5.4 Mini | 💠10 |
+| GPT-5.4 | 💠25 |
+| GPT-5.6 Luna Pro | 💠30 |
+| GPT-5.6 Terra Pro | 💠60 |
+| GPT-5.6 Sol Pro | 💠120 |
+| Claude 4.5 Haiku | 💠25 |
+| Anthropic: Claude Sonnet 5 | 💠45 |
+| DeepSeek V3.2 | 💠5 |
+| Gemini 3.5 Flash | 💠15 |
+| Gemini 3.1 Pro | 💠38 |
+| Gemini 2.5 Flash Lite | 💠3 |
+| Gemini 2.5 Pro | 💠30 |
+| Web Search | 💠30 |
+| GPT-4.1 | 💠28 |
+
+<details>
+<summary>Все текстовые модели</summary>
+
+| Модель | Стоимость |
+| --- | ---: |
+| GPT-5.4 Nano (free) | 💠0 |
+| GPT-5.4 Mini | 💠10 |
+| GPT-5.4 | 💠25 |
+| GPT-5.6 Luna Pro | 💠30 |
+| GPT-5.6 Terra Pro | 💠60 |
+| GPT-5.6 Sol Pro | 💠120 |
+| Claude 4.5 Haiku | 💠25 |
+| Anthropic: Claude Sonnet 5 | 💠45 |
+| DeepSeek V3.2 | 💠5 |
+| Gemini 3.5 Flash | 💠15 |
+| Gemini 3.1 Pro | 💠38 |
+| Gemini 2.5 Flash Lite | 💠3 |
+| Gemini 2.5 Pro | 💠30 |
+| Web Search | 💠30 |
+| GPT-4.1 | 💠28 |
+| Voxtral Mini Transcribe | 💠2 |
 | Composer 2.5 | 💠5 |
-| Composer 2.5 Fast | 💠15 |
-| Луна | 💠30 |
-| Земля | 💠60 |
-| Солнце | 💠120 |
+| Grok 4.3 | 💠10 |
+| Grok 4.3 Vision | 💠10 |
 | Claude Haiku 4.5 | 💠15 |
-| Claude Haiku 4.5 | 💠25 |
-| Claude Haiku 4.5 | 💠25 |
-| Claude Sonnet 4.5 | 💠44 |
-| Claude Sonnet 4.5 | 💠45 |
-| Claude Sonnet 4.6 | 💠44 |
+| Composer 2.5 Fast | 💠15 |
+| Gemini 3.6 Flash | 💠20 |
+| Gemini 3.7 Flash | 💠20 |
+| Grok 4.5 | 💠25 |
+| Grok 4.6 | 💠30 |
+| OpenAI: GPT-5.6 Luna | 💠30 |
 | Claude Sonnet 4.6 | 💠45 |
 | Claude Sonnet 5 | 💠45 |
-| Claude Sonnet 5 | 💠— |
-| Claude Opus 4.5 | 💠75 |
-| Claude Opus 4.5 | 💠150 |
+| OpenAI: GPT-5.6 Terra | 💠60 |
 | Claude Opus 4.6 | 💠75 |
-| Claude Opus 4.6 | 💠165 |
 | Claude Opus 4.7 | 💠75 |
-| Claude Opus 4.7 | 💠180 |
 | Claude Opus 4.8 | 💠75 |
-| Claude Opus 4.8 | 💠220 |
-| Claude Fable 5 | 💠350 |
-| Grok 4.5 | 💠25 |
-| Grok 4.5 | 💠— |
-| Grok 4 | 💠35 |
 | Kimi K3 | 💠105 |
-| Kimi K3 | 💠— |
-| DeepSeek | 💠10 |
-| Gemini 3 Flash | 💠15 |
-| Gemini 3 Pro | 💠30 |
-| Gemini 2.5 Flash | 💠10 |
-| Gemini 2.5 Flash | 💠30 |
-| Gemini 2.5 Pro | 💠25 |
-| Web Searchе | 💠30 |
-| GPT-4o-mini | 💠11 |
-| GPT-4o-mini (2024-07-18) | 💠11 |
-| GPT-4o-mini Search Preview | 💠11 |
-| GPT-4o | 💠28 |
-| GPT-4o (2024-08-06) | 💠28 |
-| GPT-4o (2024-11-20) | 💠28 |
-| GPT-4o Search Preview | 💠28 |
-| GPT-4o (2024-05-13) | 💠49 |
-| GPT-5.4 Pro | 💠500 |
-| GPT Chat Latest | 💠86 |
-| GPT Latest | 💠86 |
-| Claude Sonnet 4 | 💠44 |
-| Claude Sonnet Latest | 💠44 |
-| Claude Opus 4.8 (Fast) | 💠180 |
-| Claude Opus 4.6 (Fast) | 💠220 |
-| Claude Opus 4.7 (Fast) | 💠220 |
-| Claude Opus Latest | 💠220 |
-| Claude Opus 4 | 💠225 |
-| Claude Opus 4.1 | 💠225 |
-| Claude Opus 5 | 💠— |
-| Claude Opus 5 (Fast) | 💠— |
-| Claude Haiku Latest | 💠25 |
-| Grok 4.20 Multi-Agent | 💠13 |
-| Grok Build 0.1 | 💠33 |
-| Grok 4.20 | 💠35 |
-| Grok Latest | 💠— |
-| Gemini 2.5 Flash Lite Preview 09-2025 | 💠10 |
-| Gemini 3.1 Flash Lite | 💠15 |
-| Gemini 3.1 Flash Lite Preview | 💠15 |
-| Gemini Flash Latest | 💠19 |
-| Gemini 2.5 Pro Preview 05-06 | 💠25 |
-| Gemini 2.5 Pro Preview 06-05 | 💠25 |
-| Gemini 3.1 Pro Preview Custom Tools | 💠30 |
-| Gemini Pro Latest | 💠30 |
-| Gemini 3 Flash Preview | 💠40 |
-| Gemini 3.5 Flash Lite | 💠— |
-| Gemini 3.6 Flash | 💠— |
-| DeepSeek V4 Flash | 💠2 |
-| DeepSeek V3.2 Exp | 💠11 |
-| DeepSeek V3 | 💠12 |
-| DeepSeek V3 0324 | 💠12 |
-| DeepSeek V3.1 | 💠12 |
-| DeepSeek V3.1 Terminus | 💠13 |
-| DeepSeek V4 Pro | 💠14 |
-| Kimi K2.6 | 💠15 |
-| Kimi K2.5 | 💠22 |
-| Kimi K2 0711 | 💠31 |
-| Kimi K2 0905 | 💠35 |
-| Kimi K2 Thinking | 💠35 |
-| Kimi K2.7 Code | 💠— |
-| Qwen3 Coder 480B A35B (free) | 💠1 |
-| Qwen3 Next 80B A3B Instruct (free) | 💠1 |
-| Qwen3 14B | 💠2 |
-| Qwen3 30B A3B Instruct 2507 | 💠2 |
-| Qwen3 32B | 💠2 |
-| Qwen3 235B A22B Instruct 2507 | 💠2 |
-| Qwen3 235B A22B Thinking 2507 | 💠2 |
-| Qwen3 Coder 30B A3B Instruct | 💠2 |
-| Qwen3.5-9B | 💠2 |
-| Qwen3.5-Flash | 💠2 |
-| Qwen3 8B | 💠6 |
-| Qwen3 30B A3B Thinking 2507 | 💠9 |
-| Qwen3 VL 32B Instruct | 💠10 |
-| Qwen3 30B A3B | 💠11 |
-| Qwen3 VL 8B Instruct | 💠11 |
-| Qwen3 VL 30B A3B Instruct | 💠11 |
-| Qwen3 Coder Next | 💠12 |
-| Qwen3 Next 80B A3B Thinking | 💠12 |
-| Qwen3 Coder Flash | 💠13 |
-| Qwen3 Coder Plus | 💠13 |
-| Qwen3 Next 80B A3B Instruct | 💠13 |
-| Qwen3 VL 235B A22B Instruct | 💠13 |
-| Qwen3.5-35B-A3B | 💠13 |
-| Qwen3.6 35B A3B | 💠13 |
-| Qwen3.6 Max Preview | 💠13 |
-| Qwen3 VL 8B Thinking | 💠14 |
-| Qwen3.6 Flash | 💠14 |
-| Qwen3 VL 30B A3B Thinking | 💠15 |
-| Qwen3.7 Plus | 💠15 |
-| Qwen3.5 Plus 2026-02-15 | 💠16 |
-| Qwen3.5-27B | 💠16 |
-| Qwen3 Coder 480B A35B | 💠19 |
-| Qwen3.5 Plus 2026-04-20 | 💠20 |
-| Qwen3 235B A22B | 💠23 |
-| Qwen3.6 Plus | 💠23 |
-| Qwen3.5-122B-A10B | 💠24 |
-| Qwen3 Max | 💠25 |
-| Qwen3 Max Thinking | 💠25 |
-| Qwen3.5 397B A17B | 💠29 |
-| Qwen3.6 27B | 💠29 |
-| Qwen3 VL 235B A22B Thinking | 💠31 |
-| Llama 3.3 70B Instruct (free) | 💠1 |
-| Llama 3.3 70B Instruct | 💠4 |
-| Llama 3.3 Nemotron Super 49B V1.5 | 💠11 |
-| Llama 3.3 Euryale 70B | 💠14 |
-| Mistral Large | 💠13 |
-| Mistral Large 2407 | 💠13 |
-| Mistral Large 3 2512 | 💠19 |
-| Sonar Deep Research | 💠15 |
-| Sonar Reasoning Pro | 💠15 |
-| Sonar | 💠19 |
-| Sonar Pro | 💠44 |
-| Sonar Pro Search | 💠44 |
-| Gemma 4 26B A4B (free) | 💠1 |
-| Gemma 4 31B (free) | 💠1 |
-| gpt-oss-20b (free) | 💠1 |
-| gpt-oss-120b (free) | 💠1 |
-| Hermes 3 405B Instruct (free) | 💠1 |
-| Laguna M.1 (free) | 💠1 |
-| Laguna XS.2 (free) | 💠1 |
-| LFM2.5-1.2B-Instruct (free) | 💠1 |
-| LFM2.5-1.2B-Thinking (free) | 💠1 |
-| Llama 3.2 3B Instruct (free) | 💠1 |
-| Nemotron 3 Nano 30B A3B (free) | 💠1 |
-| Nemotron 3 Nano Omni (free) | 💠1 |
-| Nemotron 3 Super (free) | 💠1 |
-| Nemotron 3 Ultra (free) | 💠1 |
-| Nemotron 3.5 Content Safety (free) | 💠1 |
-| Nemotron Nano 9B V2 (free) | 💠1 |
-| Nemotron Nano 12B 2 VL (free) | 💠1 |
-| Nex-N2-Pro (free) | 💠1 |
-| Uncensored (free) | 💠1 |
-| Voxtral Mini Transcribe | 💠2 |
-| Command R7B (12-2024) | 💠2 |
-| Gemma 3 4B | 💠2 |
-| Gemma 3 12B | 💠2 |
-| Gemma 3 27B | 💠2 |
-| Gemma 3n 4B | 💠2 |
-| Gemma 4 26B A4B | 💠2 |
-| gpt-oss-20b | 💠2 |
-| gpt-oss-120b | 💠2 |
-| gpt-oss-safeguard-20b | 💠2 |
-| Granite 4.0 Micro | 💠2 |
-| Granite 4.1 8B | 💠2 |
-| Hy3 preview | 💠2 |
-| LFM2-24B-A2B | 💠2 |
-| Ling-2.6-flash | 💠2 |
-| Llama 3 8B Instruct | 💠2 |
-| Llama 3 8B Lunaris | 💠2 |
-| Llama 3.1 8B Instruct | 💠2 |
-| Llama 3.2 1B Instruct | 💠2 |
-| Llama 3.2 3B Instruct | 💠2 |
-| Llama 4 Scout | 💠2 |
-| Llama Guard 4 12B | 💠2 |
-| MiMo-V2-Flash | 💠2 |
-| Ministral 3 3B 2512 | 💠2 |
-| Ministral 3 8B 2512 | 💠2 |
-| Ministral 3 14B 2512 | 💠2 |
-| Mistral Nemo | 💠2 |
-| Mistral Small 3 | 💠2 |
-| Mistral Small 3.2 24B | 💠2 |
+| MoonshotAI: Kimi K3 | 💠105 |
+| OpenAI: GPT-5.5 | 💠120 |
+| OpenAI: GPT-5.6 Sol | 💠120 |
+| Body Builder (beta) | 💠1 |
+| Cohere: North Mini Code (free) | 💠1 |
+| Free Models Router | 💠1 |
+| Google: Gemma 4 26B A4B  (free) | 💠1 |
+| Google: Gemma 4 31B (free) | 💠1 |
+| NVIDIA: Nemotron 3 Nano Omni (free) | 💠1 |
+| NVIDIA: Nemotron 3 Super (free) | 💠1 |
+| NVIDIA: Nemotron 3 Ultra (free) | 💠1 |
+| NVIDIA: Nemotron 3.5 Content Safety (free) | 💠1 |
+| OpenRouter: Fusion | 💠1 |
+| Pareto Code Router | 💠1 |
+| Poolside: Laguna S 2.1 (free) | 💠1 |
+| Poolside: Laguna XS 2.1 (free) | 💠1 |
+| Amazon: Nova Lite 1.0 | 💠2 |
+| Amazon: Nova Micro 1.0 | 💠2 |
+| ByteDance Seed: Seed 1.6 Flash | 💠2 |
+| ByteDance: UI-TARS 7B | 💠2 |
+| Cohere: Command R7B (12-2024) | 💠2 |
+| Google: Gemma 3 12B | 💠2 |
+| Google: Gemma 3 4B | 💠2 |
+| IBM: Granite 4.0 Micro | 💠2 |
+| Meta: Llama 3.1 8B Instruct | 💠2 |
+| Meta: Llama 3.2 1B Instruct | 💠2 |
+| Meta: Llama 3.2 3B Instruct | 💠2 |
+| Meta: Llama 4 Scout | 💠2 |
+| Meta: Llama Guard 4 12B | 💠2 |
+| Microsoft: Phi 4 | 💠2 |
+| Mistral: Ministral 3 14B 2512 | 💠2 |
+| Mistral: Ministral 3 3B 2512 | 💠2 |
+| Mistral: Ministral 3 8B 2512 | 💠2 |
+| Mistral: Mistral Nemo | 💠2 |
+| Mistral: Mistral Small 3 | 💠2 |
+| Mistral: Mistral Small 3.2 24B | 💠2 |
 | MythoMax 13B | 💠2 |
-| Nemotron 3 Nano 30B A3B | 💠2 |
-| Nova Lite 1.0 | 💠2 |
-| Nova Micro 1.0 | 💠2 |
-| Phi 4 | 💠2 |
-| Qwen2.5 7B Instruct | 💠2 |
+| NVIDIA: Nemotron 3 Nano 30B A3B | 💠2 |
+| OpenAI: gpt-oss-120b | 💠2 |
+| OpenAI: gpt-oss-20b | 💠2 |
+| OpenAI: gpt-oss-safeguard-20b | 💠2 |
+| Poolside: Laguna S 2.1 | 💠2 |
+| Poolside: Laguna XS 2.1 | 💠2 |
+| Qwen: Qwen2.5 7B Instruct | 💠2 |
+| Qwen: Qwen3 30B A3B Instruct 2507 | 💠2 |
+| Qwen: Qwen3 32B | 💠2 |
+| Qwen: Qwen3 Coder 30B A3B Instruct | 💠2 |
+| Qwen: Qwen3.5-9B | 💠2 |
+| Qwen: Qwen3.5-Flash | 💠2 |
+| Qwen: Qwen3.7 Flash | 💠2 |
 | Reka Edge | 💠2 |
 | Reka Flash 3 | 💠2 |
-| Rnj 1 Instruct | 💠2 |
-| Seed 1.6 Flash | 💠2 |
-| Step 3.5 Flash | 💠2 |
-| Trinity Mini | 💠2 |
-| UI-TARS 7B | 💠2 |
-| MiMo-V2.5 | 💠4 |
-| Phi 4 Mini Instruct | 💠5 |
-| GPT-5 Nano | 💠6 |
-| GLM 4.7 Flash | 💠7 |
-| Gemma 4 31B | 💠8 |
-| GPT-4.1 Nano | 💠10 |
-| Hermes 4 70B | 💠10 |
-| Llama Guard 3 8B | 💠10 |
-| Nemotron 3 Super | 💠10 |
-| Seed-2.0-Mini | 💠10 |
-| Command R (08-2024) | 💠11 |
-| Cydonia 24B V4.1 | 💠11 |
-| Hunyuan A13B Instruct | 💠11 |
-| Ling-2.6-1T | 💠11 |
-| Llama 3.1 70B Hanami x1 | 💠11 |
-| Llama 3.1 70B Instruct | 💠11 |
-| Llama 3.2 11B Vision Instruct | 💠11 |
-| Llama 4 Maverick | 💠11 |
-| Mistral Small 4 | 💠11 |
-| o3 Mini | 💠11 |
-| o3 Mini High | 💠11 |
-| o4 Mini | 💠11 |
-| o4 Mini High | 💠11 |
-| Olmo 3 32B Think | 💠11 |
-| Qwen2.5 72B Instruct | 💠11 |
-| R1 Distill Qwen 32B | 💠11 |
-| Ring-2.6-1T | 💠11 |
-| Rocinante 12B | 💠11 |
-| Saba | 💠11 |
-| Solar Pro 3 | 💠11 |
-| UnslopNemo 12B | 💠11 |
-| GLM 4.5 Air | 💠12 |
-| GPT-3.5 Turbo 16k | 💠12 |
-| Mercury 2 | 💠12 |
-| Mistral Small 3.1 24B | 💠12 |
-| Palmyra X5 | 💠12 |
-| Qwen Plus 0728 | 💠12 |
-| Qwen Plus 0728 (thinking) | 💠12 |
-| Qwen-Plus | 💠12 |
-| Codestral 2508 | 💠13 |
-| GLM 4.6V | 💠13 |
-| Llama 3 70B Instruct | 💠13 |
-| Magnum v4 72B | 💠13 |
-| MiniMax M2 | 💠13 |
-| MiniMax M2.1 | 💠13 |
-| MiniMax M2.5 | 💠13 |
-| MiniMax M2.7 | 💠13 |
-| Mixtral 8x22B Instruct | 💠13 |
-| ReMM SLERP 13B | 💠13 |
-| Trinity Large Thinking | 💠13 |
-| WizardLM-2 8x22B | 💠13 |
-| Claude 3 Haiku | 💠14 |
-| Coder Large | 💠14 |
-| Gemma 2 27B | 💠14 |
-| Hermes 3 70B Instruct | 💠14 |
-| Hermes 4 405B | 💠14 |
-| INTELLECT-3 | 💠14 |
-| KAT-Coder-Pro V2 | 💠14 |
-| MiMo-V2.5-Pro | 💠14 |
-| MiniMax M2-her | 💠14 |
-| MiniMax M3 | 💠14 |
-| MiniMax-01 | 💠14 |
-| Mistral Medium 3.5 | 💠14 |
-| Nova Pro 1.0 | 💠14 |
-| Relace Search | 💠14 |
-| Skyfall 36B V2 | 💠14 |
-| Step 3.7 Flash | 💠14 |
-| ERNIE 4.5 VL 424B A47B | 💠15 |
-| GLM 5.1 | 💠15 |
-| Jamba Large 1.7 | 💠15 |
-| Llama 3.1 Euryale 70B v2.2 | 💠15 |
-| MoonshotAI Kimi Latest | 💠15 |
-| o3 | 💠15 |
-| o4 Mini Deep Research | 💠15 |
-| Perceptron Mk1 | 💠15 |
-| Qwen2.5 Coder 32B Instruct | 💠15 |
-| R1 Distill Llama 70B | 💠15 |
-| Weaver (alpha) | 💠15 |
-| Qwen2.5 VL 72B Instruct | 💠16 |
-| Switchpoint Router | 💠18 |
-| Virtuoso Large | 💠18 |
-| GPT-3.5 Turbo | 💠19 |
-| GPT-4.1 Mini | 💠19 |
-| Hermes 3 405B Instruct | 💠19 |
-| Morph V3 Fast | 💠19 |
-| Aion-1.0-Mini | 💠20 |
-| Relace Apply 3 | 💠20 |
-| GLM 4.6 | 💠21 |
-| GLM 4.7 | 💠21 |
-| GPT-5.1-Codex-Mini | 💠23 |
-| Seed 1.6 | 💠23 |
-| Seed-2.0-Lite | 💠23 |
-| Aion-2.0 | 💠25 |
-| Aion-RP 1.0 (8B) | 💠25 |
-| Devstral 2 2512 | 💠25 |
-| GLM 4.5V | 💠25 |
-| GPT Mini Latest | 💠25 |
-| GPT-5 Chat | 💠25 |
-| GPT-5 Codex | 💠25 |
-| GPT-5.1 | 💠25 |
-| GPT-5.1 Chat | 💠25 |
-| GPT-5.1-Codex | 💠25 |
-| GPT-5.1-Codex-Max | 💠25 |
-| Mistral Medium 3 | 💠25 |
-| Mistral Medium 3.1 | 💠25 |
-| Cogito v2.1 671B | 💠26 |
-| GLM 5 | 💠26 |
-| GLM 5 Turbo | 💠26 |
-| Aion-1.0 | 💠27 |
-| Claude 3.5 Haiku | 💠27 |
-| Command A | 💠28 |
-| Command R+ (08-2024) | 💠28 |
-| Inflection 3 Pi | 💠28 |
-| Inflection 3 Productivity | 💠28 |
-| MiniMax M1 | 💠28 |
-| R1 0528 | 💠28 |
-| Morph V3 Large | 💠30 |
-| Nova 2 Lite | 💠30 |
-| GLM 4.5 | 💠31 |
-| GPT-3.5 Turbo (older v0613) | 💠33 |
-| Nemotron 3 Ultra | 💠33 |
-| R1 | 💠36 |
-| Nova Premier 1.0 | 💠37 |
-| GPT-5.2 | 💠39 |
-| GPT-5.2 Chat | 💠39 |
-| GPT-5.2-Codex | 💠39 |
-| GPT-5.3 Chat | 💠39 |
-| GPT-5.3-Codex | 💠39 |
-| GPT-3.5 Turbo Instruct | 💠40 |
-| GPT-4 Turbo | 💠98 |
-| GPT-4 Turbo Preview | 💠98 |
-| o3 Deep Research | 💠123 |
-| o1 | 💠184 |
-| GPT-4 | 💠221 |
-| o3 Pro | 💠245 |
-| GPT-5 Pro | 💠330 |
-| Claude Fable Latest | 💠350 |
-| GPT-5.2 Pro | 💠463 |
-| GPT-5.5 Pro | 💠500 |
-| o1-pro | 💠500 |
-| Aion-3.0 | 💠— |
-| Aion-3.0-Mini | 💠— |
-| Fugu Ultra | 💠— |
-| GLM 5.2 | 💠— |
-| GLM 5V Turbo | 💠— |
-| GPT-5.6 Luna | 💠— |
-| GPT-5.6 Sol | 💠— |
-| GPT-5.6 Terra | 💠— |
-| Hy3 | 💠— |
-| Inkling | 💠— |
-| KAT-Coder-Air V2.5 | 💠— |
-| KAT-Coder-Pro V2.5 | 💠— |
-| Laguna M.1 | 💠— |
-| Laguna S 2.1 | 💠— |
-| Laguna S 2.1 (free) | 💠— |
-| Laguna XS 2.1 | 💠— |
-| Laguna XS 2.1 (free) | 💠— |
-| Ling-3.0-flash (free) | 💠— |
-| LongCat 2.0 | 💠— |
-| Muse Spark 1.1 | 💠— |
-| Nex-N2-Mini | 💠— |
-| Nex-N2-Pro | 💠— |
-| North Mini Code (free) | 💠— |
-| Uncensored | 💠— |
+| Sao10K: Llama 3 8B Lunaris | 💠2 |
+| StepFun: Step 3.5 Flash | 💠2 |
+| Tencent: Hy3 preview | 💠2 |
+| ByteDance Seed: Seed-2.0-Mini | 💠3 |
+| DeepSeek: DeepSeek V4 Flash | 💠3 |
+| NVIDIA: Nemotron 3 Super | 💠3 |
+| OpenAI: GPT-4.1 Nano | 💠3 |
+| OpenAI: GPT-5 Nano | 💠3 |
+| Xiaomi: MiMo-V2.5 | 💠3 |
+| Z.ai: GLM 4.7 Flash | 💠3 |
+| Google: Gemma 3 27B | 💠4 |
+| Google: Gemma 4 31B | 💠4 |
+| Meta: Llama 3.3 70B Instruct | 💠4 |
+| Qwen: Qwen3 30B A3B | 💠4 |
+| Qwen: Qwen3 8B | 💠4 |
+| Qwen: Qwen3 VL 32B Instruct | 💠4 |
+| Qwen: Qwen3 VL 8B Instruct | 💠4 |
+| Tencent: Hy3 | 💠4 |
+| DeepSeek: DeepSeek V3.2 Exp | 💠5 |
+| Google: Gemma 4 26B A4B | 💠5 |
+| Qwen: Qwen3 235B A22B Instruct 2507 | 💠5 |
+| Tencent: Hunyuan A13B Instruct | 💠5 |
+| Cohere: Command R (08-2024) | 💠6 |
+| Meta: Llama 3.1 70B Instruct | 💠6 |
+| Mistral: Mistral Small 4 | 💠6 |
+| Mistral: Saba | 💠6 |
+| OpenAI: GPT-4o-mini | 💠6 |
+| OpenAI: GPT-4o-mini (2024-07-18) | 💠6 |
+| Qwen2.5 72B Instruct | 💠6 |
+| Qwen: Qwen3 VL 30B A3B Instruct | 💠6 |
+| TheDrummer: Cydonia 24B V4.1 | 💠6 |
+| TheDrummer: UnslopNemo 12B | 💠6 |
+| Upstage: Solar Pro 3 | 💠6 |
+| Venice: Uncensored | 💠6 |
+| Mistral: Mistral Small 3.1 24B | 💠7 |
+| Qwen: Qwen3 Next 80B A3B Thinking | 💠7 |
+| DeepSeek: DeepSeek V3 | 💠8 |
+| Inception: Mercury 2 | 💠8 |
+| Meituan: LongCat 2.0 | 💠8 |
+| Meta: Llama 4 Maverick | 💠8 |
+| MiniMax: MiniMax M2.5 | 💠8 |
+| Qwen: Qwen Plus 0728 | 💠8 |
+| Qwen: Qwen-Plus | 💠8 |
+| Z.ai: GLM 4.5 Air | 💠8 |
+| Arcee AI: Trinity Large Thinking | 💠9 |
+| Qwen: Qwen3 14B | 💠9 |
+| Qwen: Qwen3 Coder Flash | 💠9 |
+| Qwen: Qwen3 Coder Next | 💠9 |
+| Qwen: Qwen3.5-35B-A3B | 💠9 |
+| Qwen: Qwen3.6 35B A3B | 💠9 |
+| ReMM SLERP 13B | 💠9 |
+| Amazon: Nova Pro 1.0 | 💠10 |
+| DeepSeek: DeepSeek V3.1 | 💠10 |
+| DeepSeek: DeepSeek V3.1 Terminus | 💠10 |
+| Mancer: Weaver (alpha) | 💠10 |
+| MiniMax: MiniMax M2 | 💠10 |
+| MiniMax: MiniMax M2.7 | 💠10 |
+| Mistral: Codestral 2508 | 💠10 |
+| Nous: Hermes 4 405B | 💠10 |
+| OpenAI GPT Mini Latest | 💠10 |
+| Qwen: Qwen3 Coder Plus | 💠10 |
+| Qwen: Qwen3 Max | 💠10 |
+| Qwen: Qwen3 Max Thinking | 💠10 |
+| Qwen: Qwen3 Next 80B A3B Instruct | 💠10 |
+| Relace: Relace Search | 💠10 |
+| WizardLM-2 8x22B | 💠10 |
+| Z.ai: GLM 4.6V | 💠10 |
+| Z.ai: GLM 5 Turbo | 💠10 |
+| Z.ai: GLM 5.1 | 💠10 |
+| xAI: Grok 4.20 | 💠10 |
+| xAI: Grok 4.20 Multi-Agent | 💠10 |
+| DeepSeek: DeepSeek V3 0324 | 💠11 |
+| DeepSeek: DeepSeek V4 Pro | 💠11 |
+| Google: Gemma 2 27B | 💠11 |
+| MiniMax: MiniMax-01 | 💠11 |
+| Qwen: Qwen3 Coder 480B A35B | 💠11 |
+| Qwen: Qwen3.6 Flash | 💠11 |
+| StepFun: Step 3.7 Flash | 💠11 |
+| TheDrummer: Skyfall 36B V2 | 💠11 |
+| Xiaomi: MiMo-V2.5-Pro | 💠11 |
+| MiniMax: MiniMax M2-her | 💠12 |
+| MiniMax: MiniMax M2.1 | 💠12 |
+| MiniMax: MiniMax M3 | 💠12 |
+| Nous: Hermes 3 70B Instruct | 💠12 |
+| Qwen: Qwen3 VL 8B Thinking | 💠12 |
+| Sao10K: Llama 3.3 Euryale 70B | 💠12 |
+| AionLabs: Aion-3.0-Mini | 💠13 |
+| DeepSeek: R1 Distill Llama 70B | 💠13 |
+| Google: Gemini 3.5 Flash Lite | 💠13 |
+| Qwen: Qwen3.7 Plus | 💠13 |
+| Baidu: ERNIE 4.5 VL 424B A47B | 💠14 |
+| Perceptron: Perceptron Mk1 | 💠14 |
+| Qwen2.5 Coder 32B Instruct | 💠14 |
+| Qwen: Qwen3 30B A3B Thinking 2507 | 💠14 |
+| Qwen: Qwen3 VL 30B A3B Thinking | 💠14 |
+| Sao10K: Llama 3.1 Euryale 70B v2.2 | 💠14 |
+| Google: Gemini 3.1 Flash Lite | 💠15 |
+| Google: Gemini 3.1 Flash Lite Preview | 💠15 |
+| Qwen: Qwen2.5 VL 72B Instruct | 💠15 |
+| Qwen: Qwen3.5 Plus 2026-02-15 | 💠15 |
+| Qwen: Qwen3.5-27B | 💠15 |
+| Arcee AI: Virtuoso Large | 💠16 |
+| Mistral: Mistral Large 3 2512 | 💠17 |
+| Morph: Morph V3 Fast | 💠17 |
+| Nous: Hermes 3 405B Instruct | 💠17 |
+| OpenAI: GPT-3.5 Turbo | 💠17 |
+| OpenAI: GPT-4.1 Mini | 💠17 |
+| Perplexity: Sonar | 💠17 |
+| OpenAI: o3 Mini | 💠18 |
+| OpenAI: o3 Mini High | 💠18 |
+| OpenAI: o4 Mini | 💠18 |
+| OpenAI: o4 Mini High | 💠18 |
+| Qwen: Qwen3 VL 235B A22B Instruct | 💠18 |
+| Qwen: Qwen3.5 Plus 2026-04-20 | 💠18 |
+| Relace: Relace Apply 3 | 💠18 |
+| Z.ai: GLM 4.7 | 💠18 |
+| ByteDance Seed: Seed 1.6 | 💠19 |
+| ByteDance Seed: Seed-2.0-Lite | 💠19 |
+| OpenAI: GPT-5 Mini | 💠19 |
+| OpenAI: GPT-5.1-Codex-Mini | 💠19 |
+| Qwen: Qwen3 235B A22B | 💠19 |
+| Qwen: Qwen3.6 Plus | 💠19 |
+| Kwaipilot: KAT-Coder-Pro V2.5 | 💠20 |
+| MoonshotAI: Kimi K2.7 Code | 💠20 |
+| Qwen: Qwen3.5-122B-A10B | 💠20 |
+| Qwen: Qwen3.6 27B | 💠20 |
+| AionLabs: Aion-2.0 | 💠21 |
+| AionLabs: Aion-RP 1.0 (8B) | 💠21 |
+| Mistral: Devstral 2 2512 | 💠21 |
+| Mistral: Mistral Medium 3 | 💠21 |
+| Mistral: Mistral Medium 3.1 | 💠21 |
+| Z.ai: GLM 4.5V | 💠21 |
+| Z.ai: GLM 4.6 | 💠21 |
+| Z.ai: GLM 5.2 | 💠21 |
+| DeepSeek: R1 0528 | 💠23 |
+| Google: Gemini 3.6 Flash | 💠23 |
+| NVIDIA: Nemotron 3 Ultra | 💠23 |
+| Amazon: Nova 2 Lite | 💠24 |
+| Google: Gemini 2.5 Flash | 💠24 |
+| MiniMax: MiniMax M1 | 💠24 |
+| Morph: Morph V3 Large | 💠24 |
+| Qwen: Qwen3.5 397B A17B | 💠24 |
+| Z.ai: GLM 4.5 | 💠24 |
+| Anthropic Claude Haiku Latest | 💠25 |
+| Anthropic: Claude Haiku 4.5 | 💠25 |
+| MoonshotAI: Kimi K2 0711 | 💠25 |
+| Qwen: Qwen3 VL 235B A22B Thinking | 💠25 |
+| OpenAI: GPT-3.5 Turbo (older v0613) | 💠26 |
+| xAI: Grok Build 0.1 | 💠26 |
+| MoonshotAI: Kimi K2 0905 | 💠27 |
+| MoonshotAI: Kimi K2 Thinking | 💠27 |
+| Thinking Machines: Inkling | 💠27 |
+| AI21: Jamba Large 1.7 | 💠28 |
+| DeepSeek: R1 | 💠28 |
+| OpenAI: o3 | 💠28 |
+| Perplexity: Sonar Deep Research | 💠28 |
+| Perplexity: Sonar Reasoning Pro | 💠28 |
+| Z.ai: GLM 5V Turbo | 💠28 |
+| MoonshotAI: Kimi K2.6 | 💠29 |
+| Qwen: Qwen3 235B A22B Thinking 2507 | 💠29 |
+| Google: Gemini 2.5 Pro Preview 05-06 | 💠30 |
+| Google: Gemini 2.5 Pro Preview 06-05 | 💠30 |
+| Google: Gemini 3 Flash Preview | 💠30 |
+| Meta: Muse Spark 1.1 | 💠30 |
+| MoonshotAI: Kimi K2.5 | 💠30 |
+| OpenAI: GPT-3.5 Turbo Instruct | 💠30 |
+| OpenAI: GPT-5 | 💠30 |
+| OpenAI: GPT-5.1 | 💠30 |
+| OpenAI: GPT-5.1-Codex | 💠30 |
+| OpenAI: GPT-5.1-Codex-Max | 💠30 |
+| Z.ai: GLM 5 | 💠30 |
+| OpenAI: GPT-5.2 | 💠32 |
+| OpenAI: GPT-5.2-Codex | 💠32 |
+| OpenAI: GPT-5.3-Codex | 💠32 |
+| Writer: Palmyra X5 | 💠33 |
+| Google Gemini Pro Latest | 💠38 |
+| Google: Gemini 3.1 Pro Preview Custom Tools | 💠38 |
+| OpenAI: GPT-3.5 Turbo 16k | 💠38 |
+| Qwen: Qwen3.6 Max Preview | 💠42 |
+| Cohere: Command A | 💠44 |
+| Cohere: Command R+ (08-2024) | 💠44 |
+| OpenAI: GPT-4o | 💠44 |
+| OpenAI: GPT-4o (2024-08-06) | 💠44 |
+| OpenAI: GPT-4o (2024-11-20) | 💠44 |
+| xAI: Grok 4.5 | 💠44 |
+| xAI: Grok Latest | 💠44 |
+| Anthropic Claude Sonnet Latest | 💠45 |
+| Magnum v4 72B | 💠51 |
+| Mistral Large | 💠51 |
+| Mistral Large 2407 | 💠51 |
+| Mistral: Mixtral 8x22B Instruct | 💠51 |
+| AionLabs: Aion-3.0 | 💠54 |
+| Google Gemini Flash Latest | 💠54 |
+| Mistral: Mistral Medium 3.5 | 💠54 |
+| Anthropic: Claude Sonnet 4 | 💠105 |
+| Anthropic: Claude Sonnet 4.5 | 💠105 |
+| Anthropic: Claude Sonnet 4.6 | 💠105 |
+| MoonshotAI Kimi Latest | 💠105 |
+| Perplexity: Sonar Pro | 💠105 |
+| Perplexity: Sonar Pro Search | 💠105 |
+| OpenAI: GPT-4o (2024-05-13) | 💠113 |
+| OpenAI GPT Latest | 💠120 |
+| OpenAI: GPT Chat Latest | 💠120 |
 
 </details>
 
@@ -542,9 +456,9 @@
 | Gemini 3.1 Flash TTS | 💠5 |
 | GPT-4o Mini Transcribe | 💠10 |
 | GPT-4o Transcribe | 💠20 |
-| Grok STT 1.0 | 💠— |
+| Grok STT 1.0 | 💠50 |
 | MAI-Transcribe 1.5 | 💠150 |
-| Nova-3 | 💠— |
+| Nova-3 | 💠5 |
 | Parakeet TDT 0.6B v3 | 💠2 |
 | Qwen3 ASR Flash | 💠35 |
 | Sound Effect | 💠20 |
