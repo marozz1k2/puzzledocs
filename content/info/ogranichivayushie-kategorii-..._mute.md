@@ -44,94 +44,69 @@
 
 **Кейс 2. Создание тарифных планов.** Вы хотите сделать бесплатный и платный тарифы.
 
-* Бесплатный тариф: При старте бота вы назначаете всем пользователям категории `mj_mute`, `suno_mute`, `kling_mute`, оставляя им доступ только к текстовому `gpt_mute`.
+* Бесплатный тариф: При старте бота вы назначаете всем пользователям категории `mj_mute`, `suno_mute`, `kling_mute`, не назначая общую категорию `gpt_mute`, которая блокирует текстовые модели.
 * Платный тариф: После того как пользователь оплачивает подписку, вы с помощью действия «Удалить категорию» снимаете с него все ограничения.
 
 **Кейс 3. Отключение неиспользуемой модели.** Вы решили, что ваш бот не будет поддерживать генерацию музыки. Чтобы пользователи случайно не пытались её вызвать, вы можете при старте бота всем пользователям сразу присвоить категорию `suno_mute`.
 
-### Полный список ограничивающих категорий
+## Категории действующих моделей
 
-Ниже представлен полный список официальных категорий и моделей, которые они блокируют.
+Список основных моделей сверён 07.10.2026. Назначение категории `..._mute` **запрещает** соответствующую задачу. Оно не включает модель и не добавляет баланс.
 
-#### Текстовые модели
+Общая категория `gpt_mute` ограничивает платные текстовые запросы, в том числе веб-поиск. Бесплатная модель `gpt_free` не блокируется общей `gpt_mute`, но учитывает собственную запрещающую категорию. Отдельные категории указаны ниже.
 
-***
+| Название | Модель / задача |
+| --- | --- |
+| `anthropic_claude_haiku_4_5_mute` | Anthropic: Claude Haiku 4.5 |
+| `claude_4_5_haiku_mute` | Claude 4.5 Haiku |
+| `deepseek_mute` | DeepSeek V3.2 |
+| `gpt_4_1_mute` | GPT-4.1 |
+| `gpt_5_mute` | GPT-5.4 |
+| `gpt_5_mini_mute` | GPT-5.4 Mini |
+| `gpt_free_mute` | GPT-5.4 Nano (free) |
+| `gpt_luna_mute` | GPT-5.6 Luna Pro |
+| `gpt_sol_mute` | GPT-5.6 Sol Pro |
+| `gpt_terra_mute` | GPT-5.6 Terra Pro |
+| `gemini_2_5_flash_mute` | Gemini 2.5 Flash Lite |
+| `gemini_2_5_pro_mute` | Gemini 2.5 Pro |
+| `gemini_3_pro_mute` | Gemini 3.1 Pro |
+| `gemini_3_flash_mute` | Gemini 3.5 Flash |
+| `grok_4_mute` | Grok 4.3 |
+| `vision_mute` | Grok 4.3 Vision |
+| `gpt_audio_mute` | Voxtral Mini Transcribe |
+| `web_search_mute` | Web Search |
+| `flux_2_flex_mute` | FLUX.2 Flex |
+| `flux_2_klein_mute` | FLUX.2 Klein |
+| `flux_2_max_mute` | FLUX.2 Max |
+| `flux_2_pro_mute` | FLUX.2 Pro |
+| `gpt_image_mute` | GPT Image 2.5 |
+| `kling_image_mute` | Kling O1 Image |
+| `midjourney_mute` | Midjourney |
+| `nano_banana_mute` | Nano Banana 2 |
+| `nano_banana_pro_mute` | Nano Banana Pro |
+| `seedream_mute` | Seedream 5.0 Lite |
+| `image_upscale_mute` | Topaz Image Upscale |
+| `suno_mute` | Suno |
+| `grok_video_mute` | Grok Imagine Video |
+| `kling_2_5_mute` | Kling 2.5 Turbo |
+| `kling_2_5_pro_mute` | Kling 2.5 Turbo Pro |
+| `kling_2_6_mute` | Kling 2.6 |
+| `kling_2_6_motion_control_mute` | Kling 2.6 Motion Control |
+| `kling_2_6_pro_mute` | Kling 2.6 Pro |
+| `kling_mute` | Kling 3.0 |
+| `kling_3_motion_control_mute` | Kling 3.0 Motion Control |
+| `kling_3_motion_control_pro_mute` | Kling 3.0 Motion Control Pro |
+| `kling_3_omni_mute` | Kling 3.0 Omni |
+| `kling_3_omni_edit_mute` | Kling 3.0 Omni Edit |
+| `kling_3_omni_edit_pro_mute` | Kling 3.0 Omni Edit Pro |
+| `kling_3_omni_pro_mute` | Kling 3.0 Omni Pro |
+| `kling_pro_mute` | Kling 3.0 Pro |
+| `kling_omni_mute` | Kling O1 |
+| `kling_omni_pro_mute` | Kling O1 Pro |
+| `midjourney_video_mute` | Midjourney Video |
+| `minimax_hailuo_mute` | MiniMax Hailuo 2.3 |
+| `hollywood_video_mute` | Seedance 2.0 Pro |
+| `veo_fast_mute` | Veo 3.1 Fast |
+| `veo_mute` | Veo 3.1 Quality |
 
-| Категория  | Блокируемая модель / функция     |
-| ---------- | -------------------------------- |
-| `gpt_mute` | **Все текстовые модели ChatGpt** |
-| `web_search_mute` | **Поиск в интернете (Web Search)** |
-
-Веб-поиск отключается и собственной категорией `web_search_mute`, и общей `gpt_mute`:
-модель относится к текстовым, поэтому попадает под оба ограничения.
-
-#### Компьютерное зрение
-
-***
-
-| Команда-триггер | Блокирует      |
-| --------------- | -------------- |
-| `vision_mute`   | **Gpt Vision** |
-
-#### Речевые модели
-
-***
-
-| Команда-триггер     | Блокирует                  |
-| ------------------- | -------------------------- |
-| `gpt_audio_mute`    | **GPT Audio / Whisper**    |
-
-#### **Фото модели**
-
-| Команда-триггер    | Блокирует                   |
-| ------------------ | --------------------------- |
-| `gpt_image_mute`   | **Gpt image**               |
-| `nano_banana_mute` | **Nano banana**             |
-| `nano_banana_pro_mute` | **Nano Banana Pro**       |
-| `flux_2_mute`      | **Все модели серии Flux 2** |
-| `flux_2_klein_mute` | **Flux 2 Klein**           |
-| `image_upscale_mute` | **Image Upscale** |
-| `seedream_mute` | **Seedream** |
-| `kling_image_mute` | **Kling Image** |
-| `higgsfield_photo_mute` | **Higgsfield photo** |
-| `midjourney_mute`  | **Midjourney fast**         |
-
-#### **Видео модели**
-
-***
-
-| Команда-триггер         | Блокирует            |
-| ----------------------- | -------------------- |
-| `kling_mute`            | **Kling**            |
-| `kling_pro_mute`        | **Kling pro**        |
-| `veo_mute`              | **Veo quality**      |
-| `veo_fast_mute`         | **Veo fast**         |
-| `minimax_hailuo_mute`   | **Minimax Hailuo**   |
-| `hollywood_video_mute`  | **Hollywood video**  |
-| `midjourney_video_mute` | **Midjourney Video** |
-| `higgsfield_video_mute` | **Higgsfield video** |
-| `grok_video_mute`       | **Grok video**       |
-| `kling_2_5_mute`        | **Kling 2.5 Turbo**  |
-| `kling_2_5_pro_mute`    | **Kling 2.5 Turbo Pro** |
-| `kling_2_6_mute`        | **Kling 2.6**        |
-| `kling_2_6_pro_mute`    | **Kling 2.6 Pro**    |
-| `kling_2_6_motion_control_mute` | **Kling 2.6 Motion Control** |
-| `kling_3_motion_control_mute` | **Kling 3.0 Motion Control** |
-| `kling_3_motion_control_pro_mute` | **Kling 3.0 Motion Control Pro** |
-| `kling_3_omni_mute`     | **Kling 3.0 Omni**   |
-| `kling_3_omni_pro_mute` | **Kling 3.0 Omni Pro** |
-| `kling_3_omni_edit_mute` | **Kling 3.0 Omni Edit** |
-| `kling_3_omni_edit_pro_mute` | **Kling 3.0 Omni Edit Pro** |
-| `kling_omni_mute`       | **Kling O1**         |
-| `kling_omni_pro_mute`   | **Kling O1 Pro**     |
-
-#### Музыкальные модели
-
-***
-
-| Команда-триггер | Блокирует   |
-| --------------- | ----------- |
-| `suno_mute` | **Suno** |
-| `producer_mute` | **Producer** |
-| `qwmusic_mute` | **QW Music** |
-| `flowmusic_mute` | **FlowMusic** |
+Для другой модели проверьте назначенную ей категорию в настройках; не создавайте имя по догадке. Удаление категории не включает отключённую модель и не отменяет ограничения тарифа.

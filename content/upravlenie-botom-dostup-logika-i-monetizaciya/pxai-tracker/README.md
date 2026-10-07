@@ -10,7 +10,7 @@ PxAI Tracker позволяет вызывать модели из команд 
 - [Фото-модели](https://docs.pxsto.re/tracker/treker-zaprosy/photo).
 - [Видео-модели](https://docs.pxsto.re/tracker/treker-zaprosy/video).
 - [Голосовые модели](https://docs.pxsto.re/tracker/treker-zaprosy/voice), включая [синтез речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) и [распознавание речи](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog).
-- [Музыкальные модели](https://docs.pxsto.re/tracker/treker-zaprosy/music): Suno, Producer, QW Music и FlowMusic.
+- [Музыкальные модели](https://docs.pxsto.re/tracker/treker-zaprosy/music): Suno, Producer и FlowMusic.
 
 ## Ответы в группы и топики Telegram
 
@@ -34,4 +34,3 @@ PxAI Tracker позволяет вызывать модели из команд 
   "send_answer": true // необязательно: отправить результат пользователю.
 }
 ```
-

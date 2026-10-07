@@ -60,7 +60,7 @@
 
 ## Основные модели
 
-| Ключ | Модель | Стоимость |
+| Ключ `model` | Модель | Стоимость |
 | --- | --- | ---: |
 | `gpt_free` | GPT-5.4 Nano (free) | 💠0 |
 | `gpt_5_mini` | GPT-5.4 Mini | 💠10 |
@@ -78,59 +78,24 @@
 | `web_search` | Web Search | 💠30 |
 | `gpt_4_1` | GPT-4.1 | 💠28 |
 
-## Все текстовые модели
+## Дополнительные текстовые модели
 
-В каталоге доступны только модели стоимостью не выше **💠150 за запрос**. Сначала идут основные модели, затем остальные действующие модели по стоимости. В поле `model` передавайте точный ключ из первой колонки. Цены сверены с тарифами 29.09.2026.
+Список включённых текстовых моделей стоимостью до **💠150** сверён 07.10.2026. Распознавание аудио находится в отдельном [разделе голоса](../voice/README.md). Ключ передаётся точно как указан в первой колонке.
 
-| Ключ | Модель | Стоимость |
+Для модели, выбранной в плагине, можно использовать `model: global` вместе с `type: text`: ключ отдельной модели в таком запросе не нужен. Полный выбор и доступ для вашего бота проверяйте в интерфейсе плагина.
+
+<details>
+<summary>Показать дополнительные модели</summary>
+
+| Ключ `model` | Модель | Стоимость |
 | --- | --- | ---: |
-| `gpt_free` | GPT-5.4 Nano (free) | 💠0 |
-| `gpt_5_mini` | GPT-5.4 Mini | 💠10 |
-| `gpt_5` | GPT-5.4 | 💠25 |
-| `gpt_luna` | GPT-5.6 Luna Pro | 💠30 |
-| `gpt_terra` | GPT-5.6 Terra Pro | 💠60 |
-| `gpt_sol` | GPT-5.6 Sol Pro | 💠120 |
-| `claude_4_5_haiku` | Claude 4.5 Haiku | 💠25 |
-| `anthropic_claude_sonnet_5` | Anthropic: Claude Sonnet 5 | 💠45 |
-| `deepseek` | DeepSeek V3.2 | 💠5 |
-| `gemini_3_flash` | Gemini 3.5 Flash | 💠15 |
-| `gemini_3_pro` | Gemini 3.1 Pro | 💠38 |
-| `gemini_2_5_flash` | Gemini 2.5 Flash Lite | 💠3 |
-| `gemini_2_5_pro` | Gemini 2.5 Pro | 💠30 |
-| `web_search` | Web Search | 💠30 |
-| `gpt_4_1` | GPT-4.1 | 💠28 |
-| `gpt_audio` | Voxtral Mini Transcribe | 💠2 |
-| `catalog_cursor_composer_2_5` | Composer 2.5 | 💠5 |
-| `grok_4` | Grok 4.3 | 💠10 |
-| `vision` | Grok 4.3 Vision | 💠10 |
-| `catalog_anthropic_claude_haiku_4_5` | Claude Haiku 4.5 | 💠15 |
-| `catalog_cursor_composer_2_5_fast` | Composer 2.5 Fast | 💠15 |
-| `unifically_google_gemini_3_6_flash` | Gemini 3.6 Flash | 💠20 |
-| `unifically_google_gemini_3_7_flash` | Gemini 3.7 Flash | 💠20 |
-| `catalog_xai_grok_4_5` | Grok 4.5 | 💠25 |
-| `unifically_xai_grok_4_6` | Grok 4.6 | 💠30 |
-| `openai_gpt_5_6_luna` | OpenAI: GPT-5.6 Luna | 💠30 |
-| `catalog_anthropic_claude_sonnet_4_6` | Claude Sonnet 4.6 | 💠45 |
-| `catalog_anthropic_claude_sonnet_5` | Claude Sonnet 5 | 💠45 |
-| `openai_gpt_5_6_terra` | OpenAI: GPT-5.6 Terra | 💠60 |
-| `catalog_anthropic_claude_opus_4_6` | Claude Opus 4.6 | 💠75 |
-| `catalog_anthropic_claude_opus_4_7` | Claude Opus 4.7 | 💠75 |
-| `catalog_anthropic_claude_opus_4_8` | Claude Opus 4.8 | 💠75 |
-| `catalog_moonshotai_kimi_k3` | Kimi K3 | 💠105 |
-| `moonshotai_kimi_k3` | MoonshotAI: Kimi K3 | 💠105 |
-| `openai_gpt_5_5` | OpenAI: GPT-5.5 | 💠120 |
-| `openai_gpt_5_6_sol` | OpenAI: GPT-5.6 Sol | 💠120 |
-| `openrouter_bodybuilder` | Body Builder (beta) | 💠1 |
 | `cohere_north_mini_code_free` | Cohere: North Mini Code (free) | 💠1 |
-| `openrouter_free` | Free Models Router | 💠1 |
 | `google_gemma_4_26b_a4b_it_free` | Google: Gemma 4 26B A4B  (free) | 💠1 |
 | `google_gemma_4_31b_it_free` | Google: Gemma 4 31B (free) | 💠1 |
 | `nvidia_nemotron_3_nano_omni_30b_a3b_reasoning_free` | NVIDIA: Nemotron 3 Nano Omni (free) | 💠1 |
 | `nvidia_nemotron_3_super_120b_a12b_free` | NVIDIA: Nemotron 3 Super (free) | 💠1 |
 | `nvidia_nemotron_3_ultra_550b_a55b_free` | NVIDIA: Nemotron 3 Ultra (free) | 💠1 |
 | `nvidia_nemotron_3_5_content_safety_free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 💠1 |
-| `openrouter_fusion` | OpenRouter: Fusion | 💠1 |
-| `openrouter_pareto_code` | Pareto Code Router | 💠1 |
 | `poolside_laguna_s_2_1_free` | Poolside: Laguna S 2.1 (free) | 💠1 |
 | `poolside_laguna_xs_2_1_free` | Poolside: Laguna XS 2.1 (free) | 💠1 |
 | `amazon_nova_lite_v1` | Amazon: Nova Lite 1.0 | 💠2 |
@@ -187,6 +152,7 @@
 | `qwen_qwen3_vl_32b_instruct` | Qwen: Qwen3 VL 32B Instruct | 💠4 |
 | `qwen_qwen3_vl_8b_instruct` | Qwen: Qwen3 VL 8B Instruct | 💠4 |
 | `tencent_hy3` | Tencent: Hy3 | 💠4 |
+| `catalog_cursor_composer_2_5` | Composer 2.5 | 💠5 |
 | `deepseek_deepseek_v3_2_exp` | DeepSeek: DeepSeek V3.2 Exp | 💠5 |
 | `google_gemma_4_26b_a4b_it` | Google: Gemma 4 26B A4B | 💠5 |
 | `qwen_qwen3_235b_a22b_2507` | Qwen: Qwen3 235B A22B Instruct 2507 | 💠5 |
@@ -223,6 +189,8 @@
 | `amazon_nova_pro_v1` | Amazon: Nova Pro 1.0 | 💠10 |
 | `deepseek_deepseek_chat_v3_1` | DeepSeek: DeepSeek V3.1 | 💠10 |
 | `deepseek_deepseek_v3_1_terminus` | DeepSeek: DeepSeek V3.1 Terminus | 💠10 |
+| `grok_4` | Grok 4.3 | 💠10 |
+| `vision` | Grok 4.3 Vision | 💠10 |
 | `mancer_weaver` | Mancer: Weaver (alpha) | 💠10 |
 | `minimax_minimax_m2` | MiniMax: MiniMax M2 | 💠10 |
 | `minimax_minimax_m2_7` | MiniMax: MiniMax M2.7 | 💠10 |
@@ -265,6 +233,8 @@
 | `qwen_qwen3_30b_a3b_thinking_2507` | Qwen: Qwen3 30B A3B Thinking 2507 | 💠14 |
 | `qwen_qwen3_vl_30b_a3b_thinking` | Qwen: Qwen3 VL 30B A3B Thinking | 💠14 |
 | `sao10k_l3_1_euryale_70b` | Sao10K: Llama 3.1 Euryale 70B v2.2 | 💠14 |
+| `catalog_anthropic_claude_haiku_4_5` | Claude Haiku 4.5 | 💠15 |
+| `catalog_cursor_composer_2_5_fast` | Composer 2.5 Fast | 💠15 |
 | `google_gemini_3_1_flash_lite` | Google: Gemini 3.1 Flash Lite | 💠15 |
 | `google_gemini_3_1_flash_lite_preview` | Google: Gemini 3.1 Flash Lite Preview | 💠15 |
 | `qwen_qwen2_5_vl_72b_instruct` | Qwen: Qwen2.5 VL 72B Instruct | 💠15 |
@@ -314,6 +284,7 @@
 | `z_ai_glm_4_5` | Z.ai: GLM 4.5 | 💠24 |
 | `latest_anthropic_claude_haiku_latest` | Anthropic Claude Haiku Latest | 💠25 |
 | `anthropic_claude_haiku_4_5` | Anthropic: Claude Haiku 4.5 | 💠25 |
+| `catalog_xai_grok_4_5` | Grok 4.5 | 💠25 |
 | `moonshotai_kimi_k2` | MoonshotAI: Kimi K2 0711 | 💠25 |
 | `qwen_qwen3_vl_235b_a22b_thinking` | Qwen: Qwen3 VL 235B A22B Thinking | 💠25 |
 | `openai_gpt_3_5_turbo_0613` | OpenAI: GPT-3.5 Turbo (older v0613) | 💠26 |
@@ -339,6 +310,7 @@
 | `openai_gpt_5_1` | OpenAI: GPT-5.1 | 💠30 |
 | `openai_gpt_5_1_codex` | OpenAI: GPT-5.1-Codex | 💠30 |
 | `openai_gpt_5_1_codex_max` | OpenAI: GPT-5.1-Codex-Max | 💠30 |
+| `openai_gpt_5_6_luna` | OpenAI: GPT-5.6 Luna | 💠30 |
 | `z_ai_glm_5` | Z.ai: GLM 5 | 💠30 |
 | `openai_gpt_5_2` | OpenAI: GPT-5.2 | 💠32 |
 | `openai_gpt_5_2_codex` | OpenAI: GPT-5.2-Codex | 💠32 |
@@ -356,6 +328,8 @@
 | `x_ai_grok_4_5` | xAI: Grok 4.5 | 💠44 |
 | `latest_x_ai_grok_latest` | xAI: Grok Latest | 💠44 |
 | `latest_anthropic_claude_sonnet_latest` | Anthropic Claude Sonnet Latest | 💠45 |
+| `catalog_anthropic_claude_sonnet_4_6` | Claude Sonnet 4.6 | 💠45 |
+| `catalog_anthropic_claude_sonnet_5` | Claude Sonnet 5 | 💠45 |
 | `anthracite_org_magnum_v4_72b` | Magnum v4 72B | 💠51 |
 | `mistralai_mistral_large` | Mistral Large | 💠51 |
 | `mistralai_mistral_large_2407` | Mistral Large 2407 | 💠51 |
@@ -363,16 +337,28 @@
 | `aion_labs_aion_3_0` | AionLabs: Aion-3.0 | 💠54 |
 | `latest_google_gemini_flash_latest` | Google Gemini Flash Latest | 💠54 |
 | `mistralai_mistral_medium_3_5` | Mistral: Mistral Medium 3.5 | 💠54 |
+| `openai_gpt_5_6_terra` | OpenAI: GPT-5.6 Terra | 💠60 |
+| `catalog_anthropic_claude_opus_4_6` | Claude Opus 4.6 | 💠75 |
+| `catalog_anthropic_claude_opus_4_7` | Claude Opus 4.7 | 💠75 |
+| `catalog_anthropic_claude_opus_4_8` | Claude Opus 4.8 | 💠75 |
 | `anthropic_claude_sonnet_4` | Anthropic: Claude Sonnet 4 | 💠105 |
 | `anthropic_claude_sonnet_4_5` | Anthropic: Claude Sonnet 4.5 | 💠105 |
 | `anthropic_claude_sonnet_4_6` | Anthropic: Claude Sonnet 4.6 | 💠105 |
+| `catalog_moonshotai_kimi_k3` | Kimi K3 | 💠105 |
 | `latest_moonshotai_kimi_latest` | MoonshotAI Kimi Latest | 💠105 |
+| `moonshotai_kimi_k3` | MoonshotAI: Kimi K3 | 💠105 |
 | `perplexity_sonar_pro` | Perplexity: Sonar Pro | 💠105 |
 | `perplexity_sonar_pro_search` | Perplexity: Sonar Pro Search | 💠105 |
 | `openai_gpt_4o_2024_05_13` | OpenAI: GPT-4o (2024-05-13) | 💠113 |
 | `latest_openai_gpt_latest` | OpenAI GPT Latest | 💠120 |
 | `openai_gpt_chat_latest` | OpenAI: GPT Chat Latest | 💠120 |
+| `openai_gpt_5_5` | OpenAI: GPT-5.5 | 💠120 |
+| `openai_gpt_5_6_sol` | OpenAI: GPT-5.6 Sol | 💠120 |
+
+</details>
 
 ## Ответ
 
-При `send_answer=true` результат отправляется пользователю. При `send_answer=false` он сохраняется в `{{tracker_answer}}`.
+Запрос выполняется асинхронно: HTTP-ответ подтверждает приём запроса, а не содержит готовый результат модели.
+
+При `send_answer=true` готовый результат отправляется в чат. При `send_answer=false` отправка в чат отключена; используйте `{{tracker_answer}}` после завершения задачи. Сохранение в эту переменную должно быть включено в настройках бота. Для медиа значение переменной зависит от настройки «ссылка / file_id».

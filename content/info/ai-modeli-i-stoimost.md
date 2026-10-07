@@ -1,24 +1,19 @@
 # Модели и стоимость
 
-Здесь собраны модели PuzzleAI для текста, изображений, видео, голоса и музыки.
+Здесь собраны включённые модели PuzzleAI. Список и базовые ставки сверены **07.10.2026**. Доступ модели конкретному боту зависит от его настроек. Перед запуском проверьте итоговую стоимость в интерфейсе: операции, длительность и параметры могут менять цену.
 
-Стоимость указана рядом с моделью в формате **💠25**. Перед запуском проверьте значение в интерфейсе: для некоторых видео- и музыкальных операций оно зависит от выбранных параметров.
+`💠25` — стоимость запроса; `💠25/сек` — ставка за секунду. У музыки цена указана для `generate`; остальные операции имеют собственные ставки.
 
-Стоимость фиксированного запроса указана числом; для посекундных моделей рядом со ставкой показано `/сек`.
-
-## Быстрый выбор
-
-| Задача | Что открыть |
+| Задача | Инструкция трекера |
 | --- | --- |
-| Написать или проанализировать текст | [Текстовые модели](#tekstovye-modeli) |
-| Создать или изменить изображение | [Изображения](#izobrazheniya) |
-| Создать или обработать видео | [Видео](#video) |
-| Озвучить или расшифровать аудио | [Голос](#golos) |
-| Создать песню или обработать трек | [Музыка](#muzyka) |
+| Текст | [Текстовые модели](https://docs.pxsto.re/tracker/treker-zaprosy/text) |
+| Изображения | [Изображения](https://docs.pxsto.re/tracker/treker-zaprosy/photo) |
+| Видео | [Видео](https://docs.pxsto.re/tracker/treker-zaprosy/video) |
+| Текст из аудио | [Расшифровка аудио](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) |
+| Аудио из текста | [Озвучивание текста](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) |
+| Музыка | [Музыка](https://docs.pxsto.re/tracker/treker-zaprosy/music) |
 
 ## Текстовые модели
-
-Стоимость текстового запроса — не выше **💠150**. Отключённые модели не включены. Цены сверены с действующими тарифами 29.09.2026.
 
 | Модель | Стоимость |
 | --- | ---: |
@@ -39,57 +34,17 @@
 | GPT-4.1 | 💠28 |
 
 <details>
-<summary>Все текстовые модели</summary>
+<summary>Все включённые текстовые модели до 💠150</summary>
 
 | Модель | Стоимость |
 | --- | ---: |
-| GPT-5.4 Nano (free) | 💠0 |
-| GPT-5.4 Mini | 💠10 |
-| GPT-5.4 | 💠25 |
-| GPT-5.6 Luna Pro | 💠30 |
-| GPT-5.6 Terra Pro | 💠60 |
-| GPT-5.6 Sol Pro | 💠120 |
-| Claude 4.5 Haiku | 💠25 |
-| Anthropic: Claude Sonnet 5 | 💠45 |
-| DeepSeek V3.2 | 💠5 |
-| Gemini 3.5 Flash | 💠15 |
-| Gemini 3.1 Pro | 💠38 |
-| Gemini 2.5 Flash Lite | 💠3 |
-| Gemini 2.5 Pro | 💠30 |
-| Web Search | 💠30 |
-| GPT-4.1 | 💠28 |
-| Voxtral Mini Transcribe | 💠2 |
-| Composer 2.5 | 💠5 |
-| Grok 4.3 | 💠10 |
-| Grok 4.3 Vision | 💠10 |
-| Claude Haiku 4.5 | 💠15 |
-| Composer 2.5 Fast | 💠15 |
-| Gemini 3.6 Flash | 💠20 |
-| Gemini 3.7 Flash | 💠20 |
-| Grok 4.5 | 💠25 |
-| Grok 4.6 | 💠30 |
-| OpenAI: GPT-5.6 Luna | 💠30 |
-| Claude Sonnet 4.6 | 💠45 |
-| Claude Sonnet 5 | 💠45 |
-| OpenAI: GPT-5.6 Terra | 💠60 |
-| Claude Opus 4.6 | 💠75 |
-| Claude Opus 4.7 | 💠75 |
-| Claude Opus 4.8 | 💠75 |
-| Kimi K3 | 💠105 |
-| MoonshotAI: Kimi K3 | 💠105 |
-| OpenAI: GPT-5.5 | 💠120 |
-| OpenAI: GPT-5.6 Sol | 💠120 |
-| Body Builder (beta) | 💠1 |
 | Cohere: North Mini Code (free) | 💠1 |
-| Free Models Router | 💠1 |
 | Google: Gemma 4 26B A4B  (free) | 💠1 |
 | Google: Gemma 4 31B (free) | 💠1 |
 | NVIDIA: Nemotron 3 Nano Omni (free) | 💠1 |
 | NVIDIA: Nemotron 3 Super (free) | 💠1 |
 | NVIDIA: Nemotron 3 Ultra (free) | 💠1 |
 | NVIDIA: Nemotron 3.5 Content Safety (free) | 💠1 |
-| OpenRouter: Fusion | 💠1 |
-| Pareto Code Router | 💠1 |
 | Poolside: Laguna S 2.1 (free) | 💠1 |
 | Poolside: Laguna XS 2.1 (free) | 💠1 |
 | Amazon: Nova Lite 1.0 | 💠2 |
@@ -146,6 +101,7 @@
 | Qwen: Qwen3 VL 32B Instruct | 💠4 |
 | Qwen: Qwen3 VL 8B Instruct | 💠4 |
 | Tencent: Hy3 | 💠4 |
+| Composer 2.5 | 💠5 |
 | DeepSeek: DeepSeek V3.2 Exp | 💠5 |
 | Google: Gemma 4 26B A4B | 💠5 |
 | Qwen: Qwen3 235B A22B Instruct 2507 | 💠5 |
@@ -182,6 +138,8 @@
 | Amazon: Nova Pro 1.0 | 💠10 |
 | DeepSeek: DeepSeek V3.1 | 💠10 |
 | DeepSeek: DeepSeek V3.1 Terminus | 💠10 |
+| Grok 4.3 | 💠10 |
+| Grok 4.3 Vision | 💠10 |
 | Mancer: Weaver (alpha) | 💠10 |
 | MiniMax: MiniMax M2 | 💠10 |
 | MiniMax: MiniMax M2.7 | 💠10 |
@@ -224,6 +182,8 @@
 | Qwen: Qwen3 30B A3B Thinking 2507 | 💠14 |
 | Qwen: Qwen3 VL 30B A3B Thinking | 💠14 |
 | Sao10K: Llama 3.1 Euryale 70B v2.2 | 💠14 |
+| Claude Haiku 4.5 | 💠15 |
+| Composer 2.5 Fast | 💠15 |
 | Google: Gemini 3.1 Flash Lite | 💠15 |
 | Google: Gemini 3.1 Flash Lite Preview | 💠15 |
 | Qwen: Qwen2.5 VL 72B Instruct | 💠15 |
@@ -250,6 +210,8 @@
 | OpenAI: GPT-5.1-Codex-Mini | 💠19 |
 | Qwen: Qwen3 235B A22B | 💠19 |
 | Qwen: Qwen3.6 Plus | 💠19 |
+| Gemini 3.6 Flash | 💠20 |
+| Gemini 3.7 Flash | 💠20 |
 | Kwaipilot: KAT-Coder-Pro V2.5 | 💠20 |
 | MoonshotAI: Kimi K2.7 Code | 💠20 |
 | Qwen: Qwen3.5-122B-A10B | 💠20 |
@@ -273,6 +235,7 @@
 | Z.ai: GLM 4.5 | 💠24 |
 | Anthropic Claude Haiku Latest | 💠25 |
 | Anthropic: Claude Haiku 4.5 | 💠25 |
+| Grok 4.5 | 💠25 |
 | MoonshotAI: Kimi K2 0711 | 💠25 |
 | Qwen: Qwen3 VL 235B A22B Thinking | 💠25 |
 | OpenAI: GPT-3.5 Turbo (older v0613) | 💠26 |
@@ -291,6 +254,7 @@
 | Google: Gemini 2.5 Pro Preview 05-06 | 💠30 |
 | Google: Gemini 2.5 Pro Preview 06-05 | 💠30 |
 | Google: Gemini 3 Flash Preview | 💠30 |
+| Grok 4.6 | 💠30 |
 | Meta: Muse Spark 1.1 | 💠30 |
 | MoonshotAI: Kimi K2.5 | 💠30 |
 | OpenAI: GPT-3.5 Turbo Instruct | 💠30 |
@@ -298,6 +262,7 @@
 | OpenAI: GPT-5.1 | 💠30 |
 | OpenAI: GPT-5.1-Codex | 💠30 |
 | OpenAI: GPT-5.1-Codex-Max | 💠30 |
+| OpenAI: GPT-5.6 Luna | 💠30 |
 | Z.ai: GLM 5 | 💠30 |
 | OpenAI: GPT-5.2 | 💠32 |
 | OpenAI: GPT-5.2-Codex | 💠32 |
@@ -315,6 +280,8 @@
 | xAI: Grok 4.5 | 💠44 |
 | xAI: Grok Latest | 💠44 |
 | Anthropic Claude Sonnet Latest | 💠45 |
+| Claude Sonnet 4.6 | 💠45 |
+| Claude Sonnet 5 | 💠45 |
 | Magnum v4 72B | 💠51 |
 | Mistral Large | 💠51 |
 | Mistral Large 2407 | 💠51 |
@@ -322,162 +289,168 @@
 | AionLabs: Aion-3.0 | 💠54 |
 | Google Gemini Flash Latest | 💠54 |
 | Mistral: Mistral Medium 3.5 | 💠54 |
+| OpenAI: GPT-5.6 Terra | 💠60 |
+| Claude Opus 4.6 | 💠75 |
+| Claude Opus 4.7 | 💠75 |
+| Claude Opus 4.8 | 💠75 |
 | Anthropic: Claude Sonnet 4 | 💠105 |
 | Anthropic: Claude Sonnet 4.5 | 💠105 |
 | Anthropic: Claude Sonnet 4.6 | 💠105 |
+| Kimi K3 | 💠105 |
 | MoonshotAI Kimi Latest | 💠105 |
+| MoonshotAI: Kimi K3 | 💠105 |
 | Perplexity: Sonar Pro | 💠105 |
 | Perplexity: Sonar Pro Search | 💠105 |
 | OpenAI: GPT-4o (2024-05-13) | 💠113 |
 | OpenAI GPT Latest | 💠120 |
 | OpenAI: GPT Chat Latest | 💠120 |
+| OpenAI: GPT-5.5 | 💠120 |
+| OpenAI: GPT-5.6 Sol | 💠120 |
 
 </details>
-
-## Компьютерное зрение
-
-| Модель | Стоимость | Для чего подходит |
-| --- | ---: | --- |
-| Vision | 💠10 | Анализ изображений, распознавание текста и объектов. |
 
 ## Изображения
 
 | Модель | Стоимость |
 | --- | ---: |
+| FLUX.2 Klein | 💠0 |
+| Midjourney | 💠4 |
 | Topaz Image Upscale | 💠5 |
-| GPT Image 2.5 | 💠80 |
-| Kling O1 Image | 💠10 |
-| Миджорни | 💠40 |
-| Нано банана | 💠80 |
-| Seedream 5.0 Lite | 💠30 |
-| FLUX.2 Max | 💠50 |
-| FLUX.2 Pro | 💠25 |
-| FLUX.2 Flex | 💠60 |
-| FLUX.2 Klein | 💠10 |
 | Flux.2 Klein 4B | 💠10 |
-| Flux.2 Klein 9B | 💠15 |
-| Grok Imagine Image | 💠25 |
 | Kling 2.1 Image | 💠10 |
+| Kling O1 Image | 💠10 |
+| Flux.2 Klein 9B | 💠15 |
 | Kling 3.0 Image | 💠20 |
-| Kling 3.0 Omni Image | 💠40 |
+| Nano Banana | 💠20 |
 | Nano Banana 2 Lite | 💠20 |
-| Nano Banana Pro | 💠39 |
-| Qwen Image | 💠35 |
-| Qwen Image 2.0 | 💠25 |
-| Qwen Image 2.0 Pro | 💠55 |
-| Qwen Image Max | 💠55 |
-| Qwen Image Plus | 💠25 |
+| FLUX.2 Pro | 💠25 |
+| Grok Imagine 2.0 Image | 💠25 |
+| Grok Imagine Image | 💠25 |
 | SeeDream 4.0 | 💠25 |
+| Seedream 5.0 Lite | 💠30 |
 | SeeDream 4.5 | 💠35 |
-| SeeDream 5.0 Pro | 💠60 |
-| Wan 2.2 Flash Image | 💠20 |
-| Wan 2.2 Image | 💠35 |
-| Wan 2.5 Image | 💠25 |
-| Wan 2.6 Image | 💠25 |
-| Wan 2.7 Image | 💠25 |
-| Wan 2.7 Pro Image | 💠55 |
-| Z Image Turbo | 💠25 |
+| Nano Banana Pro | 💠39 |
+| GPT Image 2 Plus | 💠40 |
+| Kling 3.0 Omni Image | 💠40 |
+| FLUX.2 Max | 💠50 |
+| FLUX.2 Flex | 💠60 |
+| Seedream 5 Pro | 💠60 |
+| GPT Image 2.5 | 💠80 |
+| Nano Banana 2 | 💠80 |
 
 ## Видео
 
 | Модель | Стоимость |
 | --- | ---: |
-| Вео | 💠300 |
-| Вео быстрый | 💠150 |
-| Seedance 2.0 Pro | 💠350/сек. |
-| Грок видео | 💠100 |
-| Kling 2.6 Motion Control | 💠300 |
-| Kling 3.0 Omni Edit | 💠300 |
+| Grok Imagine Video | 💠2/сек |
+| FLUX 3 Video Draft | 💠4/сек |
+| Grok Imagine Video 1.5 | 💠4/сек |
+| Wan 3.0 Video | 💠4/сек |
+| Veo 3.1 Lite | 💠7 |
+| HappyHorse 1.0 Image to Video | 💠9/сек |
+| HappyHorse 1.0 Reference to Video | 💠9/сек |
+| HappyHorse 1.0 Text to Video | 💠9/сек |
+| HappyHorse 1.0 Video Edit | 💠9/сек |
+| HappyHorse 1.1 Image to Video | 💠9/сек |
+| HappyHorse 1.1 Reference to Video | 💠9/сек |
+| HappyHorse 1.1 Text to Video | 💠9/сек |
+| FLUX 3 Video | 💠11/сек |
+| Grok Imagine Video 1.5 Fast | 💠12 |
+| Veo 3.1 Fast | 💠14 |
+| Grok Imagine Video | 💠15/сек |
+| Grok Imagine Video Extend | 💠15/сек |
+| Wan 2.7 | 💠16 |
+| Kling 3.0 | 💠18 |
+| Veo 3.1 Fast | 💠24 |
+| Grok Imagine Video 1.5 | 💠25/сек |
+| SeeDance 1.0 | 💠30/сек |
+| Omni Flash Video | 💠35 |
+| SeeDance 1.0 Pro Fast | 💠40/сек |
+| Grok Imagine Upscale | 💠50 |
+| MiniMax 2.3 Fast | 💠55/сек |
+| Kling 2.1 Video | 💠70/сек |
+| Wan 2.2 Flash Video | 💠70/сек |
+| Veo 3.1 Lite Relaxed | 💠75 |
+| Kling 2.6 Motion Control | 💠80/сек |
+| Kling 3.0 Turbo Video | 💠85/сек |
+| MiniMax 2.0 | 💠85/сек |
+| SeeDance 1.0 Pro | 💠90/сек |
+| SeeDance 1.5 Pro | 💠90/сек |
+| Veo 3.1 Quality | 💠100 |
+| Wan 2.5 Video | 💠105/сек |
+| Wan 2.6 Flash Video | 💠105/сек |
+| Wan 2.6 Video | 💠105/сек |
+| Wan 2.7 Video | 💠105/сек |
+| Wan 2.7 Video Edit | 💠105/сек |
+| Kling O1 Video Edit | 💠120/сек |
 | MiniMax Hailuo 2.3 | 💠120 |
+| HappyHorse 1.1 Video | 💠130/сек |
+| SeeDance 2.0 Mini | 💠150/сек |
+| Veo 3.1 Lite | 💠150 |
+| Topaz Video Upscale | 💠160/сек |
+| HappyHorse 1.0 Video | 💠170/сек |
+| HappyHorse 1.0 Video Edit | 💠170/сек |
+| SeeDance 2.0 Fast | 💠180/сек |
+| Kling 2.1 Master Video | 💠200/сек |
+| Wan 2.2 Video | 💠280 |
 | Gemini Omni Flash 1.1 Video | 💠300 |
 | Gemini Omni Flash 1.1 Video Edit | 💠300 |
-| Grok Imagine Upscale | 💠100 |
-| Grok Imagine Video | 💠15/сек. |
-| Grok Imagine Video 1.5 | 💠25/сек. |
-| Grok Imagine Video Extend | 💠15/сек. |
-| HappyHorse 1.0 Video | 💠170/сек. |
-| HappyHorse 1.0 Video Edit | 💠170/сек. |
-| HappyHorse 1.1 Video | 💠130/сек. |
-| Kling 2.1 Master Video | 💠200/сек. |
-| Kling 2.1 Video | 💠70/сек. |
 | Kling 2.5 Turbo | 💠300 |
 | Kling 2.5 Turbo Pro | 💠300 |
 | Kling 2.6 | 💠300 |
-| Kling 2.6 Motion Control | 💠80/сек. |
+| Kling 2.6 Motion Control | 💠300 |
 | Kling 2.6 Pro | 💠300 |
 | Kling 3.0 | 💠300 |
 | Kling 3.0 Motion Control | 💠300 |
 | Kling 3.0 Motion Control Pro | 💠300 |
 | Kling 3.0 Omni | 💠300 |
+| Kling 3.0 Omni Edit | 💠300 |
 | Kling 3.0 Omni Edit Pro | 💠300 |
 | Kling 3.0 Omni Pro | 💠300 |
 | Kling 3.0 Pro | 💠300 |
-| Kling 3.0 Turbo Video | 💠85/сек. |
 | Kling O1 | 💠300 |
 | Kling O1 Pro | 💠300 |
-| Kling O1 Video Edit | 💠120/сек. |
 | Midjourney Video | 💠300 |
-| MiniMax 2.0 | 💠85/сек. |
-| MiniMax 2.3 Fast | 💠55/сек. |
-| SeeDance 1.0 | 💠30/сек. |
-| SeeDance 1.0 Pro | 💠90/сек. |
-| SeeDance 1.0 Pro Fast | 💠40/сек. |
-| SeeDance 1.5 Pro | 💠90/сек. |
-| SeeDance 2.0 Fast | 💠180/сек. |
-| SeeDance 2.0 Mini | 💠150/сек. |
-| Topaz Video Upscale | 💠160/сек. |
-| Veo 3.1 Extend | 💠600 |
-| Veo 3.1 Lite | 💠150 |
-| Veo 3.1 Lite Relaxed | 💠100 |
+| Veo 3.1 Fast | 💠300 |
+| Seedance 2.0 Pro | 💠350/сек |
 | Veo 3.1 Upscale | 💠500 |
-| Wan 2.2 Flash Video | 💠70/сек. |
-| Wan 2.2 Video | 💠280 |
-| Wan 2.5 Video | 💠105/сек. |
-| Wan 2.6 Flash Video | 💠105/сек. |
-| Wan 2.6 Video | 💠105/сек. |
-| Wan 2.7 Video | 💠105/сек. |
-| Wan 2.7 Video Edit | 💠105/сек. |
+| Veo 3.1 Extend | 💠600 |
 
-Стоимость с пометкой «/сек.» считается за секунду готового видео.
-
-Минимальная стоимость одного видеозапроса — 💠100. Если ставка за секунду даёт
-меньше, за запрос всё равно списывается 💠100: например, ролик на 1 секунду по
-ставке 💠30/сек. обойдётся в 💠100, а на 5 секунд — в 💠150.
-
-## Голос
+## Озвучивание текста
 
 | Модель | Стоимость |
 | --- | ---: |
-| Audio Isolation | 💠25 |
-| Chirp 3 | 💠10 |
 | ElevenLabs Multilingual V2 | 💠3 |
 | Gemini 2.5 Flash TTS | 💠5 |
 | Gemini 2.5 Pro TTS | 💠5 |
 | Gemini 3.1 Flash TTS | 💠5 |
-| GPT-4o Mini Transcribe | 💠10 |
-| GPT-4o Transcribe | 💠20 |
-| Grok STT 1.0 | 💠50 |
-| MAI-Transcribe 1.5 | 💠150 |
-| Nova-3 | 💠5 |
-| Parakeet TDT 0.6B v3 | 💠2 |
-| Qwen3 ASR Flash | 💠35 |
-| Sound Effect | 💠20 |
-| Speech To Text | 💠160 |
-| Text to Dialogue | 💠100 |
-| Text to Speech | 💠100 |
-| Voice Changer | 💠100 |
+| ElevenLabs Text to Dialogue | 💠100 |
+| ElevenLabs Text to Speech | 💠100 |
+
+## Распознавание речи
+
+| Модель | Стоимость |
+| --- | ---: |
+| Mistral: Voxtral Mini Transcribe | 💠2 |
+| NVIDIA: Parakeet TDT 0.6B v3 | 💠2 |
+| OpenAI: Whisper Large V3 | 💠2 |
 | Voxtral Mini Transcribe | 💠2 |
-| Whisper 1 | 💠5 |
-| Whisper Large V3 | 💠2 |
-| Whisper Large V3 Turbo | 💠25 |
+| Deepgram: Nova-3 | 💠5 |
+| OpenAI: Whisper 1 | 💠5 |
+| Google: Chirp 3 | 💠10 |
+| OpenAI: GPT-4o Mini Transcribe | 💠10 |
+| OpenAI: GPT-4o Transcribe | 💠20 |
+| OpenAI: Whisper Large V3 Turbo | 💠25 |
+| Qwen: Qwen3 ASR Flash | 💠35 |
+| xAI: Grok STT 1.0 | 💠50 |
+| Microsoft: MAI-Transcribe 1.5 | 💠150 |
 
 ## Музыка
 
-| Модель | Обычная генерация | Для чего подходит |
-| --- | ---: | --- |
-| [Suno](muzykalnye-modeli-i-operacii.md) | 💠30 | Песни, каверы, ремастеринг, дорожки, MIDI и редактирование трека. |
-| [Producer](muzykalnye-modeli-i-operacii.md) | 💠30 | Генерация и точечная замена музыки, вокала или инструментала. |
-| [QW Music](muzykalnye-modeli-i-operacii.md) | 💠30 | Песня по описанию, своему тексту, стилю или мелодии. |
-| [FlowMusic](muzykalnye-modeli-i-operacii.md) | 💠30 | Генерация, продление, замена фрагмента и экспорт. |
+| Модель | Стоимость |
+| --- | ---: |
+| FlowMusic | 💠30 |
+| Producer (Google Lyria 3) | 💠30 |
+| Suno | 💠30 |
 
-[Все музыкальные операции и параметры](muzykalnye-modeli-i-operacii.md)
+[Операции музыки и их стоимость](muzykalnye-modeli-i-operacii.md).
