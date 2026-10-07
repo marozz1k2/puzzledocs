@@ -6,16 +6,14 @@
 
 Трекер — no-code API, который вызывается действием «Отправить запрос» в сценарии PuzzleBot. Здесь нет отдельного поля записи голоса или загрузки файла. Сценарий сначала получает исходные данные пользователя, затем подставляет их в параметры запроса.
 
-| Задача | Основные данные | Инструкция |
-| --- | --- | --- |
-| Получить текст | `prompt` | [Текст](tracker/models/text/README.md) |
-| Разобрать изображение | `prompt` и `images` | [Анализ изображения](tracker/models/text/vision.md) |
-| Создать изображение | `prompt`, при необходимости `images` | [Изображения](tracker/models/photo/README.md) |
-| Создать видео | `prompt` и исходники выбранного режима | [Видео](tracker/models/video/README.md) |
-| Расшифровать аудио | ID аудиофайла в **`file`** | [Расшифровка аудио](tracker/models/voice/transcription-catalog.md) |
-| Озвучить текст | `prompt` с текстом для записи | [Озвучивание текста](tracker/models/voice/speech-catalog.md) |
-| Создать музыку | `model`, `action` и поля операции | [Музыка](tracker/models/music/README.md) |
-| Создать файл документа | `prompt`, `document: true`, `format` | [Документы](tracker/models/text/document-creation.md) |
+* [Получить текст](tracker/models/text/README.md) — `prompt`.
+* [Разобрать изображение](tracker/models/text/vision.md) — `prompt` и `images`.
+* [Создать изображение](tracker/models/photo/README.md) — `prompt`, при необходимости `images`.
+* [Создать видео](tracker/models/video/README.md) — `prompt` и исходники выбранного режима.
+* [Расшифровать аудио](tracker/models/voice/transcription-catalog.md) — ID аудиофайла в **`file`**.
+* [Озвучить текст](tracker/models/voice/speech-catalog.md) — `prompt` с текстом для записи.
+* [Создать музыку](tracker/models/music/README.md) — `model`, `action` и поля операции.
+* [Создать файл документа](tracker/models/text/document-creation.md) — `prompt`, `document: true`, `format`.
 
 ## Актуальный каталог
 
