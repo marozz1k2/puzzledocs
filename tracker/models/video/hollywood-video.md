@@ -45,7 +45,7 @@
 | `params.first_frame_url` | string | Условно | первый кадр для режима `first_last_frame`; обязателен в этом режиме. |
 | `params.last_frame_url` | string | Нет | последний кадр для режима `first_last_frame`. |
 | `params.references` | array | Условно | до 9 URL медиа-референсов; обязательно в режиме `omni_reference`. |
-| `send_answer` | boolean | Нет | `true` отправляет результат пользователю. `false` не отправляет сообщение и сохраняет результат в `{{tracker_answer}}`. По умолчанию `true`. |
+| `send_answer` | boolean | Нет | `true` отправляет результат пользователю. `false` отключает отправку в чат. Сохранение в `{{tracker_answer}}` включается отдельно в настройках бота. По умолчанию `true`. |
 
 ## Ответ
 
