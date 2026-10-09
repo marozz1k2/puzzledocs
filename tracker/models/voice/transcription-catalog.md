@@ -43,23 +43,22 @@ ID файла относится к боту, который его получи
 
 ## Модели распознавания
 
-Список и базовая стоимость сверены 07.10.2026. Доступ конкретного бота зависит от его настроек и баланса.
+Список и базовая стоимость сверены 09.10.2026. Доступ конкретного бота зависит от его настроек и баланса. Ставки `/час` и `/мин` умножаются на длительность записи в часах или минутах; итог округляется вверх до целого AI. Например, 1 минута по ставке 90 AI/час стоит 2 AI. Цена без единицы времени указана за запрос.
 
 | Ключ `model` | Модель | Стоимость |
 | --- | --- | ---: |
 | `gpt_audio` | Voxtral Mini Transcribe | 💠2 |
-| `deepgram_nova_3` | Deepgram: Nova-3 | 💠5 |
-| `google_chirp_3` | Google: Chirp 3 | 💠10 |
-| `microsoft_mai_transcribe_1_5` | Microsoft: MAI-Transcribe 1.5 | 💠150 |
-| `mistralai_voxtral_mini_transcribe` | Mistral: Voxtral Mini Transcribe | 💠2 |
-| `nvidia_parakeet_tdt_0_6b_v3` | NVIDIA: Parakeet TDT 0.6B v3 | 💠2 |
-| `openai_gpt_4o_mini_transcribe` | OpenAI: GPT-4o Mini Transcribe | 💠10 |
-| `openai_gpt_4o_transcribe` | OpenAI: GPT-4o Transcribe | 💠20 |
-| `openai_whisper_1` | OpenAI: Whisper 1 | 💠5 |
-| `openai_whisper_large_v3` | OpenAI: Whisper Large V3 | 💠2 |
-| `openai_whisper_large_v3_turbo` | OpenAI: Whisper Large V3 Turbo | 💠25 |
-| `qwen_qwen3_asr_flash_2026_02_10` | Qwen: Qwen3 ASR Flash | 💠35 |
-| `x_ai_grok_stt_1_0` | xAI: Grok STT 1.0 | 💠50 |
+| `deepgram_nova_3` | Deepgram: Nova-3 | 💠129/час |
+| `google_chirp_3` | Google: Chirp 3 | 💠480/час |
+| `mistralai_voxtral_mini_transcribe` | Mistral: Voxtral Mini Transcribe | 💠90/час |
+| `nvidia_parakeet_tdt_0_6b_v3` | NVIDIA: Parakeet TDT 0.6B v3 | 💠45/час |
+| `openai_gpt_4o_mini_transcribe` | OpenAI: GPT-4o Mini Transcribe | 💠3 |
+| `openai_gpt_4o_transcribe` | OpenAI: GPT-4o Transcribe | 💠5 |
+| `openai_whisper_1` | OpenAI: Whisper 1 | 💠180/час |
+| `openai_whisper_large_v3` | OpenAI: Whisper Large V3 | 💠14/час |
+| `openai_whisper_large_v3_turbo` | OpenAI: Whisper Large V3 Turbo | 💠6/час |
+| `qwen_qwen3_asr_flash_2026_02_10` | Qwen: Qwen3 ASR Flash | 💠63/час |
+| `x_ai_grok_stt_1_0` | xAI: Grok STT 1.0 | 💠50/час |
 
 ## Ответ
 
