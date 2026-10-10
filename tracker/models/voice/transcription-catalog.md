@@ -29,15 +29,15 @@
 
 ## Параметры
 
-| Параметр | Обязательный | Что указать |
-| --- | --- | --- |
-| `bot` | Да | Username бота, который получил файл. |
-| `token` | Да | API-токен интеграции этого бота. |
-| `user` | Да | ID пользователя, запускающего задачу. |
-| `model` | Да | `gpt_audio` либо ключ включённой модели из таблицы ниже. |
-| `file` | Да | ID голосового сообщения или аудиофайла; передаётся на верхнем уровне, рядом с `model`. |
-| `prompt` | Нет | Подсказка распознаванию; не заменяет файл и не включает отдельную текстовую обработку. |
-| `send_answer` | Нет | `true` — отправить текст в чат; `false` — использовать сохранённый результат в сценарии. |
+| Параметр      | Обязательный | Что указать                                                                              |
+| ------------- | ------------ | ---------------------------------------------------------------------------------------- |
+| `bot`         | Да           | Username бота, который получил файл.                                                     |
+| `token`       | Да           | API-токен интеграции этого бота.                                                         |
+| `user`        | Да           | ID пользователя, запускающего задачу.                                                    |
+| `model`       | Да           | `gpt_audio` либо ключ включённой модели из таблицы ниже.                                 |
+| `file`        | Да           | ID голосового сообщения или аудиофайла; передаётся на верхнем уровне, рядом с `model`.   |
+| `prompt`      | Нет          | Подсказка распознаванию; не заменяет файл и не включает отдельную текстовую обработку.   |
+| `send_answer` | Нет          | `true` — отправить текст в чат; `false` — использовать сохранённый результат в сценарии. |
 
 ID файла относится к боту, который его получил. URL страницы, название записи и ID сообщения не являются ID аудиофайла. Для новых сценариев используйте поле `file`; `file_id`, `voice_file_id` и `audio_file_id` принимаются как совместимые варианты.
 
@@ -45,29 +45,44 @@ ID файла относится к боту, который его получи
 
 Список и базовая стоимость сверены 10.10.2026. Запросы требуют действующей подписки. Минутная ставка умножается на длительность записи в секундах и делится на 60. Длительность округляется вверх до целой секунды; дробная ставка сохраняется, итог округляется вверх до целого AI один раз. Например, минута по ставке 1,5 AI/мин стоит 2 AI. Цена без единицы времени указана за запрос.
 
-| Ключ `model` | Модель | Стоимость |
-| --- | --- | ---: |
-| `gpt_audio` | Voxtral Mini Transcribe | 💠2 |
-| `deepgram_nova_3` | Deepgram: Nova-3 | 💠2,15/мин |
-| `google_chirp_3` | Google: Chirp 3 | 💠8/мин |
-| `mistralai_voxtral_mini_transcribe` | Mistral: Voxtral Mini Transcribe | 💠1,5/мин |
-| `nvidia_parakeet_tdt_0_6b_v3` | NVIDIA: Parakeet TDT 0.6B v3 | 💠0,75/мин |
-| `openai_gpt_4o_mini_transcribe` | OpenAI: GPT-4o Mini Transcribe | 💠3 |
-| `openai_gpt_4o_transcribe` | OpenAI: GPT-4o Transcribe | 💠5 |
-| `openai_whisper_1` | OpenAI: Whisper 1 | 💠3/мин |
-| `openai_whisper_large_v3` | OpenAI: Whisper Large V3 | 💠0,2333/мин |
-| `openai_whisper_large_v3_turbo` | OpenAI: Whisper Large V3 Turbo | 💠0,1/мин |
-| `qwen_qwen3_asr_flash_2026_02_10` | Qwen: Qwen3 ASR Flash | 💠1,05/мин |
-| `x_ai_grok_stt_1_0` | xAI: Grok STT 1.0 | 💠0,8333/мин |
+| Ключ `model`                        | Модель                           |    Стоимость |
+| ----------------------------------- | -------------------------------- | -----------: |
+| `gpt_audio`                         | Voxtral Mini Transcribe          |          💠2 |
+| `deepgram_nova_3`                   | Deepgram: Nova-3                 |   💠2,15/мин |
+| `google_chirp_3`                    | Google: Chirp 3                  |      💠8/мин |
+| `mistralai_voxtral_mini_transcribe` | Mistral: Voxtral Mini Transcribe |    💠1,5/мин |
+| `nvidia_parakeet_tdt_0_6b_v3`       | NVIDIA: Parakeet TDT 0.6B v3     |   💠0,75/мин |
+| `openai_gpt_4o_mini_transcribe`     | OpenAI: GPT-4o Mini Transcribe   |          💠3 |
+| `openai_gpt_4o_transcribe`          | OpenAI: GPT-4o Transcribe        |          💠5 |
+| `openai_whisper_1`                  | OpenAI: Whisper 1                |      💠3/мин |
+| `openai_whisper_large_v3`           | OpenAI: Whisper Large V3         | 💠0,2333/мин |
+| `openai_whisper_large_v3_turbo`     | OpenAI: Whisper Large V3 Turbo   |    💠0,1/мин |
+| `qwen_qwen3_asr_flash_2026_02_10`   | Qwen: Qwen3 ASR Flash            |   💠1,05/мин |
+| `x_ai_grok_stt_1_0`                 | xAI: Grok STT 1.0                | 💠0,8333/мин |
+
+| Ключ `model`                        | Модель                           |    Стоимость |
+| ----------------------------------- | -------------------------------- | -----------: |
+| `gpt_audio`                         | Voxtral Mini Transcribe          |          💠2 |
+| `deepgram_nova_3`                   | Deepgram: Nova-3                 |   💠2,15/мин |
+| `google_chirp_3`                    | Google: Chirp 3                  |      💠8/мин |
+| `mistralai_voxtral_mini_transcribe` | Mistral: Voxtral Mini Transcribe |    💠1,5/мин |
+| `nvidia_parakeet_tdt_0_6b_v3`       | NVIDIA: Parakeet TDT 0.6B v3     |   💠0,75/мин |
+| `openai_gpt_4o_mini_transcribe`     | OpenAI: GPT-4o Mini Transcribe   |          💠3 |
+| `openai_gpt_4o_transcribe`          | OpenAI: GPT-4o Transcribe        |          💠5 |
+| `openai_whisper_1`                  | OpenAI: Whisper 1                |      💠3/мин |
+| `openai_whisper_large_v3`           | OpenAI: Whisper Large V3         | 💠0,2333/мин |
+| `openai_whisper_large_v3_turbo`     | OpenAI: Whisper Large V3 Turbo   |    💠0,1/мин |
+| `qwen_qwen3_asr_flash_2026_02_10`   | Qwen: Qwen3 ASR Flash            |   💠1,05/мин |
+| `x_ai_grok_stt_1_0`                 | xAI: Grok STT 1.0                | 💠0,8333/мин |
 
 ## Ответ
 
 Запрос выполняется асинхронно: HTTP-ответ подтверждает приём запроса, а не содержит готовый результат модели.
 
-При `send_answer=true` готовый результат отправляется в чат. При `send_answer=false` отправка в чат отключена; используйте `{{tracker_answer}}` после завершения задачи. Сохранение в эту переменную должно быть включено в настройках бота. Для медиа значение переменной зависит от настройки «ссылка / file_id».
+При `send_answer=true` готовый результат отправляется в чат. При `send_answer=false` отправка в чат отключена; используйте `{{tracker_answer}}` после завершения задачи. Сохранение в эту переменную должно быть включено в настройках бота. Для медиа значение переменной зависит от настройки «ссылка / file\_id».
 
 ## Как получить конспект или ответ на голосовой вопрос
 
-Расшифровка и обработка текста — отдельные задачи. Для собственного сценария дождитесь результата первого запроса, затем отправьте его как `prompt` выбранной [текстовой модели](../text/README.md) с нужной инструкцией. Например: «Сделай краткий конспект: {{tracker_answer}}».
+Расшифровка и обработка текста — отдельные задачи. Для собственного сценария дождитесь результата первого запроса, затем отправьте его как `prompt` выбранной [текстовой модели](../text/) с нужной инструкцией. Например: «Сделай краткий конспект: \{{tracker\_answer\}}».
 
 В обычном диалоге бота можно включить режим **«Расшифровка + обработка GPT»** в настройках плагина. Модель текста выбирается там отдельно; стоимость распознавания не включает стоимость следующей текстовой задачи.
