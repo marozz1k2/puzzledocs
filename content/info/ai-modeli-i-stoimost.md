@@ -20,12 +20,13 @@ Terra Pro: **101 AI за запрос**; ставка учитывает под�
 | Аудио из текста | [Озвучивание текста](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) |
 | Музыка | [Музыка](https://docs.pxsto.re/tracker/treker-zaprosy/music) |
 
-## Текст — 288
+## Текстовые модели
+
+Активных вариантов: 287.
 
 | Модель | Цена | Единица |
 |---|---:|---|
 | GPT-5.4 Nano (free) | 0 AI | запрос |
-| Voxtral Mini Transcribe | 2 AI | запрос |
 | GPT-5.4 | 25 AI | запрос |
 | GPT-4.1 | 28 AI | запрос |
 | GPT-5.4 Mini | 10 AI | запрос |
@@ -313,7 +314,9 @@ Terra Pro: **101 AI за запрос**; ставка учитывает под�
 | Claude 4.5 Haiku | 25 AI | запрос |
 | DeepSeek V3.2 | 5 AI | запрос |
 
-## Изображения — 23
+## Изображения
+
+Активных вариантов: 23.
 
 | Модель | Цена | Единица |
 |---|---:|---|
@@ -341,36 +344,9 @@ Terra Pro: **101 AI за запрос**; ставка учитывает под�
 | Topaz Image Upscale | 5 AI | запрос |
 | Midjourney | 4 AI | запрос |
 
-## Голос и музыка — 24
+## Видео
 
-| Модель | Цена | Единица |
-|---|---:|---|
-| Gemini 3.1 Flash TTS | 38 AI | запрос до 3000 символов |
-| ElevenLabs Multilingual V2 | 146 AI | запрос до 3000 символов |
-| ElevenLabs Audio Isolation | 49 AI | минута записи |
-| ElevenLabs Sound Effect | 10 AI | запрос |
-| ElevenLabs Text to Dialogue | 146 AI | запрос до 3000 символов |
-| ElevenLabs Text to Speech | 146 AI | запрос до 3000 символов |
-| ElevenLabs Voice Changer | 49 AI | минута записи |
-| Gemini 2.5 Flash TTS | 19 AI | запрос до 3000 символов |
-| Gemini 2.5 Pro TTS | 38 AI | запрос до 3000 символов |
-| Speech To Text | 1,3167 AI | минута записи |
-| Deepgram: Nova-3 | 2,15 AI | минута записи |
-| Google: Chirp 3 | 8 AI | минута записи |
-| Mistral: Voxtral Mini Transcribe | 1,5 AI | минута записи |
-| NVIDIA: Parakeet TDT 0.6B v3 | 0,75 AI | минута записи |
-| OpenAI: GPT-4o Mini Transcribe | 3 AI | запрос |
-| OpenAI: GPT-4o Transcribe | 5 AI | запрос |
-| OpenAI: Whisper 1 | 3 AI | минута записи |
-| OpenAI: Whisper Large V3 | 0,2333 AI | минута записи |
-| OpenAI: Whisper Large V3 Turbo | 0,1 AI | минута записи |
-| Qwen: Qwen3 ASR Flash | 1,05 AI | минута записи |
-| xAI: Grok STT 1.0 | 0,8333 AI | минута записи |
-| Suno | 30 AI | запрос |
-| FlowMusic | 30 AI | запрос |
-| Producer (Google Lyria 3) | 30 AI | запрос |
-
-## Видео — 76
+Активных вариантов: 76.
 
 | Модель | Цена | Единица |
 |---|---:|---|
@@ -439,3 +415,58 @@ Terra Pro: **101 AI за запрос**; ставка учитывает под�
 | Wan 2.7 Video Edit | 50 AI | секунда |
 | Wan 3.0 Video | 50 AI | секунда |
 | Midjourney Video | 28 AI | секунда |
+
+## Озвучивание текста
+
+Активных вариантов: 6.
+
+| Модель | Цена | Единица |
+|---|---:|---|
+| Gemini 3.1 Flash TTS | 38 AI | запрос до 3000 символов |
+| ElevenLabs Multilingual V2 | 146 AI | запрос до 3000 символов |
+| ElevenLabs Text to Dialogue | 146 AI | запрос до 3000 символов |
+| ElevenLabs Text to Speech | 146 AI | запрос до 3000 символов |
+| Gemini 2.5 Flash TTS | 19 AI | запрос до 3000 символов |
+| Gemini 2.5 Pro TTS | 38 AI | запрос до 3000 символов |
+
+## Распознавание речи
+
+Активных вариантов: 13.
+
+| Модель | Цена | Единица |
+|---|---:|---|
+| Voxtral Mini Transcribe | 2 AI | запрос |
+| Speech To Text | 1,3167 AI | минута записи |
+| Deepgram: Nova-3 | 2,15 AI | минута записи |
+| Google: Chirp 3 | 8 AI | минута записи |
+| Mistral: Voxtral Mini Transcribe | 1,5 AI | минута записи |
+| NVIDIA: Parakeet TDT 0.6B v3 | 0,75 AI | минута записи |
+| OpenAI: GPT-4o Mini Transcribe | 3 AI | запрос |
+| OpenAI: GPT-4o Transcribe | 5 AI | запрос |
+| OpenAI: Whisper 1 | 3 AI | минута записи |
+| OpenAI: Whisper Large V3 | 0,2333 AI | минута записи |
+| OpenAI: Whisper Large V3 Turbo | 0,1 AI | минута записи |
+| Qwen: Qwen3 ASR Flash | 1,05 AI | минута записи |
+| xAI: Grok STT 1.0 | 0,8333 AI | минута записи |
+
+## Обработка и создание аудио
+
+Активных вариантов: 3.
+
+| Модель | Цена | Единица |
+|---|---:|---|
+| ElevenLabs Audio Isolation | 49 AI | минута записи |
+| ElevenLabs Sound Effect | 10 AI | запрос |
+| ElevenLabs Voice Changer | 49 AI | минута записи |
+
+## Музыка
+
+Активных вариантов: 3.
+
+| Модель | Цена | Единица |
+|---|---:|---|
+| Suno | 30 AI | запрос |
+| FlowMusic | 30 AI | запрос |
+| Producer (Google Lyria 3) | 30 AI | запрос |
+
+[Операции музыки и их стоимость](https://docs.pxsto.re/info/muzykalnye-modeli-i-operacii).
