@@ -2,6 +2,8 @@
 
 Эти модели подходят для генерации и редактирования текста, анализа, программирования и задач с рассуждением. Для изображений используйте [Vision](vision.md), а для файлов — [Создание документов](document-creation.md).
 
+В каталоге остаются текстовые модели стоимостью до **120 AI за запрос**. Luna Pro, Sol Pro и Terra Pro сняты; для новых ботов по умолчанию используется GPT-5.4 Nano (free).
+
 ## Как отправить запрос
 
 * URL-адрес: `https://api.pxsto.re/main/puzzlebot-tracker`
@@ -67,9 +69,6 @@
 | `gpt_free`                  | GPT-5.4 Nano (free)        |       💠0 |
 | `gpt_5_mini`                | GPT-5.4 Mini               |      💠10 |
 | `gpt_5`                     | GPT-5.4                    |      💠25 |
-| `gpt_luna`                  | GPT-5.6 Luna Pro           |      💠30 |
-| `gpt_terra`                 | GPT-5.6 Terra Pro          |     💠101 |
-| `gpt_sol`                   | GPT-5.6 Sol Pro            |     💠120 |
 | `claude_4_5_haiku`          | Claude 4.5 Haiku           |      💠25 |
 | `anthropic_claude_sonnet_5` | Anthropic: Claude Sonnet 5 |      💠45 |
 | `deepseek`                  | DeepSeek V3.2              |       💠5 |

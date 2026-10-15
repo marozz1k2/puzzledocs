@@ -36,9 +36,6 @@
 | `gpt_5_category` | GPT-5.4 |
 | `gpt_5_mini_category` | GPT-5.4 Mini |
 | `gpt_free_category` | GPT-5.4 Nano (free) |
-| `gpt_luna_category` | GPT-5.6 Luna Pro |
-| `gpt_sol_category` | GPT-5.6 Sol Pro |
-| `gpt_terra_category` | GPT-5.6 Terra Pro |
 | `gemini_2_5_flash_category` | Gemini 2.5 Flash Lite |
 | `gemini_2_5_pro_category` | Gemini 2.5 Pro |
 | `gemini_3_pro_category` | Gemini 3.1 Pro |

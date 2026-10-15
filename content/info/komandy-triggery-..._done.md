@@ -58,9 +58,6 @@
 | `gpt_5_done` | GPT-5.4 |
 | `gpt_5_mini_done` | GPT-5.4 Mini |
 | `gpt_done` | GPT-5.4 Nano (free) |
-| `gpt_luna_done` | GPT-5.6 Luna Pro |
-| `gpt_sol_done` | GPT-5.6 Sol Pro |
-| `gpt_terra_done` | GPT-5.6 Terra Pro |
 | `gemini_2_5_flash_done` | Gemini 2.5 Flash Lite |
 | `gemini_2_5_pro_done` | Gemini 2.5 Pro |
 | `gemini_3_pro_done` | Gemini 3.1 Pro |

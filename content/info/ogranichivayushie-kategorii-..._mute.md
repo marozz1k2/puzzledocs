@@ -64,9 +64,6 @@
 | `gpt_5_mute` | GPT-5.4 |
 | `gpt_5_mini_mute` | GPT-5.4 Mini |
 | `gpt_free_mute` | GPT-5.4 Nano (free) |
-| `gpt_luna_mute` | GPT-5.6 Luna Pro |
-| `gpt_sol_mute` | GPT-5.6 Sol Pro |
-| `gpt_terra_mute` | GPT-5.6 Terra Pro |
 | `gemini_2_5_flash_mute` | Gemini 2.5 Flash Lite |
 | `gemini_2_5_pro_mute` | Gemini 2.5 Pro |
 | `gemini_3_pro_mute` | Gemini 3.1 Pro |
