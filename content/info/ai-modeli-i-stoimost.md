@@ -11,457 +11,442 @@
 | Аудио из текста | [Озвучивание текста](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog)       |
 | Музыка          | [Музыка](https://docs.pxsto.re/tracker/treker-zaprosy/music)                                  |
 
+Каталог сверен с рабочей средой **27 октября 2026 года**. Показаны действующие ставки; окончательная цена видна перед запуском в Студии. Дорогие и подтверждённо недоступные варианты исключены. Диапазон означает разные активные варианты одной модели. Для текста действует предел 120 AI за запрос; Luna Pro, Sol Pro и Terra Pro сняты.
+
+Для видео важна единица: за секунду или за генерацию. Veo 3.1 использует 1080p, 8 секунд; Extend — Fast. Для озвучивания блок равен 3000 символов; длинный текст оплачивается несколькими блоками. Ручные ставки видео могут превышать 50 AI/сек.
+
 ## Текстовые модели
 
-Текстовый каталог ограничен 120 AI за запрос. Снятые Luna Pro, Sol Pro и Terra Pro больше не доступны для выбора.
+Активных вариантов: 270.
 
-Активных вариантов: 284.
-
-| Модель                                      |     Стоимость |
-| ------------------------------------------- | ------------: |
-| GPT-5.4 Nano (free) | 💠 0/запрос (~0 руб) |
-| GPT-5.4 | 💠 25/запрос (~5 руб) |
-| GPT-4.1 | 💠 28/запрос (~5,6 руб) |
-| GPT-5.4 Mini | 💠 10/запрос (~2 руб) |
-| Grok 4.3 | 💠 10/запрос (~2 руб) |
-| Anthropic: Claude Sonnet 5 | 💠 45/запрос (~9 руб) |
-| OpenAI: GPT-4o-mini | 💠 6/запрос (~1,2 руб) |
-| Gemini 3.1 Pro | 💠 38/запрос (~7,6 руб) |
-| DeepSeek: DeepSeek V4 Flash | 💠 3/запрос (~0,6 руб) |
-| Grok 4.3 Vision | 💠 10/запрос (~2 руб) |
-| Claude Haiku 4.5 | 💠 15/запрос (~3 руб) |
-| Claude Opus 4.6 | 💠 75/запрос (~15 руб) |
-| Claude Opus 4.7 | 💠 75/запрос (~15 руб) |
-| Claude Opus 4.8 | 💠 75/запрос (~15 руб) |
-| Claude Sonnet 4.6 | 💠 45/запрос (~9 руб) |
-| Claude Sonnet 5 | 💠 45/запрос (~9 руб) |
-| Composer 2.5 | 💠 5/запрос (~1 руб) |
-| Composer 2.5 Fast | 💠 15/запрос (~3 руб) |
-| DeepSeek: DeepSeek V4 Pro | 💠 11/запрос (~2,2 руб) |
-| Gemini 2.5 Flash Lite | 💠 3/запрос (~0,6 руб) |
-| Gemini 2.5 Pro | 💠 30/запрос (~6 руб) |
-| Gemini 3.5 Flash | 💠 15/запрос (~3 руб) |
-| Gemini 3.6 Flash | 💠 20/запрос (~4 руб) |
-| Gemini 3.7 Flash | 💠 20/запрос (~4 руб) |
-| Google: Gemini 2.5 Flash | 💠 24/запрос (~4,8 руб) |
-| Google: Gemini 3 Flash Preview | 💠 30/запрос (~6 руб) |
-| Google: Gemini 3.1 Flash Lite | 💠 15/запрос (~3 руб) |
-| Google: Gemini 3.1 Flash Lite Preview | 💠 15/запрос (~3 руб) |
-| Google: Gemini 3.6 Flash | 💠 23/запрос (~4,6 руб) |
-| Grok 4.5 | 💠 25/запрос (~5 руб) |
-| Grok 4.6 | 💠 30/запрос (~6 руб) |
-| Kimi K3 | 💠 105/запрос (~21 руб) |
-| MoonshotAI: Kimi K3 | 💠 105/запрос (~21 руб) |
-| OpenAI: GPT-4.1 Mini | 💠 17/запрос (~3,4 руб) |
-| OpenAI: GPT-4o | 💠 44/запрос (~8,8 руб) |
-| OpenAI: GPT-5 | 💠 30/запрос (~6 руб) |
-| OpenAI: GPT-5 Mini | 💠 19/запрос (~3,8 руб) |
-| OpenAI: GPT-5 Nano | 💠 3/запрос (~0,6 руб) |
-| OpenAI: GPT-5.1 | 💠 30/запрос (~6 руб) |
-| OpenAI: GPT-5.2 | 💠 32/запрос (~6,4 руб) |
-| OpenAI: GPT-5.5 | 💠 120/запрос (~24 руб) |
-| OpenAI: GPT-5.6 Luna | 💠 30/запрос (~6 руб) |
-| OpenAI: GPT-5.6 Sol | 💠 120/запрос (~24 руб) |
-| OpenAI: GPT-5.6 Terra | 💠 60/запрос (~12 руб) |
-| OpenAI: o3 Mini | 💠 18/запрос (~3,6 руб) |
-| xAI: Grok 4.5 | 💠 44/запрос (~8,8 руб) |
-| xAI: Grok Build 0.1 | 💠 26/запрос (~5,2 руб) |
-| Web Search | 💠 30/запрос (~6 руб) |
-| DeepSeek: DeepSeek V3.2 Exp | 💠 5/запрос (~1 руб) |
-| AI21: Jamba Large 1.7 | 💠 28/запрос (~5,6 руб) |
-| AionLabs: Aion-2.0 | 💠 21/запрос (~4,2 руб) |
-| AionLabs: Aion-3.0 | 💠 54/запрос (~10,8 руб) |
-| AionLabs: Aion-3.0-Mini | 💠 13/запрос (~2,6 руб) |
-| AionLabs: Aion-RP 1.0 (8B) | 💠 21/запрос (~4,2 руб) |
-| Amazon: Nova 2 Lite | 💠 24/запрос (~4,8 руб) |
-| Amazon: Nova Lite 1.0 | 💠 2/запрос (~0,4 руб) |
-| Amazon: Nova Micro 1.0 | 💠 2/запрос (~0,4 руб) |
-| Amazon: Nova Pro 1.0 | 💠 10/запрос (~2 руб) |
-| Anthropic Claude Haiku Latest | 💠 25/запрос (~5 руб) |
-| Anthropic Claude Sonnet Latest | 💠 45/запрос (~9 руб) |
-| Anthropic: Claude Haiku 4.5 | 💠 25/запрос (~5 руб) |
-| Anthropic: Claude Sonnet 4 | 💠 105/запрос (~21 руб) |
-| Anthropic: Claude Sonnet 4.5 | 💠 105/запрос (~21 руб) |
-| Anthropic: Claude Sonnet 4.6 | 💠 105/запрос (~21 руб) |
-| Arcee AI: Trinity Large Thinking | 💠 9/запрос (~1,8 руб) |
-| Arcee AI: Virtuoso Large | 💠 16/запрос (~3,2 руб) |
-| Baidu: ERNIE 4.5 VL 424B A47B | 💠 14/запрос (~2,8 руб) |
-| Body Builder (beta) | 💠 1/запрос (~0,2 руб) |
-| ByteDance Seed: Seed 1.6 | 💠 19/запрос (~3,8 руб) |
-| ByteDance Seed: Seed 1.6 Flash | 💠 2/запрос (~0,4 руб) |
-| ByteDance Seed: Seed-2.0-Lite | 💠 19/запрос (~3,8 руб) |
-| ByteDance Seed: Seed-2.0-Mini | 💠 3/запрос (~0,6 руб) |
-| ByteDance: UI-TARS 7B | 💠 2/запрос (~0,4 руб) |
-| Cohere: Command A | 💠 44/запрос (~8,8 руб) |
-| Cohere: Command R (08-2024) | 💠 6/запрос (~1,2 руб) |
-| Cohere: Command R+ (08-2024) | 💠 44/запрос (~8,8 руб) |
-| Cohere: Command R7B (12-2024) | 💠 2/запрос (~0,4 руб) |
-| Cohere: North Mini Code (free) | 💠 1/запрос (~0,2 руб) |
-| DeepSeek: DeepSeek V3 | 💠 8/запрос (~1,6 руб) |
-| DeepSeek: DeepSeek V3 0324 | 💠 11/запрос (~2,2 руб) |
-| DeepSeek: DeepSeek V3.1 | 💠 10/запрос (~2 руб) |
-| DeepSeek: DeepSeek V3.1 Terminus | 💠 10/запрос (~2 руб) |
-| DeepSeek: R1 | 💠 28/запрос (~5,6 руб) |
-| DeepSeek: R1 0528 | 💠 23/запрос (~4,6 руб) |
-| DeepSeek: R1 Distill Llama 70B | 💠 13/запрос (~2,6 руб) |
-| Free Models Router | 💠 1/запрос (~0,2 руб) |
-| Fusion | 💠 1/запрос (~0,2 руб) |
-| Google Gemini Flash Latest | 💠 54/запрос (~10,8 руб) |
-| Google Gemini Pro Latest | 💠 38/запрос (~7,6 руб) |
-| Google: Gemini 2.5 Pro Preview 05-06 | 💠 30/запрос (~6 руб) |
-| Google: Gemini 2.5 Pro Preview 06-05 | 💠 30/запрос (~6 руб) |
-| Google: Gemini 3.1 Pro Preview Custom Tools | 💠 38/запрос (~7,6 руб) |
-| Google: Gemini 3.5 Flash Lite | 💠 13/запрос (~2,6 руб) |
-| Google: Gemma 2 27B | 💠 11/запрос (~2,2 руб) |
-| Google: Gemma 3 12B | 💠 2/запрос (~0,4 руб) |
-| Google: Gemma 3 27B | 💠 4/запрос (~0,8 руб) |
-| Google: Gemma 3 4B | 💠 2/запрос (~0,4 руб) |
-| Google: Gemma 4 26B A4B | 💠 5/запрос (~1 руб) |
-| Google: Gemma 4 26B A4B (free) | 💠 1/запрос (~0,2 руб) |
-| Google: Gemma 4 31B | 💠 4/запрос (~0,8 руб) |
-| Google: Gemma 4 31B (free) | 💠 1/запрос (~0,2 руб) |
-| IBM: Granite 4.0 Micro | 💠 2/запрос (~0,4 руб) |
-| Inception: Mercury 2 | 💠 8/запрос (~1,6 руб) |
-| Kwaipilot: KAT-Coder-Pro V2.5 | 💠 20/запрос (~4 руб) |
-| Magnum v4 72B | 💠 51/запрос (~10,2 руб) |
-| Mancer: Weaver (alpha) | 💠 10/запрос (~2 руб) |
-| Meituan: LongCat 2.0 | 💠 8/запрос (~1,6 руб) |
-| Meta: Llama 3.1 70B Instruct | 💠 6/запрос (~1,2 руб) |
-| Meta: Llama 3.1 8B Instruct | 💠 2/запрос (~0,4 руб) |
-| Meta: Llama 3.2 1B Instruct | 💠 2/запрос (~0,4 руб) |
-| Meta: Llama 3.2 3B Instruct | 💠 2/запрос (~0,4 руб) |
-| Meta: Llama 3.3 70B Instruct | 💠 4/запрос (~0,8 руб) |
-| Meta: Llama 4 Maverick | 💠 8/запрос (~1,6 руб) |
-| Meta: Llama 4 Scout | 💠 2/запрос (~0,4 руб) |
-| Meta: Llama Guard 4 12B | 💠 2/запрос (~0,4 руб) |
-| Meta: Muse Spark 1.1 | 💠 30/запрос (~6 руб) |
-| Microsoft: Phi 4 | 💠 2/запрос (~0,4 руб) |
-| MiniMax: MiniMax M1 | 💠 24/запрос (~4,8 руб) |
-| MiniMax: MiniMax M2 | 💠 10/запрос (~2 руб) |
-| MiniMax: MiniMax M2-her | 💠 12/запрос (~2,4 руб) |
-| MiniMax: MiniMax M2.1 | 💠 12/запрос (~2,4 руб) |
-| MiniMax: MiniMax M2.5 | 💠 8/запрос (~1,6 руб) |
-| MiniMax: MiniMax M2.7 | 💠 10/запрос (~2 руб) |
-| MiniMax: MiniMax M3 | 💠 12/запрос (~2,4 руб) |
-| MiniMax: MiniMax-01 | 💠 11/запрос (~2,2 руб) |
-| Mistral Large | 💠 51/запрос (~10,2 руб) |
-| Mistral Large 2407 | 💠 51/запрос (~10,2 руб) |
-| Mistral: Codestral 2508 | 💠 10/запрос (~2 руб) |
-| Mistral: Devstral 2 2512 | 💠 21/запрос (~4,2 руб) |
-| Mistral: Ministral 3 14B 2512 | 💠 2/запрос (~0,4 руб) |
-| Mistral: Ministral 3 3B 2512 | 💠 2/запрос (~0,4 руб) |
-| Mistral: Ministral 3 8B 2512 | 💠 2/запрос (~0,4 руб) |
-| Mistral: Mistral Large 3 2512 | 💠 17/запрос (~3,4 руб) |
-| Mistral: Mistral Medium 3 | 💠 21/запрос (~4,2 руб) |
-| Mistral: Mistral Medium 3.1 | 💠 21/запрос (~4,2 руб) |
-| Mistral: Mistral Medium 3.5 | 💠 54/запрос (~10,8 руб) |
-| Mistral: Mistral Nemo | 💠 2/запрос (~0,4 руб) |
-| Mistral: Mistral Small 3 | 💠 2/запрос (~0,4 руб) |
-| Mistral: Mistral Small 3.1 24B | 💠 7/запрос (~1,4 руб) |
-| Mistral: Mistral Small 3.2 24B | 💠 2/запрос (~0,4 руб) |
-| Mistral: Mistral Small 4 | 💠 6/запрос (~1,2 руб) |
-| Mistral: Mixtral 8x22B Instruct | 💠 51/запрос (~10,2 руб) |
-| Mistral: Saba | 💠 6/запрос (~1,2 руб) |
-| MoonshotAI Kimi Latest | 💠 105/запрос (~21 руб) |
-| MoonshotAI: Kimi K2 0711 | 💠 25/запрос (~5 руб) |
-| MoonshotAI: Kimi K2 0905 | 💠 27/запрос (~5,4 руб) |
-| MoonshotAI: Kimi K2 Thinking | 💠 27/запрос (~5,4 руб) |
-| MoonshotAI: Kimi K2.5 | 💠 30/запрос (~6 руб) |
-| MoonshotAI: Kimi K2.6 | 💠 29/запрос (~5,8 руб) |
-| MoonshotAI: Kimi K2.7 Code | 💠 20/запрос (~4 руб) |
-| Morph: Morph V3 Fast | 💠 17/запрос (~3,4 руб) |
-| Morph: Morph V3 Large | 💠 24/запрос (~4,8 руб) |
-| MythoMax 13B | 💠 2/запрос (~0,4 руб) |
-| Nous: Hermes 3 405B Instruct | 💠 17/запрос (~3,4 руб) |
-| Nous: Hermes 3 70B Instruct | 💠 12/запрос (~2,4 руб) |
-| Nous: Hermes 4 405B | 💠 10/запрос (~2 руб) |
-| NVIDIA: Nemotron 3 Nano 30B A3B | 💠 2/запрос (~0,4 руб) |
-| NVIDIA: Nemotron 3 Nano Omni (free) | 💠 1/запрос (~0,2 руб) |
-| NVIDIA: Nemotron 3 Super | 💠 3/запрос (~0,6 руб) |
-| NVIDIA: Nemotron 3 Super (free) | 💠 1/запрос (~0,2 руб) |
-| NVIDIA: Nemotron 3 Ultra | 💠 23/запрос (~4,6 руб) |
-| NVIDIA: Nemotron 3 Ultra (free) | 💠 1/запрос (~0,2 руб) |
-| NVIDIA: Nemotron 3.5 Content Safety (free) | 💠 1/запрос (~0,2 руб) |
-| OpenAI GPT Latest | 💠 120/запрос (~24 руб) |
-| OpenAI GPT Mini Latest | 💠 10/запрос (~2 руб) |
-| OpenAI: GPT Chat Latest | 💠 120/запрос (~24 руб) |
-| OpenAI: GPT-3.5 Turbo | 💠 17/запрос (~3,4 руб) |
-| OpenAI: GPT-3.5 Turbo (older v0613) | 💠 26/запрос (~5,2 руб) |
-| OpenAI: GPT-3.5 Turbo 16k | 💠 38/запрос (~7,6 руб) |
-| OpenAI: GPT-3.5 Turbo Instruct | 💠 30/запрос (~6 руб) |
-| OpenAI: GPT-4.1 Nano | 💠 3/запрос (~0,6 руб) |
-| OpenAI: GPT-4o (2024-05-13) | 💠 113/запрос (~22,6 руб) |
-| OpenAI: GPT-4o (2024-08-06) | 💠 44/запрос (~8,8 руб) |
-| OpenAI: GPT-4o (2024-11-20) | 💠 44/запрос (~8,8 руб) |
-| OpenAI: GPT-4o-mini (2024-07-18) | 💠 6/запрос (~1,2 руб) |
-| OpenAI: GPT-5.1-Codex | 💠 30/запрос (~6 руб) |
-| OpenAI: GPT-5.1-Codex-Max | 💠 30/запрос (~6 руб) |
-| OpenAI: GPT-5.1-Codex-Mini | 💠 19/запрос (~3,8 руб) |
-| OpenAI: GPT-5.2-Codex | 💠 32/запрос (~6,4 руб) |
-| OpenAI: GPT-5.3-Codex | 💠 32/запрос (~6,4 руб) |
-| OpenAI: gpt-oss-120b | 💠 2/запрос (~0,4 руб) |
-| OpenAI: gpt-oss-20b | 💠 2/запрос (~0,4 руб) |
-| OpenAI: gpt-oss-safeguard-20b | 💠 2/запрос (~0,4 руб) |
-| OpenAI: o3 | 💠 28/запрос (~5,6 руб) |
-| OpenAI: o3 Mini High | 💠 18/запрос (~3,6 руб) |
-| OpenAI: o4 Mini | 💠 18/запрос (~3,6 руб) |
-| OpenAI: o4 Mini High | 💠 18/запрос (~3,6 руб) |
-| Pareto Code Router | 💠 1/запрос (~0,2 руб) |
-| Perceptron: Perceptron Mk1 | 💠 14/запрос (~2,8 руб) |
-| Perplexity: Sonar | 💠 17/запрос (~3,4 руб) |
-| Perplexity: Sonar Deep Research | 💠 28/запрос (~5,6 руб) |
-| Perplexity: Sonar Pro | 💠 105/запрос (~21 руб) |
-| Perplexity: Sonar Pro Search | 💠 105/запрос (~21 руб) |
-| Perplexity: Sonar Reasoning Pro | 💠 28/запрос (~5,6 руб) |
-| Poolside: Laguna S 2.1 | 💠 2/запрос (~0,4 руб) |
-| Poolside: Laguna S 2.1 (free) | 💠 1/запрос (~0,2 руб) |
-| Poolside: Laguna XS 2.1 | 💠 2/запрос (~0,4 руб) |
-| Poolside: Laguna XS 2.1 (free) | 💠 1/запрос (~0,2 руб) |
-| Qwen: Qwen Plus 0728 | 💠 8/запрос (~1,6 руб) |
-| Qwen: Qwen-Plus | 💠 8/запрос (~1,6 руб) |
-| Qwen: Qwen2.5 7B Instruct | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen2.5 VL 72B Instruct | 💠 15/запрос (~3 руб) |
-| Qwen: Qwen3 14B | 💠 9/запрос (~1,8 руб) |
-| Qwen: Qwen3 235B A22B | 💠 19/запрос (~3,8 руб) |
-| Qwen: Qwen3 235B A22B Instruct 2507 | 💠 5/запрос (~1 руб) |
-| Qwen: Qwen3 235B A22B Thinking 2507 | 💠 29/запрос (~5,8 руб) |
-| Qwen: Qwen3 30B A3B | 💠 4/запрос (~0,8 руб) |
-| Qwen: Qwen3 30B A3B Instruct 2507 | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen3 30B A3B Thinking 2507 | 💠 14/запрос (~2,8 руб) |
-| Qwen: Qwen3 32B | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen3 8B | 💠 4/запрос (~0,8 руб) |
-| Qwen: Qwen3 Coder 30B A3B Instruct | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen3 Coder 480B A35B | 💠 11/запрос (~2,2 руб) |
-| Qwen: Qwen3 Coder Flash | 💠 9/запрос (~1,8 руб) |
-| Qwen: Qwen3 Coder Next | 💠 9/запрос (~1,8 руб) |
-| Qwen: Qwen3 Coder Plus | 💠 10/запрос (~2 руб) |
-| Qwen: Qwen3 Max | 💠 10/запрос (~2 руб) |
-| Qwen: Qwen3 Max Thinking | 💠 10/запрос (~2 руб) |
-| Qwen: Qwen3 Next 80B A3B Instruct | 💠 10/запрос (~2 руб) |
-| Qwen: Qwen3 Next 80B A3B Thinking | 💠 7/запрос (~1,4 руб) |
-| Qwen: Qwen3 VL 235B A22B Instruct | 💠 18/запрос (~3,6 руб) |
-| Qwen: Qwen3 VL 235B A22B Thinking | 💠 25/запрос (~5 руб) |
-| Qwen: Qwen3 VL 30B A3B Instruct | 💠 6/запрос (~1,2 руб) |
-| Qwen: Qwen3 VL 30B A3B Thinking | 💠 14/запрос (~2,8 руб) |
-| Qwen: Qwen3 VL 32B Instruct | 💠 4/запрос (~0,8 руб) |
-| Qwen: Qwen3 VL 8B Instruct | 💠 4/запрос (~0,8 руб) |
-| Qwen: Qwen3 VL 8B Thinking | 💠 12/запрос (~2,4 руб) |
-| Qwen: Qwen3.5 397B A17B | 💠 24/запрос (~4,8 руб) |
-| Qwen: Qwen3.5 Plus 2026-02-15 | 💠 15/запрос (~3 руб) |
-| Qwen: Qwen3.5 Plus 2026-04-20 | 💠 18/запрос (~3,6 руб) |
-| Qwen: Qwen3.5-122B-A10B | 💠 20/запрос (~4 руб) |
-| Qwen: Qwen3.5-27B | 💠 15/запрос (~3 руб) |
-| Qwen: Qwen3.5-35B-A3B | 💠 9/запрос (~1,8 руб) |
-| Qwen: Qwen3.5-9B | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen3.5-Flash | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen3.6 27B | 💠 20/запрос (~4 руб) |
-| Qwen: Qwen3.6 35B A3B | 💠 9/запрос (~1,8 руб) |
-| Qwen: Qwen3.6 Flash | 💠 11/запрос (~2,2 руб) |
-| Qwen: Qwen3.6 Max Preview | 💠 42/запрос (~8,4 руб) |
-| Qwen: Qwen3.6 Plus | 💠 19/запрос (~3,8 руб) |
-| Qwen: Qwen3.7 Flash | 💠 2/запрос (~0,4 руб) |
-| Qwen: Qwen3.7 Plus | 💠 13/запрос (~2,6 руб) |
-| Qwen2.5 72B Instruct | 💠 6/запрос (~1,2 руб) |
-| Qwen2.5 Coder 32B Instruct | 💠 14/запрос (~2,8 руб) |
-| Reka Edge | 💠 2/запрос (~0,4 руб) |
-| Reka Flash 3 | 💠 2/запрос (~0,4 руб) |
-| Relace: Relace Apply 3 | 💠 18/запрос (~3,6 руб) |
-| Relace: Relace Search | 💠 10/запрос (~2 руб) |
-| ReMM SLERP 13B | 💠 9/запрос (~1,8 руб) |
-| Sao10K: Llama 3 8B Lunaris | 💠 2/запрос (~0,4 руб) |
-| Sao10K: Llama 3.1 Euryale 70B v2.2 | 💠 14/запрос (~2,8 руб) |
-| Sao10K: Llama 3.3 Euryale 70B | 💠 12/запрос (~2,4 руб) |
-| StepFun: Step 3.5 Flash | 💠 2/запрос (~0,4 руб) |
-| StepFun: Step 3.7 Flash | 💠 11/запрос (~2,2 руб) |
-| Tencent: Hunyuan A13B Instruct | 💠 5/запрос (~1 руб) |
-| Tencent: Hy3 | 💠 4/запрос (~0,8 руб) |
-| Tencent: Hy3 preview | 💠 2/запрос (~0,4 руб) |
-| TheDrummer: Cydonia 24B V4.1 | 💠 6/запрос (~1,2 руб) |
-| TheDrummer: Skyfall 36B V2 | 💠 11/запрос (~2,2 руб) |
-| TheDrummer: UnslopNemo 12B | 💠 6/запрос (~1,2 руб) |
-| Thinking Machines: Inkling | 💠 27/запрос (~5,4 руб) |
-| Upstage: Solar Pro 3 | 💠 6/запрос (~1,2 руб) |
-| Venice: Uncensored | 💠 6/запрос (~1,2 руб) |
-| WizardLM-2 8x22B | 💠 10/запрос (~2 руб) |
-| Writer: Palmyra X5 | 💠 33/запрос (~6,6 руб) |
-| xAI: Grok 4.20 | 💠 10/запрос (~2 руб) |
-| xAI: Grok 4.20 Multi-Agent | 💠 10/запрос (~2 руб) |
-| xAI: Grok Latest | 💠 44/запрос (~8,8 руб) |
-| Xiaomi: MiMo-V2.5 | 💠 3/запрос (~0,6 руб) |
-| Xiaomi: MiMo-V2.5-Pro | 💠 11/запрос (~2,2 руб) |
-| Z.ai: GLM 4.5 | 💠 24/запрос (~4,8 руб) |
-| Z.ai: GLM 4.5 Air | 💠 8/запрос (~1,6 руб) |
-| Z.ai: GLM 4.5V | 💠 21/запрос (~4,2 руб) |
-| Z.ai: GLM 4.6 | 💠 21/запрос (~4,2 руб) |
-| Z.ai: GLM 4.6V | 💠 10/запрос (~2 руб) |
-| Z.ai: GLM 4.7 | 💠 18/запрос (~3,6 руб) |
-| Z.ai: GLM 4.7 Flash | 💠 3/запрос (~0,6 руб) |
-| Z.ai: GLM 5 | 💠 30/запрос (~6 руб) |
-| Z.ai: GLM 5 Turbo | 💠 10/запрос (~2 руб) |
-| Z.ai: GLM 5.1 | 💠 10/запрос (~2 руб) |
-| Z.ai: GLM 5.2 | 💠 21/запрос (~4,2 руб) |
-| Z.ai: GLM 5V Turbo | 💠 28/запрос (~5,6 руб) |
-| Claude 4.5 Haiku | 💠 25/запрос (~5 руб) |
-| DeepSeek V3.2 | 💠 5/запрос (~1 руб) |
+| Модель | Стоимость |
+| --- | ---: |
+| [AionLabs: Aion-2.0](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [AionLabs: Aion-3.0](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 54/запрос (~10,8 руб) |
+| [AionLabs: Aion-3.0-Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 13/запрос (~2,6 руб) |
+| [AionLabs: Aion-RP 1.0 (8B)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Amazon: Nova 2 Lite](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 24/запрос (~4,8 руб) |
+| [Amazon: Nova Lite 1.0](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Amazon: Nova Micro 1.0](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Amazon: Nova Pro 1.0](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Anthropic Claude Haiku Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [Anthropic Claude Sonnet Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 45/запрос (~9 руб) |
+| [Anthropic: Claude Haiku 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [Anthropic: Claude Sonnet 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 105/запрос (~21 руб) |
+| [Anthropic: Claude Sonnet 4.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 105/запрос (~21 руб) |
+| [Anthropic: Claude Sonnet 5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 40/запрос (~8 руб) |
+| [Body Builder (beta)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [ByteDance Seed: Seed 1.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 19/запрос (~3,8 руб) |
+| [ByteDance Seed: Seed 1.6 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [ByteDance Seed: Seed-2.0-Lite](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 19/запрос (~3,8 руб) |
+| [ByteDance Seed: Seed-2.0-Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 3/запрос (~0,6 руб) |
+| [ByteDance: UI-TARS 7B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Claude 4.5 Haiku](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [Claude Fable 5.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 120/запрос (~24 руб) |
+| [Claude Haiku 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [Claude Haiku 5.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [Claude Opus 4.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 75/запрос (~15 руб) |
+| [Claude Opus 4.7](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 75/запрос (~15 руб) |
+| [Claude Opus 4.8](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 75/запрос (~15 руб) |
+| [Claude Opus 5.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 55/запрос (~11 руб) |
+| [Claude Sonnet 4.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 45/запрос (~9 руб) |
+| [Claude Sonnet 5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 45/запрос (~9 руб) |
+| [Claude Sonnet 5.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 55/запрос (~11 руб) |
+| [Cohere: Command A](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 44/запрос (~8,8 руб) |
+| [Cohere: Command R (08-2024)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Cohere: Command R+ (08-2024)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 44/запрос (~8,8 руб) |
+| [Cohere: Command R7B (12-2024)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Cohere: North Mini Code (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Composer 2.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Composer 2.5 Fast](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [DeepSeek V3.2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [DeepSeek V4.1 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [DeepSeek: DeepSeek V3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [DeepSeek: DeepSeek V3 0324](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [DeepSeek: DeepSeek V3.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [DeepSeek: DeepSeek V3.1 Terminus](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [DeepSeek: DeepSeek V3.2 Exp](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [DeepSeek: DeepSeek V4 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [DeepSeek: DeepSeek V4 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [DeepSeek: R1 0528](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 23/запрос (~4,6 руб) |
+| [Free Models Router](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Fusion](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Gemini 2.5 Flash Lite](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Gemini 2.5 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 50/запрос (~10 руб) |
+| [Gemini 3.1 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 60/запрос (~12 руб) |
+| [Gemini 3.5 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 50/запрос (~10 руб) |
+| [Gemini 3.6 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [Gemini 3.7 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [Gemini 3.8 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [Google Gemini Flash Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 54/запрос (~10,8 руб) |
+| [Google Gemini Pro Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 38/запрос (~7,6 руб) |
+| [Google: Gemini 2.5 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Google: Gemini 2.5 Pro Preview 05-06](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Google: Gemini 2.5 Pro Preview 06-05](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Google: Gemini 3 Flash Preview](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Google: Gemini 3.1 Flash Lite](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [Google: Gemini 3.1 Flash Lite Preview](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [Google: Gemini 3.1 Pro Preview Custom Tools](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 38/запрос (~7,6 руб) |
+| [Google: Gemini 3.5 Flash Lite](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 13/запрос (~2,6 руб) |
+| [Google: Gemini 3.6 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Google: Gemma 2 27B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [Google: Gemma 3 4B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Google: Gemma 3 12B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Google: Gemma 3 27B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 4/запрос (~0,8 руб) |
+| [Google: Gemma 4 26B A4B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Google: Gemma 4 26B A4B  (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Google: Gemma 4 31B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 4/запрос (~0,8 руб) |
+| [Google: Gemma 4 31B (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [GPT 6 Astra](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 100/запрос (~20 руб) |
+| [GPT 6 Luna](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [GPT 6 Sol](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 55/запрос (~11 руб) |
+| [GPT 6.1 Sol](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 60/запрос (~12 руб) |
+| [GPT-4.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 40/запрос (~8 руб) |
+| [GPT-5.4](https://docs.pxsto.re/tracker/treker-zaprosy/text/document-creation) | 💠 50/запрос (~10 руб) |
+| [GPT-5.4 Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [GPT-5.4 Nano (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 0/запрос (~0 руб) |
+| [Grok 4.3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [Grok 4.3 Vision](https://docs.pxsto.re/tracker/treker-zaprosy/text/vision) | 💠 20/запрос (~4 руб) |
+| [Grok 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 55/запрос (~11 руб) |
+| [Grok 4.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 55/запрос (~11 руб) |
+| [Grok 4.7](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 40/запрос (~8 руб) |
+| [Grok 4.20 Multi-Agent](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Grok 4.20 Non-Reasoning](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Grok 4.20 Reasoning](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Inception: Mercury 2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [Kimi K3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 100/запрос (~20 руб) |
+| [Magnum v4 72B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 51/запрос (~10,2 руб) |
+| [Mancer: Weaver (alpha)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Meituan: LongCat 2.0](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [Meta: Llama 3.1 8B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Meta: Llama 3.1 70B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Meta: Llama 3.2 1B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Meta: Llama 3.2 3B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Meta: Llama 3.3 70B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 4/запрос (~0,8 руб) |
+| [Meta: Llama 4 Maverick](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [Meta: Llama 4 Scout](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Meta: Llama Guard 4 12B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Meta: Muse Spark 1.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Microsoft: Phi 4](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [MiniMax: MiniMax M1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 24/запрос (~4,8 руб) |
+| [MiniMax: MiniMax M2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [MiniMax: MiniMax M2-her](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 12/запрос (~2,4 руб) |
+| [MiniMax: MiniMax M2.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 12/запрос (~2,4 руб) |
+| [MiniMax: MiniMax M2.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [MiniMax: MiniMax M2.7](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [MiniMax: MiniMax M3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 12/запрос (~2,4 руб) |
+| [MiniMax: MiniMax-01](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [Mistral Large](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 51/запрос (~10,2 руб) |
+| [Mistral Large 2407](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 51/запрос (~10,2 руб) |
+| [Mistral: Codestral 2508](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Mistral: Devstral 2 2512](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Mistral: Ministral 3 3B 2512](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Mistral: Ministral 3 8B 2512](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Mistral: Ministral 3 14B 2512](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Mistral: Mistral Large 3 2512](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 17/запрос (~3,4 руб) |
+| [Mistral: Mistral Medium 3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Mistral: Mistral Medium 3.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Mistral: Mistral Medium 3.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 54/запрос (~10,8 руб) |
+| [Mistral: Mistral Nemo](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Mistral: Mistral Small 3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Mistral: Mistral Small 3.1 24B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 7/запрос (~1,4 руб) |
+| [Mistral: Mistral Small 3.2 24B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Mistral: Mistral Small 4](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Mistral: Mixtral 8x22B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 51/запрос (~10,2 руб) |
+| [Mistral: Saba](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [MoonshotAI Kimi Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 105/запрос (~21 руб) |
+| [MoonshotAI: Kimi K2 0711](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 25/запрос (~5 руб) |
+| [MoonshotAI: Kimi K2 0905](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 27/запрос (~5,4 руб) |
+| [MoonshotAI: Kimi K2 Thinking](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 27/запрос (~5,4 руб) |
+| [MoonshotAI: Kimi K2.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [MoonshotAI: Kimi K2.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 29/запрос (~5,8 руб) |
+| [MoonshotAI: Kimi K2.7 Code](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [MoonshotAI: Kimi K3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 100/запрос (~20 руб) |
+| [Morph: Morph V3 Fast](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 17/запрос (~3,4 руб) |
+| [Morph: Morph V3 Large](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 24/запрос (~4,8 руб) |
+| [MythoMax 13B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Nous: Hermes 3 70B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 12/запрос (~2,4 руб) |
+| [Nous: Hermes 3 405B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 17/запрос (~3,4 руб) |
+| [Nous: Hermes 4 405B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [NVIDIA: Nemotron 3 Nano 30B A3B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [NVIDIA: Nemotron 3 Nano Omni (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [NVIDIA: Nemotron 3 Super](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 3/запрос (~0,6 руб) |
+| [NVIDIA: Nemotron 3 Ultra](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 23/запрос (~4,6 руб) |
+| [NVIDIA: Nemotron 3 Ultra (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [NVIDIA: Nemotron 3.5 Content Safety (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [OpenAI GPT Mini Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [OpenAI: GPT Chat Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 120/запрос (~24 руб) |
+| [OpenAI: GPT-3.5 Turbo (older v0613)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 26/запрос (~5,2 руб) |
+| [OpenAI: GPT-3.5 Turbo 16k](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 38/запрос (~7,6 руб) |
+| [OpenAI: GPT-4.1 Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [OpenAI: GPT-4.1 Nano](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 3/запрос (~0,6 руб) |
+| [OpenAI: GPT-4o](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 80/запрос (~16 руб) |
+| [OpenAI: GPT-4o (2024-05-13)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 113/запрос (~22,6 руб) |
+| [OpenAI: GPT-4o (2024-08-06)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 44/запрос (~8,8 руб) |
+| [OpenAI: GPT-4o (2024-11-20)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 44/запрос (~8,8 руб) |
+| [OpenAI: GPT-4o-mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [OpenAI: GPT-4o-mini (2024-07-18)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [OpenAI: GPT-5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 80/запрос (~16 руб) |
+| [OpenAI: GPT-5 Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [OpenAI: GPT-5 Nano](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 3/запрос (~0,6 руб) |
+| [OpenAI: GPT-5.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 80/запрос (~16 руб) |
+| [OpenAI: GPT-5.1-Codex](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [OpenAI: GPT-5.1-Codex-Max](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [OpenAI: GPT-5.1-Codex-Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 19/запрос (~3,8 руб) |
+| [OpenAI: GPT-5.2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 85/запрос (~17 руб) |
+| [OpenAI: GPT-5.2-Codex](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 32/запрос (~6,4 руб) |
+| [OpenAI: GPT-5.3-Codex](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 32/запрос (~6,4 руб) |
+| [OpenAI: GPT-5.6 Luna](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [OpenAI: GPT-5.6 Terra](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 60/запрос (~12 руб) |
+| [OpenAI: gpt-oss-20b](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [OpenAI: gpt-oss-120b](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [OpenAI: gpt-oss-safeguard-20b](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [OpenAI: o3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 28/запрос (~5,6 руб) |
+| [OpenAI: o3 Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 35/запрос (~7 руб) |
+| [OpenAI: o3 Mini High](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [OpenAI: o4 Mini](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [OpenAI: o4 Mini High](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [Pareto Code Router](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Perceptron: Perceptron Mk1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 14/запрос (~2,8 руб) |
+| [Perplexity: Sonar](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 17/запрос (~3,4 руб) |
+| [Perplexity: Sonar Deep Research](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 28/запрос (~5,6 руб) |
+| [Perplexity: Sonar Pro](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 105/запрос (~21 руб) |
+| [Perplexity: Sonar Pro Search](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 105/запрос (~21 руб) |
+| [Perplexity: Sonar Reasoning Pro](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 28/запрос (~5,6 руб) |
+| [Poolside: Laguna S 2.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Poolside: Laguna S 2.1 (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Poolside: Laguna XS 2.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Poolside: Laguna XS 2.1 (free)](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 1/запрос (~0,2 руб) |
+| [Qwen: Qwen-Plus](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [Qwen: Qwen2.5 7B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen2.5 VL 72B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [Qwen: Qwen3 14B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 9/запрос (~1,8 руб) |
+| [Qwen: Qwen3 30B A3B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 4/запрос (~0,8 руб) |
+| [Qwen: Qwen3 30B A3B Instruct 2507](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen3 32B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen3 235B A22B Instruct 2507](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Qwen: Qwen3 235B A22B Thinking 2507](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 29/запрос (~5,8 руб) |
+| [Qwen: Qwen3 Coder 30B A3B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen3 Coder 480B A35B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [Qwen: Qwen3 Coder Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 9/запрос (~1,8 руб) |
+| [Qwen: Qwen3 Coder Next](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 9/запрос (~1,8 руб) |
+| [Qwen: Qwen3 Next 80B A3B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Qwen: Qwen3 Next 80B A3B Thinking](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 7/запрос (~1,4 руб) |
+| [Qwen: Qwen3 VL 8B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 4/запрос (~0,8 руб) |
+| [Qwen: Qwen3 VL 30B A3B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Qwen: Qwen3 VL 30B A3B Thinking](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 14/запрос (~2,8 руб) |
+| [Qwen: Qwen3 VL 235B A22B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [Qwen: Qwen3.5 397B A17B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 24/запрос (~4,8 руб) |
+| [Qwen: Qwen3.5 Plus 2026-02-15](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [Qwen: Qwen3.5 Plus 2026-04-20](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [Qwen: Qwen3.5-9B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen3.5-27B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 15/запрос (~3 руб) |
+| [Qwen: Qwen3.5-35B-A3B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 9/запрос (~1,8 руб) |
+| [Qwen: Qwen3.5-122B-A10B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [Qwen: Qwen3.5-Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen3.6 27B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 20/запрос (~4 руб) |
+| [Qwen: Qwen3.6 35B A3B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 9/запрос (~1,8 руб) |
+| [Qwen: Qwen3.6 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [Qwen: Qwen3.6 Plus](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 19/запрос (~3,8 руб) |
+| [Qwen: Qwen3.7 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Qwen: Qwen3.7 Plus](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 13/запрос (~2,6 руб) |
+| [Qwen2.5 72B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Qwen2.5 Coder 32B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 14/запрос (~2,8 руб) |
+| [Reka Edge](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Reka Flash 3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Relace: Relace Apply 3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [Relace: Relace Search](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [ReMM SLERP 13B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 9/запрос (~1,8 руб) |
+| [Sao10K: Llama 3 8B Lunaris](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [Sao10K: Llama 3.1 Euryale 70B v2.2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 14/запрос (~2,8 руб) |
+| [StepFun: Step 3.5 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [StepFun: Step 3.7 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [Tencent: Hunyuan A13B Instruct](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 5/запрос (~1 руб) |
+| [Tencent: Hy3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 4/запрос (~0,8 руб) |
+| [Tencent: Hy3 preview](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 2/запрос (~0,4 руб) |
+| [TheDrummer: Cydonia 24B V4.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [TheDrummer: Skyfall 36B V2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [TheDrummer: UnslopNemo 12B](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Thinking Machines: Inkling](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 27/запрос (~5,4 руб) |
+| [Upstage: Solar Pro 3](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Venice: Uncensored](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 6/запрос (~1,2 руб) |
+| [Web Search](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Writer: Palmyra X5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 33/запрос (~6,6 руб) |
+| [xAI: Grok 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 45/запрос (~9 руб) |
+| [xAI: Grok 4.20](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [xAI: Grok 4.20 Multi-Agent](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [xAI: Grok Build 0.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 26/запрос (~5,2 руб) |
+| [xAI: Grok Latest](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 44/запрос (~8,8 руб) |
+| [Xiaomi: MiMo-V2.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 3/запрос (~0,6 руб) |
+| [Xiaomi: MiMo-V2.5-Pro](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 11/запрос (~2,2 руб) |
+| [Z.ai: GLM 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 24/запрос (~4,8 руб) |
+| [Z.ai: GLM 4.5 Air](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 8/запрос (~1,6 руб) |
+| [Z.ai: GLM 4.5V](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Z.ai: GLM 4.6](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Z.ai: GLM 4.6V](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Z.ai: GLM 4.7](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 18/запрос (~3,6 руб) |
+| [Z.ai: GLM 4.7 Flash](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 3/запрос (~0,6 руб) |
+| [Z.ai: GLM 5](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 30/запрос (~6 руб) |
+| [Z.ai: GLM 5 Turbo](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Z.ai: GLM 5.1](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 10/запрос (~2 руб) |
+| [Z.ai: GLM 5.2](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 21/запрос (~4,2 руб) |
+| [Z.ai: GLM 5V Turbo](https://docs.pxsto.re/tracker/treker-zaprosy/text) | 💠 28/запрос (~5,6 руб) |
 
 ## Изображения
 
-Активных вариантов: 23.
+Активных вариантов: 26.
 
-| Модель                 |    Стоимость |
-| ---------------------- | -----------: |
-| GPT Image 2.5 | 💠 80/запрос (~16 руб) |
-| Nano Banana 2 | 💠 40/запрос (~8 руб) |
-| Nano Banana Pro | 💠 40/запрос (~8 руб) |
-| FLUX.2 Pro | 💠 25/запрос (~5 руб) |
-| Kling 2.1 Image | 💠 30/запрос (~6 руб) |
-| Kling O1 Image | 💠 30/запрос (~6 руб) |
-| FLUX.2 Flex | 💠 60/запрос (~12 руб) |
-| Flux.2 Klein 4B | 💠 10/запрос (~2 руб) |
-| Flux.2 Klein 9B | 💠 15/запрос (~3 руб) |
-| FLUX.2 Max | 💠 50/запрос (~10 руб) |
-| GPT Image 2 Plus | 💠 40/запрос (~8 руб) |
-| Grok Imagine 2.0 Image | 💠 25/запрос (~5 руб) |
-| Grok Imagine Image | 💠 25/запрос (~5 руб) |
-| Kling 3.0 Image | 💠 30/запрос (~6 руб) |
-| Kling 3.0 Omni Image | 💠 30/запрос (~6 руб) |
-| Nano Banana | 💠 40/запрос (~8 руб) |
-| Nano Banana 2 Lite | 💠 40/запрос (~8 руб) |
-| SeeDream 4.0 | 💠 25/запрос (~5 руб) |
-| SeeDream 4.5 | 💠 35/запрос (~7 руб) |
-| Seedream 5 Pro | 💠 60/запрос (~12 руб) |
-| Seedream 5.0 Lite | 💠 30/запрос (~6 руб) |
-| Topaz Image Upscale | 💠 5/запрос (~1 руб) |
-| Midjourney | 💠 40/запрос (~8 руб) |
+| Модель | Стоимость |
+| --- | ---: |
+| [FLUX.2 Flex](https://docs.pxsto.re/tracker/treker-zaprosy/photo/flux-2-flex) | 💠 60/запрос (~12 руб) |
+| [Flux.2 Klein 4B](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 10/запрос (~2 руб) |
+| [Flux.2 Klein 9B](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 15/запрос (~3 руб) |
+| [FLUX.2 Max](https://docs.pxsto.re/tracker/treker-zaprosy/photo/flux-2-max) | 💠 50/запрос (~10 руб) |
+| [FLUX.2 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/photo/flux-2-pro) | 💠 25/запрос (~5 руб) |
+| [GPT Image 2](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 40/запрос (~8 руб) |
+| [GPT Image 2 Plus](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 40/запрос (~8 руб) |
+| [GPT Image 2.5](https://docs.pxsto.re/tracker/treker-zaprosy/photo/gpt-image) | 💠 80/запрос (~16 руб) |
+| [GPT Image 2.5 Flare](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 40/запрос (~8 руб) |
+| [Grok Imagine 2.0 Image](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 25/запрос (~5 руб) |
+| [Kling 2.1 Image](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 30/запрос (~6 руб) |
+| [Kling 3.0 Image](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 30/запрос (~6 руб) |
+| [Kling 3.0 Omni Image](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 30/запрос (~6 руб) |
+| [Kling O1 Image](https://docs.pxsto.re/tracker/treker-zaprosy/photo/kling-image) | 💠 30/запрос (~6 руб) |
+| [Midjourney](https://docs.pxsto.re/tracker/treker-zaprosy/photo/midjourney) | 💠 40/запрос (~8 руб) |
+| [Nano Banana](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 40/запрос (~8 руб) |
+| [Nano Banana 2](https://docs.pxsto.re/tracker/treker-zaprosy/photo/nano-banana) | 💠 40/запрос (~8 руб) |
+| [Nano Banana 2 Lite](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 40/запрос (~8 руб) |
+| [Nano Banana 2.1](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 40/запрос (~8 руб) |
+| [Nano Banana Pro](https://docs.pxsto.re/tracker/treker-zaprosy/photo/nano-banana-pro) | 💠 40/запрос (~8 руб) |
+| [Qwen Image 3.0 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 27/запрос (~5,4 руб) |
+| [SeeDream 4.0](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 25/запрос (~5 руб) |
+| [SeeDream 4.5](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 35/запрос (~7 руб) |
+| [Seedream 5 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/photo) | 💠 60/запрос (~12 руб) |
+| [Seedream 5.0 Lite](https://docs.pxsto.re/tracker/treker-zaprosy/photo/seedream) | 💠 30/запрос (~6 руб) |
+| [Topaz Image Upscale](https://docs.pxsto.re/tracker/treker-zaprosy/photo/image-upscale) | 💠 5/запрос (~1 руб) |
 
 ## Видео
 
-Активных вариантов: 80.
+Активных вариантов: 71.
 
-| Модель                            |    Стоимость |
-| --------------------------------- | -----------: |
-| FLUX 3 Video | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 | 💠 50/сек (~10 руб/сек) |
-| Kling 4.0 Video | 💠 50/сек (~10 руб/сек) |
-| Vidu Q4 | 💠 50/сек (~10 руб/сек) |
-| Grok Imagine Video | 💠 20–50/сек (~4–10 руб/сек) |
-| Veo 3.1 Fast | 💠 20–50/сек (~4–10 руб/сек) |
-| Grok Imagine Video 1.5 | 💠 20–50/сек (~4–10 руб/сек) |
-| Kling 3.0 Pro | 💠 50/сек (~10 руб/сек) |
-| SeeDance 1.0 | 💠 20/сек (~4 руб/сек) |
-| SeeDance 2.5 | 💠 50/сек (~10 руб/сек) |
-| FLUX 3 Video Draft | 💠 36/сек (~7,2 руб/сек) |
-| Gemini Omni Flash 1.1 Video | 💠 50/сек (~10 руб/сек) |
-| Gemini Omni Flash 1.1 Video Edit | 💠 50/сек (~10 руб/сек) |
-| Grok Imagine Upscale | 💠 20/сек (~4 руб/сек) |
-| Grok Imagine Video 1.5 Fast | 💠 20/сек (~4 руб/сек) |
-| Grok Imagine Video Extend | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.0 Image to Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.0 Reference to Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.0 Text to Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.0 Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.0 Video Edit | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.1 Image to Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.1 Reference to Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.1 Text to Video | 💠 50/сек (~10 руб/сек) |
-| HappyHorse 1.1 Video | 💠 50/сек (~10 руб/сек) |
-| Kling 2.1 Master Video | 💠 50/сек (~10 руб/сек) |
-| Kling 2.1 Video | 💠 35/сек (~7 руб/сек) |
-| Kling 2.5 Turbo | 💠 25/сек (~5 руб/сек) |
-| Kling 2.5 Turbo Pro | 💠 25/сек (~5 руб/сек) |
-| Kling 2.6 | 💠 50/сек (~10 руб/сек) |
-| Kling 2.6 Motion Control | 💠 40/сек (~8 руб/сек) |
-| Kling 2.6 Pro | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Motion Control | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Motion Control Pro | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Omni | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Omni Edit | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Omni Edit Pro | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Omni Pro | 💠 50/сек (~10 руб/сек) |
-| Kling 3.0 Turbo Video | 💠 41/сек (~8,2 руб/сек) |
-| Kling O1 | 💠 40/сек (~8 руб/сек) |
-| Kling O1 Pro | 💠 40/сек (~8 руб/сек) |
-| Kling O1 Video Edit | 💠 50/сек (~10 руб/сек) |
-| MiniMax 2.0 | 💠 50/сек (~10 руб/сек) |
-| MiniMax 2.3 Fast | 💠 36/сек (~7,2 руб/сек) |
-| MiniMax Hailuo 2.3 | 💠 50/сек (~10 руб/сек) |
-| Minimax Hailuo H3 | 💠 50/сек (~10 руб/сек) |
-| Omni Flash Video | 💠 32/сек (~6,4 руб/сек) |
-| SeeDance 1.0 Pro | 💠 45/сек (~9 руб/сек) |
-| SeeDance 1.0 Pro Fast | 💠 20/сек (~4 руб/сек) |
-| SeeDance 1.5 Pro | 💠 45/сек (~9 руб/сек) |
-| SeeDance 2.0 Fast | 💠 50/сек (~10 руб/сек) |
-| SeeDance 2.0 Mini | 💠 50/сек (~10 руб/сек) |
-| Seedance 2.0 Pro | 💠 50/сек (~10 руб/сек) |
-| Topaz Video Upscale | 💠 50/сек (~10 руб/сек) |
-| Veo 3.1 Extend | 💠 50/сек (~10 руб/сек) |
-| Veo 3.1 Lite | 💠 20–50/сек (~4–10 руб/сек) |
-| Veo 3.1 Lite Relaxed | 💠 50/сек (~10 руб/сек) |
-| Veo 3.1 Quality | 💠 50/сек (~10 руб/сек) |
-| Veo 3.1 Upscale | 💠 50/сек (~10 руб/сек) |
-| Wan 2.2 Flash Video | 💠 35/сек (~7 руб/сек) |
-| Wan 2.2 Video | 💠 20/сек (~4 руб/сек) |
-| Wan 2.5 Video | 💠 50/сек (~10 руб/сек) |
-| Wan 2.6 Flash Video | 💠 50/сек (~10 руб/сек) |
-| Wan 2.6 Video | 💠 50/сек (~10 руб/сек) |
-| Wan 2.7 | 💠 50/сек (~10 руб/сек) |
-| Wan 2.7 Video | 💠 50/сек (~10 руб/сек) |
-| Wan 2.7 Video Edit | 💠 50/сек (~10 руб/сек) |
-| Wan 3.0 Video | 💠 50/сек (~10 руб/сек) |
-| Wan 3.0 Video Prime | 💠 50/сек (~10 руб/сек) |
-| Midjourney Video | 💠 28/сек (~5,6 руб/сек) |
+| Модель | Стоимость |
+| --- | ---: |
+| [FLUX 3 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 150/сек (~30 руб) |
+| [FLUX 3 Video Draft](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 50/сек (~10 руб) |
+| [Grok Imagine Upscale](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 30/сек (~6 руб) |
+| [Grok Imagine Video](https://docs.pxsto.re/tracker/treker-zaprosy/video/grok-video) | 💠 30/сек (~6 руб) |
+| [Grok Imagine Video 1.5](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 30–60/сек (~6–12 руб) |
+| [Grok Imagine Video 1.5 Fast](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 20/сек (~4 руб) |
+| [Grok Imagine Video Extend](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 30/сек (~6 руб) |
+| [HappyHorse 1.0 Image to Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [HappyHorse 1.0 Reference to Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [HappyHorse 1.0 Text to Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [HappyHorse 1.0 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 90/сек (~18 руб) |
+| [HappyHorse 1.0 Video Edit](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60–90/сек (~12–18 руб) |
+| [HappyHorse 1.1 Image to Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [HappyHorse 1.1 Reference to Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [HappyHorse 1.1 Text to Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [HappyHorse 1.1 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Kling 2.1 Master Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 100/сек (~20 руб) |
+| [Kling 2.1 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 50/сек (~10 руб) |
+| [Kling 2.5 Turbo](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-2-5) | 💠 80/сек (~16 руб) |
+| [Kling 2.5 Turbo Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-2-5-pro) | 💠 50/сек (~10 руб) |
+| [Kling 2.6](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-2-6) | 💠 80/сек (~16 руб) |
+| [Kling 2.6 Motion Control](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-2-6-motion-control) | 💠 60/сек (~12 руб) |
+| [Kling 2.6 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-2-6-pro) | 💠 60/сек (~12 руб) |
+| [Kling 3.0](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling) | 💠 150/сек (~30 руб) |
+| [Kling 3.0 Motion Control](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-3-motion-control) | 💠 80/сек (~16 руб) |
+| [Kling 3.0 Motion Control Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-3-motion-control-pro) | 💠 80/сек (~16 руб) |
+| [Kling 3.0 Omni](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-3-omni) | 💠 80/сек (~16 руб) |
+| [Kling 3.0 Omni Edit](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-3-omni-edit) | 💠 80/сек (~16 руб) |
+| [Kling 3.0 Omni Edit Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-3-omni-edit-pro) | 💠 150/сек (~30 руб) |
+| [Kling 3.0 Omni Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-3-omni-pro) | 💠 150/сек (~30 руб) |
+| [Kling 3.0 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-pro) | 💠 150/сек (~30 руб) |
+| [Kling 3.0 Turbo Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 80/сек (~16 руб) |
+| [Kling 4.0 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 100/сек (~20 руб) |
+| [Kling O1](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-omni) | 💠 80/сек (~16 руб) |
+| [Kling O1 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video/kling-omni-pro) | 💠 80/сек (~16 руб) |
+| [Kling O1 Video Edit](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 80/сек (~16 руб) |
+| [Midjourney Video](https://docs.pxsto.re/tracker/treker-zaprosy/video/midjourney-video) | 💠 28/сек (~5,6 руб) |
+| [MiniMax 2.0](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [MiniMax 2.3 Fast](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 40/сек (~8 руб) |
+| [MiniMax Hailuo 2.3](https://docs.pxsto.re/tracker/treker-zaprosy/video/minimax-hailuo) | 💠 60/сек (~12 руб) |
+| [Minimax Hailuo H3](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Omni Flash Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 40/сек (~8 руб) |
+| [SeeDance 1.0](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 20/сек (~4 руб) |
+| [SeeDance 1.0 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [SeeDance 1.0 Pro Fast](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 20/сек (~4 руб) |
+| [SeeDance 1.5 Pro](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [SeeDance 2.0 Fast](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 70/сек (~14 руб) |
+| [SeeDance 2.0 Mini](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Topaz Video Upscale](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 50/сек (~10 руб) |
+| [Veo 3.1 Extend](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 163/запрос (~32,6 руб) |
+| [Veo 3.1 Fast](https://docs.pxsto.re/tracker/treker-zaprosy/video/veo-fast) | 💠 70–163/запрос (~14–32,6 руб) |
+| [Veo 3.1 Lite](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 35–88/запрос (~7–17,6 руб) |
+| [Veo 3.1 Lite Relaxed](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 50/запрос (~10 руб) |
+| [Veo 3.1 Upscale](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 13/запрос (~2,6 руб) |
+| [Vidu Q4](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 250/сек (~50 руб) |
+| [Wan 2.6 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Wan 2.7](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Wan 2.7 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Wan 2.7 Video Edit](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Wan 3.0 Video](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
+| [Wan 3.0 Video Prime](https://docs.pxsto.re/tracker/treker-zaprosy/video) | 💠 60/сек (~12 руб) |
 
 ## Озвучивание текста
 
-Активных вариантов: 6.
+Активных вариантов: 10.
 
-| Модель                      |                        Стоимость |
-| --------------------------- | -------------------------------: |
-| Gemini 3.1 Flash TTS | 💠 38/запрос (~7,6 руб) (до 3000 символов) |
-| ElevenLabs Multilingual V2 | 💠 146/запрос (~29,2 руб) (до 3000 символов) |
-| ElevenLabs Text to Dialogue | 💠 146/запрос (~29,2 руб) (до 3000 символов) |
-| ElevenLabs Text to Speech | 💠 146/запрос (~29,2 руб) (до 3000 символов) |
-| Gemini 2.5 Flash TTS | 💠 19/запрос (~3,8 руб) (до 3000 символов) |
-| Gemini 2.5 Pro TTS | 💠 38/запрос (~7,6 руб) (до 3000 символов) |
+| Модель | Стоимость |
+| --- | ---: |
+| [Eleven v4](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 72/3000 симв. (~14,4 руб) |
+| [Eleven v4 Turbo](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 36/3000 симв. (~7,2 руб) |
+| [ElevenLabs Multilingual V2](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 146/3000 симв. (~29,2 руб) |
+| [ElevenLabs Text to Dialogue](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 146/3000 симв. (~29,2 руб) |
+| [ElevenLabs Text to Speech](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 146/3000 симв. (~29,2 руб) |
+| [Gemini 2.5 Flash TTS](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 19/3000 симв. (~3,8 руб) |
+| [Gemini 2.5 Pro TTS](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 38/3000 симв. (~7,6 руб) |
+| [Gemini 3.1 Flash TTS](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 38/3000 симв. (~7,6 руб) |
+| [Gemini 3.8 Flash Lite TTS](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 12/3000 симв. (~2,4 руб) |
+| [Gemini 3.8 Flash TTS](https://docs.pxsto.re/tracker/treker-zaprosy/voice/speech-catalog) | 💠 17/3000 симв. (~3,4 руб) |
 
 ## Распознавание речи
 
-Активных вариантов: 13.
+Активных вариантов: 12.
 
-| Модель                           |     Стоимость |
-| -------------------------------- | ------------: |
-| Voxtral Mini Transcribe | 💠 5/запрос (~1 руб) |
-| Speech To Text | 💠 5/мин (~1 руб/мин) |
-| Deepgram: Nova-3 | 💠 5/мин (~1 руб/мин) |
-| Google: Chirp 3 | 💠 8/мин (~1,6 руб/мин) |
-| Mistral: Voxtral Mini Transcribe | 💠 5/мин (~1 руб/мин) |
-| NVIDIA: Parakeet TDT 0.6B v3 | 💠 5/мин (~1 руб/мин) |
-| OpenAI: GPT-4o Mini Transcribe | 💠 5/запрос (~1 руб) |
-| OpenAI: GPT-4o Transcribe | 💠 5/запрос (~1 руб) |
-| OpenAI: Whisper 1 | 💠 5/мин (~1 руб/мин) |
-| OpenAI: Whisper Large V3 | 💠 5/мин (~1 руб/мин) |
-| OpenAI: Whisper Large V3 Turbo | 💠 5/мин (~1 руб/мин) |
-| Qwen: Qwen3 ASR Flash | 💠 5/мин (~1 руб/мин) |
-| xAI: Grok STT 1.0 | 💠 5/мин (~1 руб/мин) |
+| Модель | Стоимость |
+| --- | ---: |
+| [Deepgram: Nova-3](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [Google: Chirp 3](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 8/мин (~1,6 руб) |
+| [Mistral: Voxtral Mini Transcribe](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [NVIDIA: Parakeet TDT 0.6B v3](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [OpenAI: GPT-4o Mini Transcribe](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/запрос (~1 руб) |
+| [OpenAI: GPT-4o Transcribe](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/запрос (~1 руб) |
+| [OpenAI: Whisper 1](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [OpenAI: Whisper Large V3](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [OpenAI: Whisper Large V3 Turbo](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [Speech To Text](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [Voxtral Mini Transcribe](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
+| [xAI: Grok STT 1.0](https://docs.pxsto.re/tracker/treker-zaprosy/voice/transcription-catalog) | 💠 5/мин (~1 руб) |
 
 ## Обработка и создание аудио
 
 Активных вариантов: 3.
 
-| Модель                     |    Стоимость |
-| -------------------------- | -----------: |
-| ElevenLabs Audio Isolation | 💠 49/мин (~9,8 руб/мин) |
-| ElevenLabs Sound Effect | 💠 10/запрос (~2 руб) |
-| ElevenLabs Voice Changer | 💠 49/мин (~9,8 руб/мин) |
+| Модель | Стоимость |
+| --- | ---: |
+| [ElevenLabs Audio Isolation](https://docs.pxsto.re/tracker/treker-zaprosy/voice) | 💠 49/мин (~9,8 руб) |
+| [ElevenLabs Sound Effect](https://docs.pxsto.re/tracker/treker-zaprosy/voice) | 💠 10/запрос (~2 руб) |
+| [ElevenLabs Voice Changer](https://docs.pxsto.re/tracker/treker-zaprosy/voice) | 💠 49/мин (~9,8 руб) |
 
 ## Музыка
 
 Активных вариантов: 3.
 
-| Модель                    |    Стоимость |
-| ------------------------- | -----------: |
-| Suno | 💠 30/запрос (~6 руб) |
-| FlowMusic | 💠 30/запрос (~6 руб) |
-| Producer (Google Lyria 3) | 💠 30/запрос (~6 руб) |
+| Модель | Стоимость |
+| --- | ---: |
+| [FlowMusic](https://docs.pxsto.re/tracker/treker-zaprosy/music/flow-music) | 💠 30/запрос (~6 руб) |
+| [Producer (Google Lyria 3)](https://docs.pxsto.re/tracker/treker-zaprosy/music/producer) | 💠 30/запрос (~6 руб) |
+| [Suno](https://docs.pxsto.re/tracker/treker-zaprosy/music/suno) | 💠 30/запрос (~6 руб) |
 
 [Операции музыки и их стоимость](https://docs.pxsto.re/info/muzykalnye-modeli-i-operacii).
