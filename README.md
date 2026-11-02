@@ -1,4 +1,4 @@
-# PuzzleDocs
+# Главная
 
 Практическая документация PuzzleAI: как выбрать модель, какие поля заполнить и где получить результат.
 
@@ -6,14 +6,14 @@
 
 Трекер — no-code API, который вызывается действием «Отправить запрос» в сценарии PuzzleBot. Здесь нет отдельного поля записи голоса или загрузки файла. Сценарий сначала получает исходные данные пользователя, затем подставляет их в параметры запроса.
 
-* [Получить текст](tracker/models/text/README.md) — `prompt`.
-* [Разобрать изображение](tracker/models/text/vision.md) — `prompt` и `images`.
-* [Создать изображение](tracker/models/photo/README.md) — `prompt`, при необходимости `images`.
-* [Создать видео](tracker/models/video/README.md) — `prompt` и исходники выбранного режима.
-* [Расшифровать аудио](tracker/models/voice/transcription-catalog.md) — ID аудиофайла в **`file`**.
-* [Озвучить текст](tracker/models/voice/speech-catalog.md) — `prompt` с текстом для записи.
-* [Создать музыку](tracker/models/music/README.md) — `model`, `action` и поля операции.
-* [Создать файл документа](tracker/models/text/document-creation.md) — `prompt`, `document: true`, `format`.
+* [Получить текст](treker-zaprosy/tekstovye-modeli/) — `prompt`.
+* [Разобрать изображение](treker-zaprosy/tekstovye-modeli/grok-4.3-vision.md) — `prompt` и `images`.
+* [Создать изображение](treker-zaprosy/foto/) — `prompt`, при необходимости `images`.
+* [Создать видео](treker-zaprosy/video/) — `prompt` и исходники выбранного режима.
+* [Расшифровать аудио](treker-zaprosy/golos-vybor-zadachi/rasshifrovka-audio.md) — ID аудиофайла в **`file`**.
+* [Озвучить текст](treker-zaprosy/golos-vybor-zadachi/ozvuchivanie-teksta.md) — `prompt` с текстом для записи.
+* [Создать музыку](treker-zaprosy/muzyka/) — `model`, `action` и поля операции.
+* [Создать файл документа](treker-zaprosy/tekstovye-modeli/sozdanie-dokumentov.md) — `prompt`, `document: true`, `format`.
 
 ## Актуальный каталог
 
@@ -49,27 +49,27 @@
 
 ## Базовые параметры
 
-| Параметр | Тип | Обязательный | Описание |
-| --- | --- | --- | --- |
-| `bot` | string | Да | Username бота. Используйте `{{BOT_USERNAME_TEXT}}`. |
-| `token` | string | Да | API-токен бота. |
-| `user` | string | Да | ID пользователя или сессии. Используйте `{{USER_ID_TEXT}}`. |
-| `model` | string | Да | Ключ модели из нужной статьи, например `gpt_5`, `gpt_image` или `veo`. |
-| `type` | string | Для `model: global` | Раздел выбранной в плагине модели: `text`, `photo`, `video`, `music` или `voice` (озвучивание). |
-| `prompt` | string | Зависит от модели | Текст задачи. Для большинства моделей обязателен. |
-| `images` | string | Зависит от модели | Ссылки, file_id или переменные с изображениями через запятую, без массива `[]`. |
-| `file` | string | Для расшифровки | ID аудиофайла, ранее полученного этим ботом. [Как получить и передать файл](tracker/models/voice/transcription-catalog.md). |
-| `params` | object | Нет | Вложенные настройки конкретной модели. |
-| `role` | string | Нет | Дополнительная роль или инструкция для модели. |
-| `send_answer` | boolean | Нет | `true` отправляет результат в чат, `false` отключает отправку. Сохранение в `{{tracker_answer}}` включается отдельно в настройках бота. |
-| `chat` | string/number | Для ответа в группу | Числовой Telegram ID группы или форума, например `-1001234567890`. Без этого поля ответ отправляется пользователю из `user`. |
-| `topic` | number | Для ответа в топик | ID нужного топика Telegram-форума. Передавайте вместе с `chat`; для обычной группы поле не нужно. |
+| Параметр      | Тип           | Обязательный        | Описание                                                                                                                                |
+| ------------- | ------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `bot`         | string        | Да                  | Username бота. Используйте `{{BOT_USERNAME_TEXT}}`.                                                                                     |
+| `token`       | string        | Да                  | API-токен бота.                                                                                                                         |
+| `user`        | string        | Да                  | ID пользователя или сессии. Используйте `{{USER_ID_TEXT}}`.                                                                             |
+| `model`       | string        | Да                  | Ключ модели из нужной статьи, например `gpt_5`, `gpt_image` или `veo`.                                                                  |
+| `type`        | string        | Для `model: global` | Раздел выбранной в плагине модели: `text`, `photo`, `video`, `music` или `voice` (озвучивание).                                         |
+| `prompt`      | string        | Зависит от модели   | Текст задачи. Для большинства моделей обязателен.                                                                                       |
+| `images`      | string        | Зависит от модели   | Ссылки, file\_id или переменные с изображениями через запятую, без массива `[]`.                                                        |
+| `file`        | string        | Для расшифровки     | ID аудиофайла, ранее полученного этим ботом. [Как получить и передать файл](treker-zaprosy/golos-vybor-zadachi/rasshifrovka-audio.md).  |
+| `params`      | object        | Нет                 | Вложенные настройки конкретной модели.                                                                                                  |
+| `role`        | string        | Нет                 | Дополнительная роль или инструкция для модели.                                                                                          |
+| `send_answer` | boolean       | Нет                 | `true` отправляет результат в чат, `false` отключает отправку. Сохранение в `{{tracker_answer}}` включается отдельно в настройках бота. |
+| `chat`        | string/number | Для ответа в группу | Числовой Telegram ID группы или форума, например `-1001234567890`. Без этого поля ответ отправляется пользователю из `user`.            |
+| `topic`       | number        | Для ответа в топик  | ID нужного топика Telegram-форума. Передавайте вместе с `chat`; для обычной группы поле не нужно.                                       |
 
 ## Как дождаться результата
 
 Запрос выполняется асинхронно: HTTP-ответ подтверждает приём запроса, а не содержит готовый результат модели.
 
-При `send_answer=true` готовый результат отправляется в чат. При `send_answer=false` отправка в чат отключена; используйте `{{tracker_answer}}` после завершения задачи. Сохранение в эту переменную должно быть включено в настройках бота. Для медиа значение переменной зависит от настройки «ссылка / file_id».
+При `send_answer=true` готовый результат отправляется в чат. При `send_answer=false` отправка в чат отключена; используйте `{{tracker_answer}}` после завершения задачи. Сохранение в эту переменную должно быть включено в настройках бота. Для медиа значение переменной зависит от настройки «ссылка / file\_id».
 
 Сохранение результата настраивается в плагине. Если оно отключено, `send_answer: false` само по себе его не включает. Для продолжения сценария после генерации настройте предусмотренную для выбранной модели команду завершения; наличие такой команды не заменяет разрешение отправлять сообщения. Не читайте `{{tracker_answer}}` сразу в следующем шаге после отправки запроса: там ещё может быть предыдущий результат.
 
@@ -127,13 +127,13 @@ ID можно узнать и из ссылки на сообщение в ну�
 
 ## Разделы
 
-- [Каталог моделей и стоимость](tracker/models/catalog.md)
-- [Текстовые модели](tracker/models/text/README.md)
-- [Голосовые модели](tracker/models/voice/README.md)
-- [Фото-модели](tracker/models/photo/README.md)
-- [Видео-модели](tracker/models/video/README.md)
-- [Музыкальные модели: Suno, Producer и FlowMusic](tracker/models/music/README.md)
-- [Другие модели](tracker/models/other/README.md)
+* [Каталог моделей и стоимость](treker-zaprosy/katalog-modelei-i-stoimost.md)
+* [Текстовые модели](treker-zaprosy/tekstovye-modeli/)
+* [Голосовые модели](treker-zaprosy/golos-vybor-zadachi/)
+* [Фото-модели](treker-zaprosy/foto/)
+* [Видео-модели](treker-zaprosy/video/)
+* [Музыкальные модели: Suno, Producer и FlowMusic](treker-zaprosy/muzyka/)
+* [Другие модели](treker-zaprosy/obrabotka-media.md)
 
 ## Puzzle AI Tracker
 

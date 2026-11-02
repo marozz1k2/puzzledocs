@@ -1,11 +1,11 @@
 # Table of contents
 
-* [README](README.md)
+* [Главная](README.md)
 
 ## Основное
 
 * [Главная](osnovnoe/glavnaya.md)
-* [Список изменений](osnovnoe/spisok-izmenenii.md)
+* [Обновления](osnovnoe/obnovleniya.md)
 
 ## Трекер запросы
 
